@@ -1,5 +1,8 @@
 backend:
-  name: git-gateway
+  repo: https://github.com/NandayDev/nandaydev.github.io
+  api-root: https://api.github.com
+  base_url: https://api.netlify.com
+  auth_endpoint: auth
   branch: main
 
 media_folder: "static/images/uploads" # Media files will be stored in the repo under static/images/uploads
