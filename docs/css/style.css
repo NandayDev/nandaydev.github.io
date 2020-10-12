@@ -31,6 +31,12 @@ nav section, header section, main, footer section {
     padding: 0 0.5em;
 }
 
+/* Homepage */
+img.home {
+    max-width: 100%;
+    height: auto;
+}
+
 
 /* Navigation panel */
 nav {
@@ -115,6 +121,11 @@ p.summary {
 div .more {
     margin-top: 0;
     font-weight: bold;
+}
+/* Images */
+img.post-hero-images {
+    max-width: 100%;
+    height: auto;
 }
 
 

@@ -7,30 +7,17 @@
 <description>Grow with Technology</description>
 
 <item>
-<title>Sed Finibus</title>
-<link>http://localhost:8000/blog/sed-finibus/</link>
+<title>New website!</title>
+<link>http://localhost:8000/blog/new-website/</link>
 <description>
 <![CDATA[
 <p>
-Ciao finibus fermentum convallis. Sed consequat, lacus a pellentesque suscipit, lorem libero egestas dui, sit amet volutpat mi dolor sit amet nisl. Maecenas faucibus iaculis&nbsp;<a href="http://localhost:8000/blog/sed-finibus/">...</a>
+Previously, I had built a home-made blog with ASP.NET Core , hosted it on a CentOS VM, and had some fun configuring it to make&nbsp;<a href="http://localhost:8000/blog/new-website/">...</a>
 </p>
-<p><a href="http://localhost:8000/blog/sed-finibus/">Read More</a></p>
+<p><a href="http://localhost:8000/blog/new-website/">Read More</a></p>
 ]]>
 </description>
-<pubDate>Wed, 03 Jan 2018 00:00:00 +0000</pubDate>
-</item>
-<item>
-<title>Proin Quam</title>
-<link>http://localhost:8000/blog/proin-quam/</link>
-<description>
-<![CDATA[
-<p>
-Proin quam urna, pulvinar id ipsum ac, mattis consectetur ante. Praesent non justo lectus. Duis egestas arcu libero, quis laoreet dolor volutpat ut. Donec facilisis&nbsp;<a href="http://localhost:8000/blog/proin-quam/">...</a>
-</p>
-<p><a href="http://localhost:8000/blog/proin-quam/">Read More</a></p>
-]]>
-</description>
-<pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
+<pubDate>Mon, 12 Oct 2020 00:00:00 +0000</pubDate>
 </item>
 
 
