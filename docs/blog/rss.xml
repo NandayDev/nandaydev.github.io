@@ -7,6 +7,19 @@
 <description>Grow with Technology</description>
 
 <item>
+<title>SQLite + SQLCipher database with Flutter</title>
+<link>http://localhost:8000/blog/flutter-sqlcipher/</link>
+<description>
+<![CDATA[
+<p>
+Hi George! Today, we're going to build a simple repository to create a SQLite encrypted database with Flutter for Android and iOS , insert some&nbsp;<a href="http://localhost:8000/blog/flutter-sqlcipher/">...</a>
+</p>
+<p><a href="http://localhost:8000/blog/flutter-sqlcipher/">Read More</a></p>
+]]>
+</description>
+<pubDate>Tue, 13 Oct 2020 00:00:00 +0000</pubDate>
+</item>
+<item>
 <title>New website!</title>
 <link>http://localhost:8000/blog/new-website/</link>
 <description>
