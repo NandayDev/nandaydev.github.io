@@ -7,7 +7,16 @@
     <link rel="stylesheet" type="text/css" href="/css/style.css">
     <script src="/js/highlight.pack.js"></script>
     <link rel="stylesheet" href="/css/code.css">
-<script>hljs.initHighlightingOnLoad();</script>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-115180098-1"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-115180098-1');
+    </script>
+    <script>hljs.initHighlightingOnLoad();</script>
 </head>
 
 <body id="{{ slug }}">
@@ -28,16 +37,6 @@
 
 <main>
 <h1>Blog</h1>
-<article>
-<h2><a href="/blog/flutter-sqlite-migrations/">SQLite Migrations in Flutter</a></h2>
-<p class="meta">Published on 2020-10-15 by <b>nanday.dev</b></p>
-<p class="summary">
-Hi George!&nbsp;<a class="more" href="/blog/flutter-sqlite-migrations/">...</a>
-</p>
-<div>
-<a class="more" href="/blog/flutter-sqlite-migrations/">Read More</a>
-</div>
-</article>
 <article>
 <h2><a href="/blog/flutter-sqlcipher/">SQLite + SQLCipher database with Flutter</a></h2>
 <p class="meta">Published on 2020-10-13 by <b>nanday.dev</b></p>

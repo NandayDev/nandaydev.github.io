@@ -7,19 +7,6 @@
 <description>Grow with Technology</description>
 
 <item>
-<title>SQLite Migrations in Flutter</title>
-<link>http://localhost:8000/blog/flutter-sqlite-migrations/</link>
-<description>
-<![CDATA[
-<p>
-Hi George!&nbsp;<a href="http://localhost:8000/blog/flutter-sqlite-migrations/">...</a>
-</p>
-<p><a href="http://localhost:8000/blog/flutter-sqlite-migrations/">Read More</a></p>
-]]>
-</description>
-<pubDate>Thu, 15 Oct 2020 00:00:00 +0000</pubDate>
-</item>
-<item>
 <title>SQLite + SQLCipher database with Flutter</title>
 <link>http://localhost:8000/blog/flutter-sqlcipher/</link>
 <description>
