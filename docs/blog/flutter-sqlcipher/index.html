@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>SQLite + SQLCipher database with Flutter - NaNday.dev</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <META HTTP-EQUIV="CACHE-CONTROL" CONTENT="NO-CACHE">
+    <link rel="stylesheet" type="text/css" href="/css/style.css">
+    <script src="/js/highlight.pack.js"></script>
+    <link rel="stylesheet" href="/css/code.css">
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-115180098-1"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-115180098-1');
+    </script>
+    <script>hljs.initHighlightingOnLoad();</script>
+</head>
+
+<body id="flutter-sqlcipher">
+
+<nav>
+<section>
+    <span class="home">
+        <a href="/">Home</a>
+    </span>
+    <span class="links">
+        <a href="/blog/">Blog</a>
+        <!-- <a href="/news/">News</a> -->
+        <a href="/contact/">Contacts</a>
+        <!-- <a href="/about/">About</a> -->
+    </span>
+</section>
+</nav>
+
+<main>
+<article>
+<h1><a href="/blog/flutter-sqlcipher/">SQLite + SQLCipher database with Flutter</a></h1>
+<p class="meta">Published on 2020-10-13 by <b>nanday.dev</b></p>
+<div align="center"><img class="post-hero-images" src="../../images/george_thinking.jpg"/></div>
+<p class="post-hero-comment">Hi George!</p>
+<!-- todo: george e chiavi? -->
+<p><b>Today, we're going to build a simple repository to create a SQLite encrypted database with Flutter for Android and iOS</b>, insert some data, update, query and delete.</p>
+<p>We're going to use the <i>async</i> and <i>await</i> keywords, in a way that C# developers should find quite familiar.</p>
+<p>First of all, let's create our DbRepository class. We're going to instantiate a <span class="post-key-classname">Database</span> object, from the <span class="post-key-filename">sqlite_api.dart</span>. Problem is, we can't simply instantiate the <span class="post-key-classname">Database</span> in the constructor, since it's initialization is asynchronous. How about we create a simple factory function then?</p>
+<pre><code>
+import 'package:sqflite_sqlcipher/sqlite_api.dart';
+import 'package:sqflite_sqlcipher/sqflite.dart';
+
+class DbRepository {
+
+    DbRepository._init();
+
+    Database _db;
+
+    static Future<DbRepository> create(String password) async {
+        DbRepository repo = DbRepository._init();
+        repo._db = await openDatabase(
+            _DB_PATH,
+            password: password);
+        await repo._migrate();
+        return repo;
+    }
+
+    Future _migrate() async {
+        // TODO
+    }
+}
+</code></pre>
+<p>As you can see, <code>DbRepository._init()</code> calls the only constructor, which is a private now (remember that in Dart private members are simply marked by the underscore _ before the name). Adding a private constructor, as you may already know, avoids letting consumers of this class instantiate a DbRepository via something else than the factory function we just wrote.</p>
+<p>I also added a <code>migrate()</code> method, to handle database migrations. There are multiple ways to implement migrations. I'm not going to cover them in this post, for now.</p>
+<p>Let's assume we only have one table of <span class="post-key-classname">User</span>, which will be in another class, <span class="post-key-filename">User.dart</span>. Something like this.</p>
+<pre><code>
+class User {
+
+  User({this.id, this.username, this.email});
+
+  int id;
+  String username;
+  String email;
+
+  Map<String, dynamic> toMap() {
+    return {
+      'id': id,
+      'title': title,
+      'username': username,
+      'email': email,
+    };
+  }
+}
+</code></pre>
+<p>I also added a <code>toMap()</code> method, which will be useful later.
+<p>Ok then! Let's add some queries to our <span class="post-key-classname">DbRepository</span>.</p>
+<pre><code>
+    // Returns a list of all users from the database //
+    Future<List<User>> getAllUsers() async {
+        var queryResult = await _db.rawQuery("SELECT * FROM $_USERS_TABLE_TITLE");
+        List<User> users = List();
+        queryResult.forEach((row) {
+        users.add(User(
+            id: row[_USER_ID],
+            username: row[_USER_USERNAME],
+            email: row[_USER_EMAIL]));
+        });
+        return users;
+    }
+
+    // Deletes given user //
+    Future delete(User user) async {
+        await _db.execute("DELETE FROM $_USERS_TABLE_TITLE WHERE $_USER_ID = ${user.id}");
+    }
+
+    // Inserts or updates given user //
+    Future insertOrUpdate(User user) async {
+        if (user.id == null) {
+            // Create //
+            await _db.insert(_USERS_TABLE_TITLE, user.toMap());
+        } else {
+            // Update //
+            await _db.update(
+                _USERS_TABLE_TITLE,
+                user.toMap(),
+                where: "id = ?",
+                whereArgs: [user.id],);
+        }
+  }
+</code></pre>
+<p>Comments are pretty explanatory. As you can see, all methods in the sqlite library are asynchronous, which can be tricky sometimes dealing with Flutter's widget creation.</p>
+<p>That's all for today, thanks for reading!</p>
+</article>
+
+</main>
+
+<footer>
+<section>
+<p>&copy; 2020 NaNday.Dev</p>
+<p>
+    <a href="https://www.linkedin.com/in/💻-guido-cardinali-2aba9b104/">LinkedIn</a>
+    <a href="https://github.com/NandayDev">GitHub</a>
+</p>
+</section>
+</footer>
+
+</body>
+</html>
