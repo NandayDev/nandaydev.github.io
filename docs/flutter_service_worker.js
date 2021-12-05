@@ -42,9 +42,9 @@ const RESOURCES = {
 "assets/packages/font_awesome_flutter/lib/fonts/fa-solid-900.ttf": "dffd9504fcb1894620fa41c700172994",
 "files/CV-GuidoCardinali-2021.pdf": "36f12a3d1f4b770b2a763abffafe59c8",
 "icons/logo.png": "508623330cb0250a035dd873fcc2ab9b",
-"index.html": "2d088b9351e0ee4bb502f6bdd031bc11",
-"/": "2d088b9351e0ee4bb502f6bdd031bc11",
-"main.dart.js": "2032122dc15e885f1f363c9f5594d24d",
+"index.html": "9333243c0d9e6123dfe8a16ee5add5c8",
+"/": "9333243c0d9e6123dfe8a16ee5add5c8",
+"main.dart.js": "fd2b028fb4901093ecdca6b5c6742ee8",
 "manifest.json": "951382feb0866db75e0a15ec9c94aedf",
 "version.json": "4c76ac83bdaa83c3a8f59230045fe515"
 };
