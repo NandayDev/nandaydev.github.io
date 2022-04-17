@@ -33,20 +33,25 @@ const RESOURCES = {
 "assets/assets/images/portfolio_05.jpg": "9e5fedca2725d59b2692670505c8e7e5",
 "assets/assets/images/portfolio_06.jpg": "015d9a88eeaa1a0f5e39b81d32e1bf87",
 "assets/FontManifest.json": "cab905cb3aac16cd8f8b52a8d504c382",
-"assets/fonts/MaterialIcons-Regular.otf": "4e6447691c9509f7acdbf8a931a85ca1",
-"assets/NOTICES": "feccbd7b8c495411338ad5a29616d1fc",
+"assets/fonts/MaterialIcons-Regular.otf": "7e7a6cccddf6d7b20012a548461d5d81",
+"assets/NOTICES": "f780a0699bfdc6106f0ae4224c96f227",
 "assets/packages/cupertino_icons/assets/CupertinoIcons.ttf": "6d342eb68f170c97609e9da345464e5e",
 "assets/packages/feather_icons/fonts/feather.ttf": "ad5435302c3c2d1f23f275d0f22d36c6",
 "assets/packages/font_awesome_flutter/lib/fonts/fa-brands-400.ttf": "00bb2b684be61e89d1bc7d75dee30b58",
 "assets/packages/font_awesome_flutter/lib/fonts/fa-regular-400.ttf": "4b6a9b7c20913279a3ad3dd9c96e155b",
 "assets/packages/font_awesome_flutter/lib/fonts/fa-solid-900.ttf": "dffd9504fcb1894620fa41c700172994",
+"canvaskit/canvaskit.js": "c2b4e5f3d7a3d82aed024e7249a78487",
+"canvaskit/canvaskit.wasm": "4b83d89d9fecbea8ca46f2f760c5a9ba",
+"canvaskit/profiling/canvaskit.js": "ae2949af4efc61d28a4a80fffa1db900",
+"canvaskit/profiling/canvaskit.wasm": "95e736ab31147d1b2c7b25f11d4c32cd",
 "files/CV-GuidoCardinali-2021.pdf": "36f12a3d1f4b770b2a763abffafe59c8",
+"files/CV-GuidoCardinali.pdf": "14679607128a499692176a78db3dcd5b",
 "icons/logo.png": "508623330cb0250a035dd873fcc2ab9b",
-"index.html": "63ff03e403ce10c3c3e164e32c9c3008",
-"/": "63ff03e403ce10c3c3e164e32c9c3008",
-"main.dart.js": "8ec13605e7d45c02d7037e011b62c8e3",
+"index.html": "987a293334a07eb367bb772d75ba9bbc",
+"/": "987a293334a07eb367bb772d75ba9bbc",
+"main.dart.js": "0bf3f5d0ec987561193b7a2cfd1172ae",
 "manifest.json": "951382feb0866db75e0a15ec9c94aedf",
-"version.json": "4c76ac83bdaa83c3a8f59230045fe515"
+"version.json": "729886d14921718e2a1ee3b8f3eecbf5"
 };
 
 // The application shell files that are downloaded before a service worker can
