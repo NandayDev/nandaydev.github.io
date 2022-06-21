@@ -1,0 +1,42 @@
+{
+  "date": 5,
+  "writtenFrom": "Rome, Italy",
+  "title": "My experience as an indie videogame developer: June 2022",
+  "summary": "An update about my indie videogame developer journey, update from June 2022",
+  "isSingleBody": false,
+  "body": [
+    {
+      "subtitle": "How it all started",
+      "parts": [
+        "Since I left my full-time job in December 2021 (almost six months ago… wow), I took a two-folded road. On one side, I kept “selling my time” as a developer, but as a freelancer, an independent contractor paid by the hour. On the other end, <b>we also started Spooky Parrots<b> (<a>link to our website|https://www.spookyparrots.com<a>), our indie videogame studio. At the moment it’s just me, the programmer, <b>Valerio<b>, our game designer, and sometimes we also get some help by <b>Adelina<b>, our social media and marketing guru.",
+        "<b>We’ve had a blast so far<b>, and I’m so proud of our achievements! Collaborating on a project with other partners with no supervision is both hard and rewarding."
+      ]
+    },
+    {
+      "subtitle": "Our prima opera",
+      "parts": [
+        "<b>Our first game was<b> <a>One Last Night|https://spookyparrots.itch.io/one-last-night<a>, an atmospheric horror videogame with a rich hidden lore. Since we have no graphic artist in our team, we made the game starting from some assets bought from the Unity store. We had no idea of how to animate a character, so there are very few animations, and most are clunky at best. We had to juggle with our enormous technical limits, but I think what came out is a decent product. I encourage you to try it - and see if you can find the hidden lore beyond the game!",
+        "Although I have some years of experience as a software engineer, programming a game has been a whole new challenge for me, but I’m really happy with the architecture I came up with OLN, and overall, I think we found far less bugs than I expected in the final build of the game."
+      ]
+    },
+    {
+      "subtitle": "The light... down the tunnel",
+      "parts": [
+        "<b>Then came a period of uncertainty<b>. Since February, my freelance job required me to work full-time for an engagement, and we slowed down a lot with game development. We had come up with some great ideas, but, to be completely sincere, I expected a bit more traction from One Last Night. But I had to admit it was, and still is, an immature project, made with passion, but not even close to being a really good, enjoyable game.",
+        "<b>After my gig ended though, things started accelerating again<b>. At first we iterated on a concept (code-name Fake Market) which was interesting. But then we decided the limitations of not having an artist was probably preventing us from going to the next step, and thus, after some back and forth, we decided to join a game jam and find one to collaborate with.",
+        "<b>The idea was great. But then bad luck almost ruined everything<b>. We found a good 2D pixel artist in no time. He seemed involved, interested, and overall capable. We were really happy. The game jam would start on Saturday. Mr. R. (the artist) sent some messages, and even a proof of concept of an animation, that Saturday. It was great! On Sunday he didn’t appear online on Discord, but we didn’t really think anything of it, since, you know, it’s Sunday. We had an agreement to talk again that Monday, just before the start of the jam.",
+        "<b>Turns out Mr. R. disappeared completely<b>. For some reason, he decided not to show up on Monday, Tuesday, and so on. After a couple of days, we desperately tried to look for another artist, with no luck. All teams were formed. ",
+        "<b>But we were hooked. We already had a good idea, we wanted to implement it. So that’s what we started doing<b>. Valerio, our game designer, decided to try drawing some pixel art. To help him, we started from some art we bought for a few dollars on itch.io. The results were good!",
+        "<b>On my side, programming 2D is not really hard after having to do with 3D and trigonometry<b>, at least for what was needed for this game. 2D with Unity is just a breeze of fresh air. The tooling is great. Programming the enemies “AI” was the most challenging part, but I think it turned out OK. Well, apart from a weird bug I haven’t pinpointed yet, with the “froggy” enemy becoming immortal… <i>but I promise I’ll fix it, Valerio!<i>",
+        "<b>The jam we joined is the Greenlight Jam 2022<b>. <a>You can read about it from itch.io|https://itch.io/jam/greenlight-jam<a>: it consists of a sort of short but well organised series of sprints, with the first being ideating, the second prototyping, then production and polish, for a total of five weeks (production, fortunately, has a two weeks time). We cut a lot on the original idea, since we didn’t have an artist any more, and time in game jams is just short. But in the end we released a full-fledged game (Downlight [[link]]), although we define it “demo”, since it’s missing what we really care about, which is the narrative introduction and a proper ending."
+      ]
+    },
+    {
+      "subtitle": "So... what's next?",
+      "parts": [
+        "<b>With the help of some fans, maybe one day we’ll finish Downlight and release it<b>. For now, we’re just going to be happy with our result, and enjoy some well-earned rest.",
+        "Thanks for reading so far, and have a nice start of the week!"
+      ]
+    }
+  ]
+}

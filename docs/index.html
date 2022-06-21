@@ -21,6 +21,7 @@
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black">
   <meta name="apple-mobile-web-app-title" content="nanday">
+  <meta name="google-signin-client_id" content="1019413685002-tookb9qurhbravjsp9o2oloucgo3v72o.apps.googleusercontent.com" />
   <link rel="apple-touch-icon" href="icons/logo.png">
 
   <!-- Favicon -->
@@ -36,10 +37,14 @@
   <script>
     if ('serviceWorker' in navigator) {
       window.addEventListener('flutter-first-frame', function () {
-        navigator.serviceWorker.register('flutter_service_worker.js?v=3926260143');
+        navigator.serviceWorker.register('flutter_service_worker.js?v=2065539423');
       });
     }
   </script>
+  <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-auth.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-analytics.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-firestore.js"></script>
   <script src="main.dart.js" type="application/javascript"></script>
 </body>
 </html>
