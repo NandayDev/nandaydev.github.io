@@ -21351,7 +21351,7 @@ a5K(a,b){var s=0,r=A.M(t.z),q,p
 var $async$a5K=A.N(function(c,d){if(c===1)return A.J(d,r)
 while(true)switch(s){case 0:p=B.aD
 s=3
-return A.H($.ki().D2("blog/"+a+"_"+b+".json"),$async$a5K)
+return A.H($.ki().D2("assets/blog/"+a+"_"+b+".json"),$async$a5K)
 case 3:q=p.cY(0,d)
 s=1
 break
