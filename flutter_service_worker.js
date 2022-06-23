@@ -7,8 +7,8 @@ const RESOURCES = {
 "canvaskit/profiling/canvaskit.js": "ae2949af4efc61d28a4a80fffa1db900",
 "canvaskit/profiling/canvaskit.wasm": "95e736ab31147d1b2c7b25f11d4c32cd",
 "canvaskit/canvaskit.wasm": "4b83d89d9fecbea8ca46f2f760c5a9ba",
-"index.html": "48669ff916130f7c128dd2cc1366b66a",
-"/": "48669ff916130f7c128dd2cc1366b66a",
+"index.html": "54773aeb63a0bf66f6665c10a9f59ab6",
+"/": "54773aeb63a0bf66f6665c10a9f59ab6",
 "flutter.js": "eb2682e33f25cd8f1fc59011497c35f8",
 "icons/logo.png": "508623330cb0250a035dd873fcc2ab9b",
 "manifest.json": "9bb5f82ac7a1d2b222ccbf568068dbc7",
@@ -55,7 +55,9 @@ const RESOURCES = {
 "assets/packages/feather_icons/fonts/feather.ttf": "ad5435302c3c2d1f23f275d0f22d36c6",
 "assets/NOTICES": "83a0aaa0954e4a990fa041d8ed5ac1c4",
 "main.dart.js": "bdb8c1da0ffe49642aec07858f82909c",
+"CNAME": "17067924b1f9c16b1871cdf8e4a9cec5",
 "404.html": "93b6f64df09d7bd65871a068b4bba8eb",
+"README.md": "e0437ab0c30dbc4417c0e71c9e412ba6",
 "files/CV-GuidoCardinali.pdf": "beb71200e1eea3b35922445f915ed07e"
 };
 
