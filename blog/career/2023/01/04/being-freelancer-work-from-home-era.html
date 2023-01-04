@@ -40,15 +40,17 @@
       <div class="wrapper">
         <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
 
-  <header class="post-header">
-    <h1 class="post-title p-name" itemprop="name headline">Being a freelancer in the work-from-home era</h1>
-    <p class="post-meta">
-      <time class="dt-published" datetime="2023-01-04T19:34:08+00:00" itemprop="datePublished">Jan 4, 2023
-      </time></p>
-  </header>
+    <header class="post-header">
+        <h1 class="post-title p-name" itemprop="name headline">Being a freelancer in the work-from-home era</h1>
+        <p class="post-meta"><time class="dt-published" datetime="2023-01-04T19:34:08+00:00" itemprop="datePublished">
+                Jan 4, 2023
+            </time></p>
+    </header>
 
-  <div class="post-content e-content" itemprop="articleBody">
-    <p>As you may know, <strong>in January 2022 I left my previous full-time employee job as a software engineer</strong>, and opened a “partita iva” (VAT number), effectively becoming a proper, self-employed individual.</p>
+    <div id="toc" style="background-color: #AAAAAA44; padding-top:15px; padding-bottom:10px; margin-bottom: 15px"></div>
+
+    <div class="post-content e-content" itemprop="articleBody">
+        <p>As you may know, <strong>in January 2022 I left my previous full-time employee job as a software engineer</strong>, and opened a “partita iva” (VAT number), effectively becoming a proper, self-employed individual.</p>
 
 <p>Since then, I’ve had 5 clients so far, some for shorter projects, some for longer term engagements. I’m currently still working for the last one, and will probably still be until the end of February (after that, who knows!).</p>
 
@@ -146,8 +148,36 @@
 
 <p>Thanks for reading so far. I really hope you found some insights in my words. If not, ah, whatever.</p>
 
-  </div><a class="u-url" href="/blog/career/2023/01/04/being-freelancer-work-from-home-era.html" hidden></a>
+    </div><a class="u-url" href="/blog/career/2023/01/04/being-freelancer-work-from-home-era.html" hidden></a>
 </article>
+<script>
+  document.addEventListener("DOMContentLoaded", function(event) {
+
+    var level = 0;
+    var toc = "";
+    document.querySelectorAll("h1, h2, h3, h4, h5, h6").forEach(function(el) {
+      //console.log(el);
+      if (!el.classList.contains("post-title") && !el.classList.contains("footer-heading")) {
+	var tag = el.tagName[1];
+	if (tag > level) {
+	  toc += (new Array(tag - level + 1)).join("<ul>");
+	} else if (tag < level) {
+	  toc += (new Array(level - tag + 1)).join("</ul>");
+	}
+	level = tag;
+	var link = "#" + el.id;
+	var text = el.innerText;
+	toc += "<li><a href='" + link + "'>" + text + "</a></li>";
+      } else {
+      	//console.log("Skip!");
+      }
+    });
+    //if (level) toc += (new Array(level + 1)).join("</ul>");
+
+    document.querySelector("#toc").innerHTML = toc;
+  });
+</script>
+
 
       </div>
     </main><footer class="site-footer h-card">

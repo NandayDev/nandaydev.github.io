@@ -40,15 +40,17 @@
       <div class="wrapper">
         <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
 
-  <header class="post-header">
-    <h1 class="post-title p-name" itemprop="name headline">About FIRE</h1>
-    <p class="post-meta">
-      <time class="dt-published" datetime="2023-01-03T07:25:10+00:00" itemprop="datePublished">Jan 3, 2023
-      </time></p>
-  </header>
+    <header class="post-header">
+        <h1 class="post-title p-name" itemprop="name headline">About FIRE</h1>
+        <p class="post-meta"><time class="dt-published" datetime="2023-01-03T07:25:10+00:00" itemprop="datePublished">
+                Jan 3, 2023
+            </time></p>
+    </header>
 
-  <div class="post-content e-content" itemprop="articleBody">
-    <p><strong>I like FIRE</strong>. I mean, when I read about it in 2015ish, somewhere around Reddit, it seemed like a great idea.</p>
+    <div id="toc" style="background-color: #AAAAAA44; padding-top:15px; padding-bottom:10px; margin-bottom: 15px"></div>
+
+    <div class="post-content e-content" itemprop="articleBody">
+        <p><strong>I like FIRE</strong>. I mean, when I read about it in 2015ish, somewhere around Reddit, it seemed like a great idea.</p>
 
 <p>FIRE: Financial Independence, Retire Early. I’m not going to explain it. If you don’t know what it is about, check out <a href="https://www.investopedia.com/terms/f/financial-independence-retire-early-fire.asp">this page from Investopedia</a> and then come back.</p>
 
@@ -89,8 +91,36 @@ You’re a danger to the status quo. In evolutionary terms, as “The Elephant I
 
 <p>Without those basics covered, FIRE is not something I’d pursue, not now, not ever.</p>
 
-  </div><a class="u-url" href="/blog/personal%20finance/2023/01/03/about-fire.html" hidden></a>
+    </div><a class="u-url" href="/blog/personal%20finance/2023/01/03/about-fire.html" hidden></a>
 </article>
+<script>
+  document.addEventListener("DOMContentLoaded", function(event) {
+
+    var level = 0;
+    var toc = "";
+    document.querySelectorAll("h1, h2, h3, h4, h5, h6").forEach(function(el) {
+      //console.log(el);
+      if (!el.classList.contains("post-title") && !el.classList.contains("footer-heading")) {
+	var tag = el.tagName[1];
+	if (tag > level) {
+	  toc += (new Array(tag - level + 1)).join("<ul>");
+	} else if (tag < level) {
+	  toc += (new Array(level - tag + 1)).join("</ul>");
+	}
+	level = tag;
+	var link = "#" + el.id;
+	var text = el.innerText;
+	toc += "<li><a href='" + link + "'>" + text + "</a></li>";
+      } else {
+      	//console.log("Skip!");
+      }
+    });
+    //if (level) toc += (new Array(level + 1)).join("</ul>");
+
+    document.querySelector("#toc").innerHTML = toc;
+  });
+</script>
+
 
       </div>
     </main><footer class="site-footer h-card">
