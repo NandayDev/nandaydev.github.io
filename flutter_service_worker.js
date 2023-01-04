@@ -3,19 +3,23 @@ const MANIFEST = 'flutter-app-manifest';
 const TEMP = 'flutter-temp-cache';
 const CACHE_NAME = 'flutter-app-cache';
 const RESOURCES = {
-  "blog/index.html": "93b6f64df09d7bd65871a068b4bba8eb",
-"/": "4a23a4d1d0feefc9f92ab9f4f26e9b16",
+  "blog/feed.xml": "5c63c4baf5e761cf3d5eefb3e1880e66",
+"blog/about/index.html": "1a85e4d9ae3c95e32b20aa677261b735",
+"/": "d1c1553b32aa7984c6c20e2b55509f22",
+"blog/404.html": "fbe94154bc85921a72d770b3cc2f1b4c",
+"blog/assets/main.css": "cdad61cffb215362616ac5937b6c4728",
+"blog/assets/minima-social-icons.svg": "3a70b871c930a7ed8af27caa162af123",
+"blog/index.html": "7995fbabf4600a563233253268246ffc",
+"blog/2023/01/03/about-fire.html": "48d014b1a166cbd4ba74a3e044a901cb",
 "README.md": "e0437ab0c30dbc4417c0e71c9e412ba6",
 "files/CV-GuidoCardinali.pdf": "beb71200e1eea3b35922445f915ed07e",
-"main.dart.js": "f18f2cbb8c5e32cd62b2d68beb1c64fb",
+"main.dart.js": "3361aab0064110bb1b4a3fccdba89a61",
 "canvaskit/canvaskit.wasm": "bf50631470eb967688cca13ee181af62",
 "canvaskit/profiling/canvaskit.wasm": "95a45378b69e77af5ed2bc72b2209b94",
 "canvaskit/profiling/canvaskit.js": "38164e5a72bdad0faa4ce740c9b8e564",
 "canvaskit/canvaskit.js": "2bc454a691c631b07a9307ac4ca47797",
 "manifest.json": "9bb5f82ac7a1d2b222ccbf568068dbc7",
 "CNAME": "17067924b1f9c16b1871cdf8e4a9cec5",
-"google615e9b1214afaf63.html": "18ec3a67e322b0338e5e05c2d8739783",
-"404.html": "93b6f64df09d7bd65871a068b4bba8eb",
 "icons/logo.png": "508623330cb0250a035dd873fcc2ab9b",
 "sitemap.xml": "febca1095e3093ec00455713a8dadcc5",
 "zohoverify/verifyforzoho.html": "101591f54e04add8d1b545af17018a29",
@@ -64,9 +68,8 @@ const RESOURCES = {
 "assets/assets/images/box_cover_gold.png": "a58f0270c1fd04d7eae1217c7e5645b9",
 "assets/NOTICES": "e9a59ebc3841ae7f42551ceb5ecf934f",
 "robots.txt": "376f85e94ee8db023428e7ad0f3b7f08",
-"index.html": "70fbf1cc793d50d86fe610c57c8d2de3",
-"version.json": "729886d14921718e2a1ee3b8f3eecbf5",
-"testblog/index.html": "4a23a4d1d0feefc9f92ab9f4f26e9b16"
+"index.html": "d1c1553b32aa7984c6c20e2b55509f22",
+"version.json": "729886d14921718e2a1ee3b8f3eecbf5"
 };
 
 // The application shell files that are downloaded before a service worker can
