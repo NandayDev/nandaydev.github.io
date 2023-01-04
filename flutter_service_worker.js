@@ -3,14 +3,14 @@ const MANIFEST = 'flutter-app-manifest';
 const TEMP = 'flutter-temp-cache';
 const CACHE_NAME = 'flutter-app-cache';
 const RESOURCES = {
-  "blog/feed.xml": "5c63c4baf5e761cf3d5eefb3e1880e66",
-"blog/about/index.html": "1a85e4d9ae3c95e32b20aa677261b735",
-"/": "d1c1553b32aa7984c6c20e2b55509f22",
-"blog/404.html": "fbe94154bc85921a72d770b3cc2f1b4c",
+  "blog/feed.xml": "b14c993516408c7d0a6ea49709b971ef",
+"blog/about/index.html": "e2b20de39cfb50e2d40efcd2954a2d3b",
+"/": "f3eaad55fcb85c959d70d386e2e04cce",
+"blog/404.html": "316d708518ff380914d862f160a5095f",
 "blog/assets/main.css": "cdad61cffb215362616ac5937b6c4728",
 "blog/assets/minima-social-icons.svg": "3a70b871c930a7ed8af27caa162af123",
-"blog/index.html": "7995fbabf4600a563233253268246ffc",
-"blog/2023/01/03/about-fire.html": "48d014b1a166cbd4ba74a3e044a901cb",
+"blog/index.html": "3ce96521983695c254f110a17757879d",
+"blog/2023/01/03/about-fire.html": "4a85683f3a56533f08c99dc389e8140a",
 "README.md": "e0437ab0c30dbc4417c0e71c9e412ba6",
 "files/CV-GuidoCardinali.pdf": "beb71200e1eea3b35922445f915ed07e",
 "main.dart.js": "3361aab0064110bb1b4a3fccdba89a61",
@@ -68,7 +68,7 @@ const RESOURCES = {
 "assets/assets/images/box_cover_gold.png": "a58f0270c1fd04d7eae1217c7e5645b9",
 "assets/NOTICES": "e9a59ebc3841ae7f42551ceb5ecf934f",
 "robots.txt": "376f85e94ee8db023428e7ad0f3b7f08",
-"index.html": "d1c1553b32aa7984c6c20e2b55509f22",
+"index.html": "f3eaad55fcb85c959d70d386e2e04cce",
 "version.json": "729886d14921718e2a1ee3b8f3eecbf5"
 };
 
