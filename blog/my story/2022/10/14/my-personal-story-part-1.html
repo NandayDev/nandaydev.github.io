@@ -76,9 +76,11 @@ In 2009, after graduating from high school, I decided I had enough of my life an
 
     var level = 0;
     var toc = "";
+    var found = 0;
     document.querySelectorAll("h1, h2, h3, h4, h5, h6").forEach(function(el) {
       //console.log(el);
       if (!el.classList.contains("post-title") && !el.classList.contains("footer-heading")) {
+        found++;
 	var tag = el.tagName[1];
 	if (tag > level) {
 	  toc += (new Array(tag - level + 1)).join("<ul>");
@@ -94,8 +96,11 @@ In 2009, after graduating from high school, I decided I had enough of my life an
       }
     });
     //if (level) toc += (new Array(level + 1)).join("</ul>");
-
-    document.querySelector("#toc").innerHTML = toc;
+    if (found == 0) {
+    	document.querySelector("#toc").style.display = 'none';
+    } else {
+        document.querySelector("#toc").innerHTML = toc;
+    }
   });
 </script>
 

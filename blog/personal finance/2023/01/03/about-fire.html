@@ -98,9 +98,11 @@ You’re a danger to the status quo. In evolutionary terms, as “The Elephant I
 
     var level = 0;
     var toc = "";
+    var found = 0;
     document.querySelectorAll("h1, h2, h3, h4, h5, h6").forEach(function(el) {
       //console.log(el);
       if (!el.classList.contains("post-title") && !el.classList.contains("footer-heading")) {
+        found++;
 	var tag = el.tagName[1];
 	if (tag > level) {
 	  toc += (new Array(tag - level + 1)).join("<ul>");
@@ -116,8 +118,11 @@ You’re a danger to the status quo. In evolutionary terms, as “The Elephant I
       }
     });
     //if (level) toc += (new Array(level + 1)).join("</ul>");
-
-    document.querySelector("#toc").innerHTML = toc;
+    if (found == 0) {
+    	document.querySelector("#toc").style.display = 'none';
+    } else {
+        document.querySelector("#toc").innerHTML = toc;
+    }
   });
 </script>
 
