@@ -3,18 +3,18 @@ const MANIFEST = 'flutter-app-manifest';
 const TEMP = 'flutter-temp-cache';
 const CACHE_NAME = 'flutter-app-cache';
 const RESOURCES = {
-  "blog/feed.xml": "9b4ea58fd16655878f808e74bf75627b",
+  "blog/feed.xml": "23008087357de0ad92174ca0e450f805",
 "blog/about/index.html": "9588474242931a3fb5b661eece946701",
-"/": "bf860e3364f2e2b7c21406aa10ad8e24",
+"/": "38582945aa496e3cc4a281725420f0a2",
 "blog/personal%20finance/2023/01/03/about-fire.html": "bba93599d831ae1b2cbd4089f2bcf62d",
 "blog/404.html": "1c947329bb1e8e538211f4d99c7d8636",
 "blog/thoughts/2023/01/05/about-growing-up.html": "57181f9e3c25a6b41dd660950027524a",
-"blog/thoughts/2023/01/09/i-dont-like-travelling.html": "9994f29897730677916add6c3f8e152a",
+"blog/thoughts/2023/01/09/i-dont-like-travelling.html": "ad9539535969aa5665b7a746230cd650",
 "blog/my%20story/2022/10/14/my-personal-story-part-1.html": "1cfc5750d87402a0c26dc0dccc20fd20",
 "blog/assets/main.css": "cdad61cffb215362616ac5937b6c4728",
 "blog/assets/minima-social-icons.svg": "3a70b871c930a7ed8af27caa162af123",
 "blog/career/2023/01/04/being-freelancer-work-from-home-era.html": "e8e54b361656f89c65cd59e2db73be27",
-"blog/index.html": "b38b810a809a259091284b097d6fcb1b",
+"blog/index.html": "e119f9e8f94dd05bb497ca9d136fa84e",
 "README.md": "e0437ab0c30dbc4417c0e71c9e412ba6",
 "files/CV-GuidoCardinali.pdf": "beb71200e1eea3b35922445f915ed07e",
 "main.dart.js": "3361aab0064110bb1b4a3fccdba89a61",
@@ -72,7 +72,7 @@ const RESOURCES = {
 "assets/assets/images/box_cover_gold.png": "a58f0270c1fd04d7eae1217c7e5645b9",
 "assets/NOTICES": "e9a59ebc3841ae7f42551ceb5ecf934f",
 "robots.txt": "376f85e94ee8db023428e7ad0f3b7f08",
-"index.html": "bf860e3364f2e2b7c21406aa10ad8e24",
+"index.html": "38582945aa496e3cc4a281725420f0a2",
 "version.json": "729886d14921718e2a1ee3b8f3eecbf5"
 };
 
