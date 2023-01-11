@@ -3,9 +3,9 @@ const MANIFEST = 'flutter-app-manifest';
 const TEMP = 'flutter-temp-cache';
 const CACHE_NAME = 'flutter-app-cache';
 const RESOURCES = {
-  "blog/feed.xml": "c9de19d02c8890abdfd4ff97ed2211e3",
+  "blog/feed.xml": "fa91df921ef27b4056fc195b2612d020",
 "blog/about/index.html": "9588474242931a3fb5b661eece946701",
-"/": "2f0635e07e40550c8cb1e3048b97e6d0",
+"/": "071cb80eddd5846b1c25042ae44dadbf",
 "blog/README.md": "8962f55ddc2f942a80d4ab9e0044d191",
 "blog/personal%20finance/2023/01/03/about-fire.html": "bba93599d831ae1b2cbd4089f2bcf62d",
 "blog/404.html": "1c947329bb1e8e538211f4d99c7d8636",
@@ -72,7 +72,7 @@ const RESOURCES = {
 "assets/assets/images/box_cover_gold.png": "a58f0270c1fd04d7eae1217c7e5645b9",
 "assets/NOTICES": "e9a59ebc3841ae7f42551ceb5ecf934f",
 "robots.txt": "376f85e94ee8db023428e7ad0f3b7f08",
-"index.html": "2f0635e07e40550c8cb1e3048b97e6d0",
+"index.html": "071cb80eddd5846b1c25042ae44dadbf",
 "version.json": "729886d14921718e2a1ee3b8f3eecbf5"
 };
 
