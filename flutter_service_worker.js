@@ -3,9 +3,9 @@ const MANIFEST = 'flutter-app-manifest';
 const TEMP = 'flutter-temp-cache';
 const CACHE_NAME = 'flutter-app-cache';
 const RESOURCES = {
-  "files/CV-GuidoCardinali.pdf": "beb71200e1eea3b35922445f915ed07e",
+  "files/CV-GuidoCardinali.pdf": "bf7f82977adc7b37c3dcc6c0da9ed7ad",
 "flutter.js": "1cfe996e845b3a8a33f57607e8b09ee4",
-"index.html": "73e8f1468c5505652020e94f6d32d217",
+"index.html": "612c182729c31ceb77f922e6e58b5b06",
 "/": "9588474242931a3fb5b661eece946701",
 "main.dart.js": "d0d36553d3a9a2ad47e5ebcb24f0276a",
 "manifest.json": "9bb5f82ac7a1d2b222ccbf568068dbc7",
@@ -21,7 +21,7 @@ const RESOURCES = {
 "blog/about/index.html": "9588474242931a3fb5b661eece946701",
 "blog/assets/minima-social-icons.svg": "3a70b871c930a7ed8af27caa162af123",
 "blog/assets/main.css": "cdad61cffb215362616ac5937b6c4728",
-"blog/feed.xml": "a5a3ed1a9953670a43c5fd3de9010ddd",
+"blog/feed.xml": "a506d259e8016590eda6faa8b80398d0",
 "blog/README.md": "8962f55ddc2f942a80d4ab9e0044d191",
 "blog/404.html": "1c947329bb1e8e538211f4d99c7d8636",
 "assets/FontManifest.json": "cab905cb3aac16cd8f8b52a8d504c382",
