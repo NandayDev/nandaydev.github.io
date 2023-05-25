@@ -2,88 +2,92 @@
 const MANIFEST = 'flutter-app-manifest';
 const TEMP = 'flutter-temp-cache';
 const CACHE_NAME = 'flutter-app-cache';
-const RESOURCES = {
-  "flutter.js": "a85fcf6324d3c4d3ae3be1ae4931e9c5",
-"main.dart.js": "330684db7bcb15623322dc3b542e2fca",
-"canvaskit/profiling/canvaskit.js": "c21852696bc1cc82e8894d851c01921a",
-"canvaskit/profiling/canvaskit.wasm": "371bc4e204443b0d5e774d64a046eb99",
-"canvaskit/canvaskit.js": "97937cb4c2c2073c968525a3e08c86a3",
-"canvaskit/canvaskit.wasm": "3de12d898ec208a5f31362cc00f09b9e",
-"zohoverify/verifyforzoho.html": "101591f54e04add8d1b545af17018a29",
-"files/CV-GuidoCardinali.pdf": "bf7f82977adc7b37c3dcc6c0da9ed7ad",
-"README.md": "e0437ab0c30dbc4417c0e71c9e412ba6",
-"robots.txt": "376f85e94ee8db023428e7ad0f3b7f08",
-"version.json": "729886d14921718e2a1ee3b8f3eecbf5",
-"manifest.json": "9bb5f82ac7a1d2b222ccbf568068dbc7",
-"assets/AssetManifest.json": "67e63899155fa3377a4aa39560eeca5e",
-"assets/assets/images/dev_header.png": "b3844a10b4965bbd8b87ac6023f2eac0",
-"assets/assets/images/blob_small_bean_ash.png": "411605e065607a48e110cedc91bebd82",
-"assets/assets/images/dev_award.png": "9330277f7c4279bb73c0f637f6871af1",
-"assets/assets/images/portfolio_05.jpg": "9e5fedca2725d59b2692670505c8e7e5",
-"assets/assets/images/dev_aboutme.png": "21ea8f79cfc69b619c767fa9573b5295",
-"assets/assets/images/portfolio_02.jpg": "9beba509a25cfb96362aeb7e98335e58",
-"assets/assets/images/blob_drumstick_black.png": "381f70d9f8dd4fbbb720214fa02939a2",
-"assets/assets/images/blob_black.png": "14198d608b7f0980998d329cd353e290",
-"assets/assets/images/blog_02.jpg": "01c4b84663980a0b4f55f4bd196492bd",
-"assets/assets/images/box_cover_gold.png": "a58f0270c1fd04d7eae1217c7e5645b9",
-"assets/assets/images/commenter.jpg": "0ad74a9a137f730411a2b4b3512d170a",
-"assets/assets/images/portfolio_03.jpg": "45d7db96b72f25b4c76740e5dec2208e",
-"assets/assets/images/blob_femur_ash.png": "b899f92250a0f7220db5c45bea2080c8",
-"assets/assets/images/box_cover_dark.png": "34f90bdba46732221c608605016c40d5",
-"assets/assets/images/dots_globe_yellow2.png": "d1394584431e43b6973ca031de59a284",
-"assets/assets/images/logo_light.png": "35cf418d32fe6d98a347ae9bf80f29b3",
-"assets/assets/images/portfolio_04.jpg": "ff07b0c6397e19d0cf30b03df9f196d2",
-"assets/assets/images/hi_there.png": "1ac6f5101b6a5511f4ad8f8965a49f89",
-"assets/assets/images/portfolio_06.jpg": "015d9a88eeaa1a0f5e39b81d32e1bf87",
-"assets/assets/images/dots_globe_yellow.png": "d908b032e1a46382b6e6c2baf92e188c",
-"assets/assets/images/blob_ash.png": "f76b87a8dd8bb4ad017b441854541a2b",
-"assets/assets/images/icon_box.jpg": "7a18b9b091db5fe0fc16c76a3ffd5db2",
-"assets/assets/images/blog_03.jpg": "5f88a99b651c6dbad988d684c6fc41b3",
-"assets/assets/images/blob_bean_ash.png": "bc902ac538eedf1abc48457bbf064fd1",
-"assets/assets/images/logo_dark.png": "11909a589cd318632480fee567ffe70b",
-"assets/assets/images/dots_globe_grey.png": "bb16bba932c2e98f3dbe3e6b1b6a864b",
-"assets/assets/images/portfolio_01.jpg": "43e7af9f9e24c8c4db73ee7d493c04f4",
-"assets/assets/images/blog_01.jpg": "cd78990246f63c4d64ca5c26bcf31289",
-"assets/assets/images/ghana_flag.png": "b0afee866ab3333560a0072c5d53bce2",
-"assets/assets/blog/0001_welcome.json": "c8b290887c918c0d00ab79f04504f1d1",
+
+const RESOURCES = {"flutter.js": "6fef97aeca90b426343ba6c5c9dc5d4a",
+"canvaskit/canvaskit.js": "76f7d822f42397160c5dfc69cbc9b2de",
+"canvaskit/canvaskit.wasm": "f48eaf57cada79163ec6dec7929486ea",
+"canvaskit/skwasm.worker.js": "19659053a277272607529ef87acf9d8a",
+"canvaskit/skwasm.wasm": "6711032e17bf49924b2b001cef0d3ea3",
+"canvaskit/chromium/canvaskit.js": "8c8392ce4a4364cbb240aa09b5652e05",
+"canvaskit/chromium/canvaskit.wasm": "fc18c3010856029414b70cae1afc5cd9",
+"canvaskit/skwasm.js": "1df4d741f441fa1a4d10530ced463ef8",
 "assets/assets/blog/0002_my-personal-story-part-1.json": "2ff622703542b4df0f4460f399fd2300",
 "assets/assets/blog/0004_my-favourite-movies-big-short.json": "f6412b1b9b7dcea211c4fc3bc22d7276",
+"assets/assets/blog/0001_welcome.json": "c8b290887c918c0d00ab79f04504f1d1",
 "assets/assets/blog/0003_my-experience-indie-videogame-developer-june-2022.json": "eb2e5c90ab7c8a738409c92b71640e5a",
-"assets/fonts/MaterialIcons-Regular.otf": "e7069dfd19b331be16bed984668fe080",
-"assets/packages/font_awesome_flutter/lib/fonts/fa-solid-900.ttf": "dd3c4233029270506ecc994d67785a37",
-"assets/packages/font_awesome_flutter/lib/fonts/fa-regular-400.ttf": "613e4cc1af0eb5148b8ce409ad35446d",
-"assets/packages/font_awesome_flutter/lib/fonts/fa-brands-400.ttf": "d1722d5cf2c7855862f68edb85e31f88",
-"assets/packages/cupertino_icons/assets/CupertinoIcons.ttf": "6d342eb68f170c97609e9da345464e5e",
-"assets/packages/feather_icons/fonts/feather.ttf": "ad5435302c3c2d1f23f275d0f22d36c6",
+"assets/assets/images/dots_globe_yellow.png": "d908b032e1a46382b6e6c2baf92e188c",
+"assets/assets/images/commenter.jpg": "0ad74a9a137f730411a2b4b3512d170a",
+"assets/assets/images/hi_there.png": "1ac6f5101b6a5511f4ad8f8965a49f89",
+"assets/assets/images/logo_light.png": "35cf418d32fe6d98a347ae9bf80f29b3",
+"assets/assets/images/portfolio_05.jpg": "9e5fedca2725d59b2692670505c8e7e5",
+"assets/assets/images/icon_box.jpg": "7a18b9b091db5fe0fc16c76a3ffd5db2",
+"assets/assets/images/dev_award.png": "9330277f7c4279bb73c0f637f6871af1",
+"assets/assets/images/portfolio_02.jpg": "9beba509a25cfb96362aeb7e98335e58",
+"assets/assets/images/portfolio_04.jpg": "ff07b0c6397e19d0cf30b03df9f196d2",
+"assets/assets/images/blob_small_bean_ash.png": "411605e065607a48e110cedc91bebd82",
+"assets/assets/images/dev_header.png": "b3844a10b4965bbd8b87ac6023f2eac0",
+"assets/assets/images/dots_globe_grey.png": "bb16bba932c2e98f3dbe3e6b1b6a864b",
+"assets/assets/images/logo_dark.png": "11909a589cd318632480fee567ffe70b",
+"assets/assets/images/dev_aboutme.png": "21ea8f79cfc69b619c767fa9573b5295",
+"assets/assets/images/portfolio_06.jpg": "015d9a88eeaa1a0f5e39b81d32e1bf87",
+"assets/assets/images/box_cover_dark.png": "34f90bdba46732221c608605016c40d5",
+"assets/assets/images/blob_bean_ash.png": "bc902ac538eedf1abc48457bbf064fd1",
+"assets/assets/images/blob_ash.png": "f76b87a8dd8bb4ad017b441854541a2b",
+"assets/assets/images/portfolio_01.jpg": "43e7af9f9e24c8c4db73ee7d493c04f4",
+"assets/assets/images/box_cover_gold.png": "a58f0270c1fd04d7eae1217c7e5645b9",
+"assets/assets/images/portfolio_03.jpg": "45d7db96b72f25b4c76740e5dec2208e",
+"assets/assets/images/blob_black.png": "14198d608b7f0980998d329cd353e290",
+"assets/assets/images/blog_03.jpg": "5f88a99b651c6dbad988d684c6fc41b3",
+"assets/assets/images/blog_02.jpg": "01c4b84663980a0b4f55f4bd196492bd",
+"assets/assets/images/blob_femur_ash.png": "b899f92250a0f7220db5c45bea2080c8",
+"assets/assets/images/ghana_flag.png": "b0afee866ab3333560a0072c5d53bce2",
+"assets/assets/images/blob_drumstick_black.png": "381f70d9f8dd4fbbb720214fa02939a2",
+"assets/assets/images/dots_globe_yellow2.png": "d1394584431e43b6973ca031de59a284",
+"assets/assets/images/blog_01.jpg": "cd78990246f63c4d64ca5c26bcf31289",
+"assets/shaders/ink_sparkle.frag": "f8b80e740d33eb157090be4e995febdf",
+"assets/fonts/MaterialIcons-Regular.otf": "afce6d1dd84a7dcc16d2361e34f03262",
+"assets/NOTICES": "7d8d346a91185645e7132326127781bb",
+"assets/packages/feather_icons/fonts/feather.ttf": "b5f4566bdaa6dfa10fad3bedb22f7ecf",
+"assets/packages/cupertino_icons/assets/CupertinoIcons.ttf": "57d849d738900cfd590e9adc7e208250",
+"assets/packages/font_awesome_flutter/lib/fonts/fa-regular-400.ttf": "01bb14ae3f14c73ee03eed84f480ded9",
+"assets/packages/font_awesome_flutter/lib/fonts/fa-brands-400.ttf": "0db203e8632f03baae0184700f3bda48",
+"assets/packages/font_awesome_flutter/lib/fonts/fa-solid-900.ttf": "efc6c90b58d765987f922c95c2031dd2",
 "assets/FontManifest.json": "cab905cb3aac16cd8f8b52a8d504c382",
-"assets/NOTICES": "d13c4f6bfa911ed33c2727d6d267f2d5",
-"index.html": "5d862c0e0800e4537643528fe36337a3",
-"/": "b4c8908ffb8794bb2985f197e7d2c28a",
-"blog/about/index.html": "0370e8b1372377d94b791bf1588f0fea",
-"blog/404.html": "2bc149be43637a3f1d123b8e8cbf392a",
-"blog/career/2023/01/04/being-freelancer-work-from-home-era.html": "17b78c77e2ea7adb8d7ee8f795d0d460",
+"assets/AssetManifest.json": "67e63899155fa3377a4aa39560eeca5e",
+"assets/AssetManifest.smcbin": "216390b65278441c417b6b985dfa1906",
+"index.html": "1ce866e21d7bca6444958b536eddc88a",
+"/": "37a87397b730428fa1cff09593d6d2b7",
+"README.md": "e0437ab0c30dbc4417c0e71c9e412ba6",
+"robots.txt": "376f85e94ee8db023428e7ad0f3b7f08",
 "blog/thoughts/2023/01/09/i-dont-like-travelling.html": "aab3455e92db2f62aeea826c1b3c1900",
-"blog/thoughts/2023/01/26/planning-life-finances-worth-it.html": "b7703ddd99e9dacfee16c408c66e0641",
 "blog/thoughts/2023/01/05/about-growing-up.html": "1ee3677b22a6d7aa272e789e57f0b0db",
-"blog/README.md": "8962f55ddc2f942a80d4ab9e0044d191",
-"blog/assets/main.css": "cdad61cffb215362616ac5937b6c4728",
+"blog/thoughts/2023/01/26/planning-life-finances-worth-it.html": "b7703ddd99e9dacfee16c408c66e0641",
+"blog/thoughts/2023/05/19/why-personal-finance-shouldnt-be-boring.html": "e66f962905a6cfd52da4223e21b0071c",
 "blog/assets/minima-social-icons.svg": "3a70b871c930a7ed8af27caa162af123",
-"blog/feed.xml": "f086ab3bcf5baf03011793fb1e075fba",
-"blog/index.html": "b4c8908ffb8794bb2985f197e7d2c28a",
+"blog/assets/main.css": "cdad61cffb215362616ac5937b6c4728",
+"blog/index.html": "c07bf4fff14354fbf7aacfbece0660d3",
+"blog/README.md": "8962f55ddc2f942a80d4ab9e0044d191",
+"blog/about/index.html": "37a87397b730428fa1cff09593d6d2b7",
+"blog/career/2023/01/04/being-freelancer-work-from-home-era.html": "b4e0f8b7046a0489f5e31ed6ef3d1e96",
 "blog/personal%20finance/2023/01/03/about-fire.html": "3168d4d1cfe70755fe3e8c126b8174db",
-"blog/personal%20finance/2023/03/18/my-experience-with-trading.html": "c654f15618955918df982f9646c1b5d5",
+"blog/personal%20finance/2023/03/18/my-experience-with-trading.html": "bf3e20584230fcb9f32a2876a8264a92",
+"blog/404.html": "2bc149be43637a3f1d123b8e8cbf392a",
+"blog/feed.xml": "d32f24fce7e97631b27796206a519cbc",
+"version.json": "729886d14921718e2a1ee3b8f3eecbf5",
+"CNAME": "17067924b1f9c16b1871cdf8e4a9cec5",
 "icons/logo.png": "508623330cb0250a035dd873fcc2ab9b",
 "sitemap.xml": "01482d70e0548b319faf820207a80293",
-"CNAME": "17067924b1f9c16b1871cdf8e4a9cec5"
-};
-
+"files/CV-GuidoCardinali.pdf": "bf7f82977adc7b37c3dcc6c0da9ed7ad",
+"main.dart.js": "484d1da5c3d208aa8c91e429945d9348",
+"manifest.json": "9bb5f82ac7a1d2b222ccbf568068dbc7",
+"zohoverify/verifyforzoho.html": "101591f54e04add8d1b545af17018a29"};
 // The application shell files that are downloaded before a service worker can
 // start.
-const CORE = [
-  "main.dart.js",
+const CORE = ["main.dart.js",
 "index.html",
 "assets/AssetManifest.json",
 "assets/FontManifest.json"];
+
 // During install, the TEMP cache is populated with the application shell files.
 self.addEventListener("install", (event) => {
   self.skipWaiting();
@@ -94,7 +98,6 @@ self.addEventListener("install", (event) => {
     })
   );
 });
-
 // During activate, the cache is populated with the temp files downloaded in
 // install. If this service worker is upgrading from one with a saved
 // MANIFEST, then use this to retain unchanged resource files.
@@ -116,6 +119,8 @@ self.addEventListener("activate", function(event) {
         await caches.delete(TEMP);
         // Save the manifest to make future upgrades efficient.
         await manifestCache.put('manifest', new Response(JSON.stringify(RESOURCES)));
+        // Claim client to enable caching on first launch
+        self.clients.claim();
         return;
       }
       var oldManifest = await manifest.json();
@@ -141,6 +146,8 @@ self.addEventListener("activate", function(event) {
       await caches.delete(TEMP);
       // Save the manifest to make future upgrades efficient.
       await manifestCache.put('manifest', new Response(JSON.stringify(RESOURCES)));
+      // Claim client to enable caching on first launch
+      self.clients.claim();
       return;
     } catch (err) {
       // On an unhandled exception the state of the cache cannot be guaranteed.
@@ -151,7 +158,6 @@ self.addEventListener("activate", function(event) {
     }
   }());
 });
-
 // The fetch handler redirects requests for RESOURCE files to the service
 // worker cache.
 self.addEventListener("fetch", (event) => {
@@ -191,7 +197,6 @@ self.addEventListener("fetch", (event) => {
     })
   );
 });
-
 self.addEventListener('message', (event) => {
   // SkipWaiting can be used to immediately activate a waiting service worker.
   // This will also require a page refresh triggered by the main worker.
@@ -204,7 +209,6 @@ self.addEventListener('message', (event) => {
     return;
   }
 });
-
 // Download offline will check the RESOURCES for all files not in the cache
 // and populate them.
 async function downloadOffline() {
@@ -225,7 +229,6 @@ async function downloadOffline() {
   }
   return contentCache.addAll(resources);
 }
-
 // Attempt to download the resource online before falling back to
 // the offline cache.
 function onlineFirst(event) {
