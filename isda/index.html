@@ -1,0 +1,138 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous" />
+        <script>
+            function updateTitle() {
+                document.title = "ISDA - Voto finale " + document.getElementById('username').value
+            }
+
+            function updateTable() {
+                    let usciteRip = parseInt(document.getElementById('usciteRip').value);
+                    let uscitePaolo = parseInt(document.getElementById('uscitePaolo').value);
+                    let usciteGuido = parseInt(document.getElementById('usciteGuido').value);
+                    let usciteMedia = (usciteRip + uscitePaolo + usciteGuido) / 3;
+                    if (!isNaN(usciteMedia)) {
+                        document.getElementById('usciteMedia').textContent = usciteMedia.toFixed(1);
+                    } else {
+                        document.getElementById('usciteMedia').textContent = "";
+                    }
+
+                    let assetRip = parseInt(document.getElementById('assetRip').value);
+                    let assetPaolo = parseInt(document.getElementById('assetPaolo').value);
+                    let assetGuido = parseInt(document.getElementById('assetGuido').value);
+                    let assetMedia = (assetRip + assetPaolo + assetGuido) / 3;
+                    if (!isNaN(assetMedia)) {
+                        document.getElementById('assetMedia').textContent = assetMedia.toFixed(1);
+                    } else {
+                        document.getElementById('assetMedia').textContent = "";
+                    }
+                    let aderenzaRip = parseInt(document.getElementById('aderenzaRip').value);
+                    let aderenzaPaolo = parseInt(document.getElementById('aderenzaPaolo').value);
+                    let aderenzaGuido = parseInt(document.getElementById('aderenzaGuido').value);
+                    let aderenzaMedia = (aderenzaRip + aderenzaPaolo + aderenzaGuido) / 3;
+                    if (!isNaN(aderenzaMedia)) {
+                        document.getElementById('aderenzaMedia').textContent = aderenzaMedia.toFixed(1);
+                    } else {
+                        document.getElementById('aderenzaMedia').textContent = "";
+                    }
+
+                    let votoRip = usciteRip + assetRip + aderenzaRip;
+                    if (!isNaN(votoRip)) {
+                        document.getElementById('votoRip').textContent = votoRip.toFixed(0);
+                    } else {
+                        document.getElementById('votoRip').textContent = "";
+                    }
+                    let votoPaolo = uscitePaolo + assetPaolo + aderenzaPaolo;
+                    if (!isNaN(votoPaolo)) {
+                        document.getElementById('votoPaolo').textContent = votoPaolo.toFixed(0);
+                    } else {
+                        document.getElementById('votoPaolo').textContent = "";
+                    }
+                    let votoGuido = usciteGuido + assetGuido + aderenzaGuido;
+                    if (!isNaN(votoGuido)) {
+                        document.getElementById('votoGuido').textContent = votoGuido.toFixed(0);
+                    } else {
+                        document.getElementById('votoGuido').textContent = "";
+                    }
+
+                    let votoMedia = (votoRip + votoPaolo + votoGuido) / 3;
+                    if (!isNaN(votoMedia)) {
+                        document.getElementById('votoMedia').textContent = votoMedia.toFixed(1);
+                    } else {
+                        document.getElementById('votoMedia').textContent = "";
+                    }
+            }
+
+            function reset() {
+                document.getElementById('usciteRip').value = "";
+                document.getElementById('uscitePaolo').value = "";
+                document.getElementById('usciteGuido').value = "";
+                document.getElementById('usciteMedia').value = "";
+                document.getElementById('assetRip').value = "";
+                document.getElementById('assetPaolo').value = "";
+                document.getElementById('assetGuido').value = "";
+                document.getElementById('assetMedia').value = "";
+                document.getElementById('aderenzaRip').value = "";
+                document.getElementById('aderenzaPaolo').value = "";
+                document.getElementById('aderenzaGuido').value = "";
+                document.getElementById('aderenzaMedia').value = "";
+                document.getElementById('votoMedia').value = "";
+                document.getElementById('username').value = "";
+            }
+        </script>
+    </head>
+    <title>ISDA - Voto finale</title>
+    <body>
+    <div style="padding: 20px">
+        <div>
+            <span>Nome utente:  </span>
+            <input id="username" style="margin: 10px" onkeyup="updateTitle()" />
+        </div>
+        <div>
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th>#</th>
+                        <th><b>Giorgio Surname (Mr. Rip)</b></th>
+                        <th><b>Paolo Coletti</b></th>
+                        <th><b>Guido (Nanday)</b></th>
+                        <th><b>Media</b></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Gestione delle uscite</td>
+                        <td><input id="usciteRip" type="number" min="0" max="10" oninput="updateTable()" /></td>
+                        <td><input id="uscitePaolo" type="number" min="0" max="10" oninput="updateTable()" /></td>
+                        <td><input id="usciteGuido" type="number" min="0" max="10" oninput="updateTable()" /></td>
+                        <td><span id="usciteMedia"></span></td>
+                    </tr>
+                    <tr>
+                        <td>Asset allocation</td>
+                        <td><input id="assetRip" type="number" min="0" max="10" oninput="updateTable()" /></td>
+                        <td><input id="assetPaolo" type="number" min="0" max="10" oninput="updateTable()" /></td>
+                        <td><input id="assetGuido" type="number" min="0" max="10" oninput="updateTable()" /></td>
+                        <td><span id="assetMedia" ></span></td>
+                    </tr>
+                    <tr>
+                        <td>Aderenza obiettivi finanziari</td>
+                        <td><input id="aderenzaRip" type="number" min="0" max="10" oninput="updateTable()" /></td>
+                        <td><input id="aderenzaPaolo" type="number" min="0" max="10" oninput="updateTable()" /></td>
+                        <td><input id="aderenzaGuido" type="number" min="0" max="10" oninput="updateTable()" /></td>
+                        <td><span id="aderenzaMedia" ></span></td>
+                    </tr>
+                    <tr>
+                        <td><b>VOTO FINALE (/30)</b></td>
+                        <td><span id="votoRip" ></span></td>
+                        <td><span id="votoPaolo" ></span></td>
+                        <td><span id="votoGuido" ></span></td>
+                        <td><span class="font-weight-bold" id="votoMedia" ></span></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <button type="button" class="btn btn-secondary" onclick="reset()">RESET</button>
+    </div>
+    </body>
+</html>
