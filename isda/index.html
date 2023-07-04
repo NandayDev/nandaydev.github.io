@@ -7,77 +7,74 @@
             }
 
             function updateTable() {
-                    let usciteRip = parseInt(document.getElementById('usciteRip').value);
-                    let uscitePaolo = parseInt(document.getElementById('uscitePaolo').value);
-                    let usciteGuido = parseInt(document.getElementById('usciteGuido').value);
-                    let usciteMedia = (usciteRip + uscitePaolo + usciteGuido) / 3;
-                    if (!isNaN(usciteMedia)) {
-                        document.getElementById('usciteMedia').textContent = usciteMedia.toFixed(1);
-                    } else {
-                        document.getElementById('usciteMedia').textContent = "";
-                    }
+                let usciteRip = parseInt(document.getElementById('usciteRip').value);
+                let uscitePaolo = parseInt(document.getElementById('uscitePaolo').value);
+                let usciteGuido = parseInt(document.getElementById('usciteGuido').value);
+                let usciteMedia = (usciteRip + uscitePaolo + usciteGuido) / 3;
+                if (!isNaN(usciteMedia)) {
+                    document.getElementById('usciteMedia').textContent = usciteMedia.toFixed(1);
+                } else {
+                    document.getElementById('usciteMedia').textContent = "";
+                }
 
-                    let assetRip = parseInt(document.getElementById('assetRip').value);
-                    let assetPaolo = parseInt(document.getElementById('assetPaolo').value);
-                    let assetGuido = parseInt(document.getElementById('assetGuido').value);
-                    let assetMedia = (assetRip + assetPaolo + assetGuido) / 3;
-                    if (!isNaN(assetMedia)) {
-                        document.getElementById('assetMedia').textContent = assetMedia.toFixed(1);
-                    } else {
-                        document.getElementById('assetMedia').textContent = "";
-                    }
-                    let aderenzaRip = parseInt(document.getElementById('aderenzaRip').value);
-                    let aderenzaPaolo = parseInt(document.getElementById('aderenzaPaolo').value);
-                    let aderenzaGuido = parseInt(document.getElementById('aderenzaGuido').value);
-                    let aderenzaMedia = (aderenzaRip + aderenzaPaolo + aderenzaGuido) / 3;
-                    if (!isNaN(aderenzaMedia)) {
-                        document.getElementById('aderenzaMedia').textContent = aderenzaMedia.toFixed(1);
-                    } else {
-                        document.getElementById('aderenzaMedia').textContent = "";
-                    }
+                let assetRip = parseInt(document.getElementById('assetRip').value);
+                let assetPaolo = parseInt(document.getElementById('assetPaolo').value);
+                let assetGuido = parseInt(document.getElementById('assetGuido').value);
+                let assetMedia = (assetRip + assetPaolo + assetGuido) / 3;
+                if (!isNaN(assetMedia)) {
+                    document.getElementById('assetMedia').textContent = assetMedia.toFixed(1);
+                } else {
+                    document.getElementById('assetMedia').textContent = "";
+                }
+                let aderenzaRip = parseInt(document.getElementById('aderenzaRip').value);
+                let aderenzaPaolo = parseInt(document.getElementById('aderenzaPaolo').value);
+                let aderenzaGuido = parseInt(document.getElementById('aderenzaGuido').value);
+                let aderenzaMedia = (aderenzaRip + aderenzaPaolo + aderenzaGuido) / 3;
+                if (!isNaN(aderenzaMedia)) {
+                    document.getElementById('aderenzaMedia').textContent = aderenzaMedia.toFixed(1);
+                } else {
+                    document.getElementById('aderenzaMedia').textContent = "";
+                }
 
-                    let votoRip = usciteRip + assetRip + aderenzaRip;
-                    if (!isNaN(votoRip)) {
-                        document.getElementById('votoRip').textContent = votoRip.toFixed(0);
-                    } else {
-                        document.getElementById('votoRip').textContent = "";
-                    }
-                    let votoPaolo = uscitePaolo + assetPaolo + aderenzaPaolo;
-                    if (!isNaN(votoPaolo)) {
-                        document.getElementById('votoPaolo').textContent = votoPaolo.toFixed(0);
-                    } else {
-                        document.getElementById('votoPaolo').textContent = "";
-                    }
-                    let votoGuido = usciteGuido + assetGuido + aderenzaGuido;
-                    if (!isNaN(votoGuido)) {
-                        document.getElementById('votoGuido').textContent = votoGuido.toFixed(0);
-                    } else {
-                        document.getElementById('votoGuido').textContent = "";
-                    }
+                let votoRip = usciteRip + assetRip + aderenzaRip;
+                if (!isNaN(votoRip)) {
+                    document.getElementById('votoRip').textContent = votoRip.toFixed(0);
+                } else {
+                    document.getElementById('votoRip').textContent = "";
+                }
+                let votoPaolo = uscitePaolo + assetPaolo + aderenzaPaolo;
+                if (!isNaN(votoPaolo)) {
+                    document.getElementById('votoPaolo').textContent = votoPaolo.toFixed(0);
+                } else {
+                    document.getElementById('votoPaolo').textContent = "";
+                }
+                let votoGuido = usciteGuido + assetGuido + aderenzaGuido;
+                if (!isNaN(votoGuido)) {
+                    document.getElementById('votoGuido').textContent = votoGuido.toFixed(0);
+                } else {
+                    document.getElementById('votoGuido').textContent = "";
+                }
 
-                    let votoMedia = (votoRip + votoPaolo + votoGuido) / 3;
-                    if (!isNaN(votoMedia)) {
-                        document.getElementById('votoMedia').textContent = votoMedia.toFixed(1);
-                    } else {
-                        document.getElementById('votoMedia').textContent = "";
-                    }
+                let votoMedia = (votoRip + votoPaolo + votoGuido) / 3;
+                if (!isNaN(votoMedia)) {
+                    document.getElementById('votoMedia').textContent = votoMedia.toFixed(1);
+                } else {
+                    document.getElementById('votoMedia').textContent = "";
+                }
             }
 
             function reset() {
                 document.getElementById('usciteRip').value = "";
                 document.getElementById('uscitePaolo').value = "";
                 document.getElementById('usciteGuido').value = "";
-                document.getElementById('usciteMedia').textContent = "";
                 document.getElementById('assetRip').value = "";
                 document.getElementById('assetPaolo').value = "";
                 document.getElementById('assetGuido').value = "";
-                document.getElementById('assetMedia').textContent = "";
                 document.getElementById('aderenzaRip').value = "";
                 document.getElementById('aderenzaPaolo').value = "";
                 document.getElementById('aderenzaGuido').value = "";
-                document.getElementById('aderenzaMedia').textContent = "";
-                document.getElementById('votoMedia').textContent = "";
                 document.getElementById('username').value = "";
+                updateTable();
             }
         </script>
     </head>
