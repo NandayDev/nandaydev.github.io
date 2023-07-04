@@ -67,16 +67,16 @@
                 document.getElementById('usciteRip').value = "";
                 document.getElementById('uscitePaolo').value = "";
                 document.getElementById('usciteGuido').value = "";
-                document.getElementById('usciteMedia').value = "";
+                document.getElementById('usciteMedia').textContent = "";
                 document.getElementById('assetRip').value = "";
                 document.getElementById('assetPaolo').value = "";
                 document.getElementById('assetGuido').value = "";
-                document.getElementById('assetMedia').value = "";
+                document.getElementById('assetMedia').textContent = "";
                 document.getElementById('aderenzaRip').value = "";
                 document.getElementById('aderenzaPaolo').value = "";
                 document.getElementById('aderenzaGuido').value = "";
-                document.getElementById('aderenzaMedia').value = "";
-                document.getElementById('votoMedia').value = "";
+                document.getElementById('aderenzaMedia').textContent = "";
+                document.getElementById('votoMedia').textContent = "";
                 document.getElementById('username').value = "";
             }
         </script>
@@ -101,7 +101,7 @@
                 </thead>
                 <tbody>
                     <tr>
-                        <td>Gestione delle uscite</td>
+                        <td>Presentazione del caso</td>
                         <td><input id="usciteRip" type="number" min="0" max="10" oninput="updateTable()" /></td>
                         <td><input id="uscitePaolo" type="number" min="0" max="10" oninput="updateTable()" /></td>
                         <td><input id="usciteGuido" type="number" min="0" max="10" oninput="updateTable()" /></td>
