@@ -1,0 +1,51 @@
+{
+  "header": [
+    "Giorgio (Mr. RIP)",
+    "Paolo Coletti",
+    "Guido (Nanday)",
+    "Mister X"
+  ],
+  "characteristics": [
+    "Presentazione del caso",
+    "Asset allocation",
+    "Aderenza obiettivi finanziari"
+  ],
+  "cases": [
+    {
+      "name": "Fratturatore",
+      "date": 1688500550900,
+      "votes": [
+        [ 7, 8, 8, null ],
+        [ 5, 7, 6, null ],
+        [ 5, 7, 6, null ]
+      ]
+    },
+    {
+      "name": "Mattonaro Condannato",
+      "date": 1688503550900,
+      "votes": [
+        [ 7, 8, 8, null ],
+        [ 6, 3, 6, null ],
+        [ 4, 6, 6, null ]
+      ]
+    },
+    {
+      "name": "Donald Duck",
+      "date": 1688506250900,
+      "votes": [
+        [ 8, 9, 7, null ],
+        [ 8, 8, 6, null ],
+        [ 9, 10, 10, null ]
+      ]
+    },
+    {
+      "name": "Roboadvisorista Pentito (MP)",
+      "date": 1688508650900,
+      "votes": [
+        [ 7, 10, 7, null ],
+        [ 8, 7, 6, null ],
+        [ 6, 5, 6, null ]
+      ]
+    }
+  ]
+}
