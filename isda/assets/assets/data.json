@@ -2,8 +2,7 @@
   "header": [
     "rip.png",
     "paolo_coletti.png",
-    "guido.png",
-    "pietro_michelangeli.png"
+    "guido.png"
   ],
   "characteristics": [
     "Presentazione del caso",
@@ -14,15 +13,36 @@
     {
       "name": "LeerdammerBoss",
       "date": 1689112821000,
+      "header": [
+        "rip.png",
+        "paolo_coletti.png",
+        "guido.png"
+      ],
+      "characteristics": [
+        "Presentazione del caso",
+        "Asset allocation",
+        "Aderenza obiettivi"
+      ],
       "votes": [
-        [ 6, 7, 6, null ],
-        [ 5.57, 5, 5, null ],
-        [ 3, 2, 4, null ]
+        [ 6, 7, 6 ],
+        [ 5.57, 5, 5 ],
+        [ 3, 2, 4 ]
       ]
     },
     {
       "name": "Mulino Bianco",
       "date": 1689110421000,
+      "header": [
+        "rip.png",
+        "paolo_coletti.png",
+        "guido.png",
+        "pietro_michelangeli.png"
+      ],
+      "characteristics": [
+        "Presentazione del caso",
+        "Asset allocation",
+        "Aderenza obiettivi"
+      ],
       "votes": [
         [ 8.43, 8.94, 8, 9 ],
         [ 8.5, 7, 6, 8.5 ],
@@ -32,6 +52,17 @@
     {
       "name": "Picchiarello",
       "date": 1689108621000,
+      "header": [
+        "rip.png",
+        "paolo_coletti.png",
+        "guido.png",
+        "pietro_michelangeli.png"
+      ],
+      "characteristics": [
+        "Presentazione del caso",
+        "Asset allocation",
+        "Aderenza obiettivi"
+      ],
       "votes": [
         [ 6.5, 7.5, 8, 7 ],
         [ 8.32, 5, 5.5, 8 ],
@@ -41,6 +72,17 @@
     {
       "name": "Rita Levi Mortal Kombat",
       "date": 1689107421000,
+      "header": [
+        "rip.png",
+        "paolo_coletti.png",
+        "guido.png",
+        "pietro_michelangeli.png"
+      ],
+      "characteristics": [
+        "Presentazione del caso",
+        "Asset allocation",
+        "Aderenza obiettivi"
+      ],
       "votes": [
         [ 8.5, 8, 8, 9 ],
         [ 5.9, 8, 7, 7 ],
@@ -50,37 +92,77 @@
     {
       "name": "Fratturatore",
       "date": 1688500550900,
+      "header": [
+        "rip.png",
+        "paolo_coletti.png",
+        "guido.png"
+      ],
+      "characteristics": [
+        "Presentazione del caso",
+        "Asset allocation",
+        "Aderenza obiettivi"
+      ],
       "votes": [
-        [ 7, 8, 8, null ],
-        [ 5, 7, 6, null ],
-        [ 5, 7, 6, null ]
+        [ 7, 8, 8 ],
+        [ 5, 7, 6 ],
+        [ 5, 7, 6 ]
       ]
     },
     {
       "name": "Mattonaro Condannato",
       "date": 1688503550900,
+      "header": [
+        "rip.png",
+        "paolo_coletti.png",
+        "guido.png"
+      ],
+      "characteristics": [
+        "Presentazione del caso",
+        "Asset allocation",
+        "Aderenza obiettivi"
+      ],
       "votes": [
-        [ 7, 8, 8, null ],
-        [ 6, 3, 6, null ],
-        [ 4, 6, 6, null ]
+        [ 7, 8, 8 ],
+        [ 6, 3, 6 ],
+        [ 4, 6, 6 ]
       ]
     },
     {
       "name": "Donald Duck",
       "date": 1688506250900,
+      "header": [
+        "rip.png",
+        "paolo_coletti.png",
+        "guido.png"
+      ],
+      "characteristics": [
+        "Presentazione del caso",
+        "Asset allocation",
+        "Aderenza obiettivi"
+      ],
       "votes": [
-        [ 8, 9, 7, null ],
-        [ 8, 8, 6, null ],
-        [ 9, 10, 10, null ]
+        [ 8, 9, 7 ],
+        [ 8, 8, 6 ],
+        [ 9, 10, 10 ]
       ]
     },
     {
       "name": "Roboadvisorista Pentito (MP)",
       "date": 1688508650900,
+      "header": [
+        "rip.png",
+        "paolo_coletti.png",
+        "guido.png"
+      ],
+      "characteristics": [
+        "Presentazione del caso",
+        "Asset allocation",
+        "Aderenza obiettivi"
+      ],
       "votes": [
-        [ 7, 10, 7, null ],
-        [ 8, 7, 6, null ],
-        [ 6, 5, 6, null ]
+        [ 7, 10, 7 ],
+        [ 8, 7, 6 ],
+        [ 6, 5, 6 ]
       ]
     }
   ]
