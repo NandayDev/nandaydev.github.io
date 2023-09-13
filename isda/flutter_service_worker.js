@@ -3,9 +3,9 @@ const MANIFEST = 'flutter-app-manifest';
 const TEMP = 'flutter-temp-cache';
 const CACHE_NAME = 'flutter-app-cache';
 
-const RESOURCES = {"assets/AssetManifest.bin": "191c8895c93f1758b333ced8e8612a82",
-"assets/AssetManifest.json": "63ba0825ebdf01d7e28b16815d9fe839",
-"assets/assets/data.json": "d6d6eba61f06c99076b601beae92df2f",
+const RESOURCES = {"assets/AssetManifest.bin": "158323a21e0b05f21011a21cb99919e5",
+"assets/AssetManifest.json": "da886e04b6116d344684a8abc97dc956",
+"assets/assets/data_20230913.json": "d6d6eba61f06c99076b601beae92df2f",
 "assets/assets/guido.png": "22484e1d0007606ebf5e7d3f16aafc89",
 "assets/assets/paolo_coletti.png": "fffcd303dfc4b532aca88207f57a3486",
 "assets/assets/pietro_michelangeli.png": "a80db2116e50b59ce0548f2cce5d225e",
@@ -28,9 +28,9 @@ const RESOURCES = {"assets/AssetManifest.bin": "191c8895c93f1758b333ced8e8612a82
 "icons/Icon-512.png": "96e752610906ba2a93c65f8abe1645f1",
 "icons/Icon-maskable-192.png": "c457ef57daa1d16f64b27b786ec2ea3c",
 "icons/Icon-maskable-512.png": "301a7604d45b3e739efc881eb04896ea",
-"index.html": "42d838dbcac703353fafc075b81c116d",
-"/": "42d838dbcac703353fafc075b81c116d",
-"main.dart.js": "eb29c69ca943e3bafd896d22bb6785cf",
+"index.html": "d29d646a4420a62563153166c29556f3",
+"/": "d29d646a4420a62563153166c29556f3",
+"main.dart.js": "74b86af0c37f7d955ac61efaebd418e5",
 "manifest.json": "27d79917eb20863d729859826b228aa4",
 "version.json": "f1f1ed932ad6f76fd8b726858981824b"};
 // The application shell files that are downloaded before a service worker can
