@@ -6,10 +6,155 @@
   ],
   "characteristics": [
     "Presentazione del caso",
-    "Asset allocation",
+    "Efficienza asset allocation",
     "Aderenza obiettivi"
   ],
   "cases": [
+    {
+      "name": "Barbone di Dio",
+      "date": 1692152306000,
+      "header": [
+        "rip.png",
+        "paolo_coletti.png",
+        "guido.png"
+      ],
+      "characteristics": [
+        "Presentazione del caso",
+        "Asset allocation",
+        "Aderenza obiettivi"
+      ],
+      "votes": [
+        [ 2.718, 5.5, 5 ],
+        [ 2.718, 1.5, 3 ],
+        [ 1.414, 2, 3.5 ]
+      ],
+      "chatVotes": [
+        {
+          "voters": 86,
+          "vote": 32
+        },
+        {
+          "voters": 62,
+          "vote": 25
+        }
+      ]
+    },
+    {
+      "name": "Walter White",
+      "date": 1692148706000,
+      "header": [
+        "rip.png",
+        "paolo_coletti.png",
+        "guido.png"
+      ],
+      "characteristics": [
+        "Presentazione del caso",
+        "Asset allocation",
+        "Aderenza obiettivi"
+      ],
+      "votes": [
+        [ 8.98, 7, 8 ],
+        [ 7.65, 4.5, 7 ],
+        [ 7.56, 9.2, 5 ]
+      ],
+      "chatVotes": [
+        {
+          "voters": 113,
+          "vote": 83
+        },
+        {
+          "voters": 82,
+          "vote": 63
+        }
+      ]
+    },
+    {
+      "name": "Milanese Relatable",
+      "date": 1692145106000,
+      "header": [
+        "rip.png",
+        "paolo_coletti.png",
+        "guido.png"
+      ],
+      "characteristics": [
+        "Presentazione del caso",
+        "Asset allocation",
+        "Aderenza obiettivi"
+      ],
+      "votes": [
+        [ 6, 6.2, 5 ],
+        [ 5.4, 6.7, 5 ],
+        [ 4.97, 7.33, 7 ]
+      ],
+      "chatVotes": [
+        {
+          "voters": 129,
+          "vote": 41
+        },
+        {
+          "voters": 91,
+          "vote": 26
+        }
+      ]
+    },
+    {
+      "name": "Fire prima di RIP",
+      "date": 1692141506000,
+      "header": [
+        "rip.png",
+        "paolo_coletti.png",
+        "guido.png"
+      ],
+      "characteristics": [
+        "Presentazione del caso",
+        "Asset allocation",
+        "Aderenza obiettivi"
+      ],
+      "votes": [
+        [ 8.88, 8.5, 9 ],
+        [ 7.5, 7.5, 8 ],
+        [ 6.66, 7, 7.5 ]
+      ],
+      "chatVotes": [
+        {
+          "voters": 171,
+          "vote": 83
+        },
+        {
+          "voters": 154,
+          "vote": 74
+        }
+      ]
+    },
+    {
+      "name": "Crypto Dreamer",
+      "date": 1692137906000,
+      "header": [
+        "rip.png",
+        "paolo_coletti.png",
+        "guido.png"
+      ],
+      "characteristics": [
+        "Presentazione del caso",
+        "Asset allocation",
+        "Aderenza obiettivi"
+      ],
+      "votes": [
+        [ 6, 6.5, 6 ],
+        [ 3.14, 7.5, 5.5 ],
+        [ 5.31, 7, 7 ]
+      ],
+      "chatVotes": [
+        {
+          "voters": 295,
+          "vote": 17
+        },
+        {
+          "voters": 226,
+          "vote": 21
+        }
+      ]
+    },
     {
       "name": "LeerdammerBoss",
       "date": 1689112821000,
