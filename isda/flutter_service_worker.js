@@ -3,9 +3,9 @@ const MANIFEST = 'flutter-app-manifest';
 const TEMP = 'flutter-temp-cache';
 const CACHE_NAME = 'flutter-app-cache';
 
-const RESOURCES = {"assets/AssetManifest.bin": "158323a21e0b05f21011a21cb99919e5",
-"assets/AssetManifest.json": "da886e04b6116d344684a8abc97dc956",
-"assets/assets/data_20230913.json": "d6d6eba61f06c99076b601beae92df2f",
+const RESOURCES = {"assets/AssetManifest.bin": "08c5f3d6dd4cf4e8215f4e0b8ec99172",
+"assets/AssetManifest.json": "43245156ff925b430e40c3957d29633d",
+"assets/assets/data_20230928.json": "ea18ccf9b3b35150796a5a91e4bf2a49",
 "assets/assets/guido.png": "22484e1d0007606ebf5e7d3f16aafc89",
 "assets/assets/paolo_coletti.png": "fffcd303dfc4b532aca88207f57a3486",
 "assets/assets/pietro_michelangeli.png": "a80db2116e50b59ce0548f2cce5d225e",
@@ -28,8 +28,8 @@ const RESOURCES = {"assets/AssetManifest.bin": "158323a21e0b05f21011a21cb99919e5
 "icons/Icon-512.png": "96e752610906ba2a93c65f8abe1645f1",
 "icons/Icon-maskable-192.png": "c457ef57daa1d16f64b27b786ec2ea3c",
 "icons/Icon-maskable-512.png": "301a7604d45b3e739efc881eb04896ea",
-"index.html": "091ce3b63c968d80d62a6276263669aa",
-"/": "091ce3b63c968d80d62a6276263669aa",
+"index.html": "92278731967b76cba49f8f1c6ea577c1",
+"/": "92278731967b76cba49f8f1c6ea577c1",
 "main.dart.js": "51276d1c60aacc664ff8a8ef75fbffb4",
 "manifest.json": "27d79917eb20863d729859826b228aa4",
 "version.json": "f1f1ed932ad6f76fd8b726858981824b"};

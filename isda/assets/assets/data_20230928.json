@@ -11,6 +11,151 @@
   ],
   "cases": [
     {
+      "name": "Gestionello",
+      "date": 1694652646000,
+      "header": [
+        "rip.png",
+        "paolo_coletti.png",
+        "guido.png"
+      ],
+      "characteristics": [
+        "Presentazione del caso",
+        "Efficienza asset allocation",
+        "Aderenza obiettivi"
+      ],
+      "votes": [
+        [ 7.75, 7.5, 8 ],
+        [ 4.75, 4, 5.5 ],
+        [ 4.44, 5.5, 4 ]
+      ],
+      "chatVotes": [
+        {
+          "voters": 26,
+          "vote": 54
+        },
+        {
+          "voters": 45,
+          "vote": 71
+        }
+      ]
+    },
+    {
+      "name": "Niccolò",
+      "date": 1694650006000,
+      "header": [
+        "rip.png",
+        "paolo_coletti.png",
+        "guido.png"
+      ],
+      "characteristics": [
+        "Presentazione del caso",
+        "Efficienza asset allocation",
+        "Aderenza obiettivi"
+      ],
+      "votes": [
+        [ 5, 4, 6 ],
+        [ 2.22, 4, 4 ],
+        [ 6, 6, 7 ]
+      ],
+      "chatVotes": [
+        {
+          "voters": 49,
+          "vote": 69
+        },
+        {
+          "voters": 58,
+          "vote": 75
+        }
+      ]
+    },
+    {
+      "name": "Lee More Touch",
+      "date": 1694646466000,
+      "header": [
+        "rip.png",
+        "paolo_coletti.png",
+        "guido.png"
+      ],
+      "characteristics": [
+        "Presentazione del caso",
+        "Efficienza asset allocation",
+        "Aderenza obiettivi"
+      ],
+      "votes": [
+        [ 6.49, 6.5, 6.5 ],
+        [ 6, 4.5, 7 ],
+        [ 8, 9, 8.5 ]
+      ],
+      "chatVotes": [
+        {
+          "voters": 49,
+          "vote": 76
+        },
+        {
+          "voters": 86,
+          "vote": 70
+        }
+      ]
+    },
+    {
+      "name": "Lo Sposo Inglese",
+      "date": 1694646406000,
+      "header": [
+        "rip.png",
+        "paolo_coletti.png",
+        "guido.png"
+      ],
+      "characteristics": [
+        "Presentazione del caso",
+        "Efficienza asset allocation",
+        "Aderenza obiettivi"
+      ],
+      "votes": [
+        [ 8.88, 7, 6.5 ],
+        [ 9.08, 7, 8 ],
+        [ 6, 5.5, 4.5 ]
+      ],
+      "chatVotes": [
+        {
+          "voters": 86,
+          "vote": 63
+        },
+        {
+          "voters": 115,
+          "vote": 44
+        }
+      ]
+    },
+    {
+      "name": "Il Consulente Schwizzero",
+      "date": 1694642806000,
+      "header": [
+        "rip.png",
+        "paolo_coletti.png",
+        "guido.png"
+      ],
+      "characteristics": [
+        "Presentazione del caso",
+        "Efficienza asset allocation",
+        "Aderenza obiettivi"
+      ],
+      "votes": [
+        [ 8, 8.5, 6.5 ],
+        [ 2.34, 1, 2.5 ],
+        [ 4.56, 3, 5 ]
+      ],
+      "chatVotes": [
+        {
+          "voters": 80,
+          "vote": 16
+        },
+        {
+          "voters": 143,
+          "vote": 24
+        }
+      ]
+    },
+    {
       "name": "Barbone di Dio",
       "date": 1692152306000,
       "header": [
