@@ -11,6 +11,122 @@
   ],
   "cases": [
     {
+      "name": "Fruttiferista Aspirante Coletti Boy",
+      "date": 1695939608000,
+      "header": [
+        "rip.png",
+        "paolo_coletti.png",
+        "guido.png"
+      ],
+      "characteristics": [
+        "Presentazione del caso",
+        "Efficienza asset allocation",
+        "Aderenza obiettivi"
+      ],
+      "votes": [
+        [ 8.99, 7.5, 8 ],
+        [ 8, 6.9, 5.5 ],
+        [ 5.99, 4.8, 5 ]
+      ],
+      "chatVotes": [
+        {
+          "voters": 41,
+          "vote": 76
+        },
+        {
+          "voters": 76,
+          "vote": 81
+        }
+      ]
+    },
+    {
+      "name": "Profondo Rosso",
+      "date": 1695936608000,
+      "header": [
+        "rip.png",
+        "paolo_coletti.png",
+        "guido.png"
+      ],
+      "characteristics": [
+        "Presentazione del caso",
+        "Efficienza asset allocation",
+        "Aderenza obiettivi"
+      ],
+      "votes": [
+        [ 5.1, 7.5, 8 ],
+        [ 4.2, 5, 4.75 ],
+        [ 3.3, 7, 6.5 ]
+      ],
+      "chatVotes": [
+        {
+          "voters": 31,
+          "vote": 39
+        },
+        {
+          "voters": 63,
+          "vote": 33
+        }
+      ]
+    },
+    {
+      "name": "CAG - Il Buon Seminatore",
+      "date": 1695934208000,
+      "header": [
+        "rip.png",
+        "paolo_coletti.png",
+        "guido.png"
+      ],
+      "characteristics": [
+        "Presentazione del caso",
+        "Efficienza asset allocation",
+        "Aderenza obiettivi"
+      ],
+      "votes": [
+        [ 7.63, 8, 5.5 ],
+        [ 4.57, 4, 4.5 ],
+        [ 4.55, 7.5, 6 ]
+      ],
+      "chatVotes": [
+        {
+          "voters": 45,
+          "vote": 20
+        },
+        {
+          "voters": 119,
+          "vote": 23
+        }
+      ]
+    },
+    {
+      "name": "The Sushi Picker",
+      "date": 1695932108000,
+      "header": [
+        "rip.png",
+        "paolo_coletti.png",
+        "guido.png"
+      ],
+      "characteristics": [
+        "Presentazione del caso",
+        "Efficienza asset allocation",
+        "Aderenza obiettivi"
+      ],
+      "votes": [
+        [ 5, 4.5, 3 ],
+        [ 4.44, 5, 5.5 ],
+        [ 6.66, 3.5, 6 ]
+      ],
+      "chatVotes": [
+        {
+          "voters": 46,
+          "vote": 13
+        },
+        {
+          "voters": 110,
+          "vote": 16
+        }
+      ]
+    },
+    {
       "name": "Gestionello",
       "date": 1694652646000,
       "header": [
