@@ -1,4 +1,294 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.5">Jekyll</generator><link href="https://www.nanday.dev/blog/feed.xml" rel="self" type="application/atom+xml" /><link href="https://www.nanday.dev/blog/" rel="alternate" type="text/html" /><updated>2024-06-20T16:38:01+00:00</updated><id>https://www.nanday.dev/blog/feed.xml</id><title type="html">NaNDay.dev Blog</title><subtitle>Life, thoughts, software engineering.</subtitle><author><name>Guido Cardinali</name></author><entry><title type="html">Why investing shouldn’t be boring</title><link href="https://www.nanday.dev/blog/personal%20finance/2023/05/19/why-personal-finance-shouldnt-be-boring.html" rel="alternate" type="text/html" title="Why investing shouldn’t be boring" /><published>2023-05-19T12:48:00+00:00</published><updated>2023-05-19T12:48:00+00:00</updated><id>https://www.nanday.dev/blog/personal%20finance/2023/05/19/why-personal-finance-shouldnt-be-boring</id><content type="html" xml:base="https://www.nanday.dev/blog/personal%20finance/2023/05/19/why-personal-finance-shouldnt-be-boring.html"><![CDATA[<h3 id="vwce--chills-down-my-spine">VWCE &amp; Chill…s down my spine</h3>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.10.0">Jekyll</generator><link href="https://www.nanday.dev/blog/feed.xml" rel="self" type="application/atom+xml" /><link href="https://www.nanday.dev/blog/" rel="alternate" type="text/html" /><updated>2025-01-05T17:52:30+00:00</updated><id>https://www.nanday.dev/blog/feed.xml</id><title type="html">NaNDay.dev Blog</title><subtitle>Life, thoughts, software engineering.</subtitle><author><name>Guido Cardinali</name></author><entry><title type="html">Obsidian, or how technology helps my games</title><link href="https://www.nanday.dev/blog/tabletop%20role-playing%20games/2024/12/20/obsidian-how-technology-helps-my-games.html" rel="alternate" type="text/html" title="Obsidian, or how technology helps my games" /><published>2024-12-20T09:00:00+00:00</published><updated>2024-12-20T09:00:00+00:00</updated><id>https://www.nanday.dev/blog/tabletop%20role-playing%20games/2024/12/20/obsidian-how-technology-helps-my-games</id><content type="html" xml:base="https://www.nanday.dev/blog/tabletop%20role-playing%20games/2024/12/20/obsidian-how-technology-helps-my-games.html"><![CDATA[<p>As you may or may not know, I call myself a software engineer. Others call me a software engineer. So, I guess that’s what I am, professionally speaking.</p>
+
+<p>Even though there are some software engineers out there who refuse to touch any PC or do any coding outside their working hours, I’ve never really been like that. Even when I was putting insane amount of hours into a gigantic product which never saw the light because corporate, back in 2019, I still had the spark in me to write some hobby code when I was back at home. If I did it less in that period, was not because I was lacking the will of writing some more code outside my work hours: it was just a matter of time.</p>
+
+<p>So, it is sort of natural to let technology flow into my game preparations, and sessions themselves, for the purpose of enhancing the overall experience both for me and my players.</p>
+
+<p>The first thing we’re going to talk about, hopefully in this first post of many others of a series, is Obsidian.</p>
+
+<p>Obsidian belongs, as far as I understand, to a whole category of “note-taking” software. But that would be grossly understating its potential actually. Obsidian, similar to Notion and others, is actually about building your digital, inter-connected brain of text, images and other documents.</p>
+
+<p>The first reason I found it was because, when building my setting, lot of times I’ll need to change a name I had decided. I’m not good with inventing names, and sometimes, following the flow of an idea, I just write something I made up in that moment. I don’t really like placeholders: re-reading the document would be too hard. So, almost always, when I go back to read that part, I inevitably cringe at the name I had given beforehand. But that name had spread at that moment; maybe I even wrote another document with that name, to take some notes on the character/place/event.</p>
+
+<p>Let’s say for instance I’m writing about the “Great Pacts of Mount Thoradin”, which ended the war between human, dwarves and elves in my world. I know who the elven leader is, since she’s millennia years old: Elora The Venerable, of course. But dwarves, and humans even more, have shorter lifespans. So, as a temporary dwarf “king” (dwarves have no single leader: arguing and quarreling between themselves would be too hard), I’m going to write the name Ulfbar. And I’m also going to create a note for Ulfbar: another file, named “Ulfbar.docx”, in which I’ll write maybe a couple of lines to remember why his name is there.</p>
+
+<p>But then, re-reading that part, the name “Ulfbar” really sounds more like the dog of a dwarven king, not really the king himself. So I’d need to change it, possibly quickly.</p>
+
+<p>Microsoft Word is ok, but when I tried a couple of ways to have this “table of names” which would be easily editable, it failed. There’s probably a better way, but I gave up. Please, searching among documents… too clunky.</p>
+
+<p>So I made a bit of research, and found Obsidian. It’s perfect for my needs: it generates Markdown files, which are just plain text files (just like .txt), and when you put names in this two square brackets [[Ulfbar]], it creates a link. You can then use the same link elsewhere, and when you’re ready, create the Ulfbar page. If you decide Ulfbar is a horrible name, you just need to rename the Ulfbar file inside Obsidian: it will automatically update all files mentioning Ulfbar (provided you used the link in those files, and not the plain name).</p>
+
+<p>Plus, it’s free. Only paid features you may want, are cloud backups and syncs. Since I know pretty well Git (a source control software, mainly used for code), I didn’t really need it: I’m using the Git Obsidian plugin, and syncing all my files to a free Github account.</p>
+
+<p>The downside is, though, I can’t really access my files while on mobile. I still have to search for a workaround though, I’m sure it’s doable with a little hack.</p>
+
+<p>With Obsidian, I can now proudly say I crossed over 1000 files in my homemade setting for D&amp;D, and I don’t know how many lines. There are also a lot of empty files, of course, which I just created so that one day I’ll write them (maybe). But the Obsidian search is still blazingly fast, and also opening the software doesn’t take more than a second. Even on my older laptop.</p>
+
+<p>There are some things I’d like improved, and probably there are plugins for that. For instance, I don’t always want to use the full name of something or someone in files, especially when I’m repeating it more than once. For instance, Kelton The Red, leader of the Scarlet Phalanx, mercenaries with anarchic-good tendencies, is better shortened as “Kelton”. There’s the possibility, in Obsidian, to create “aliases” for files. But then, when I edit an alias, other files are not actually updated, because aliases are just suggestions for auto-completion, not indexed as file names are.</p>
+
+<p>But overall, Obsidian 9/10. No better way to prepare sessions and create your world.</p>
+
+<p>In the next episode, I’ll likely talk about Owlbear Rodeo, or maybe one of my own software creations. We’ll see.</p>
+
+<p>Thanks for reading, and until next time.</p>]]></content><author><name>Guido Cardinali</name></author><category term="Tabletop Role-Playing Games" /><summary type="html"><![CDATA[As you may or may not know, I call myself a software engineer. Others call me a software engineer. So, I guess that’s what I am, professionally speaking.]]></summary></entry><entry><title type="html">Tips for finding a date for your sessions</title><link href="https://www.nanday.dev/blog/tabletop%20role-playing%20games/2024/12/13/tips-for-finding-a-date-for-your-sessions.html" rel="alternate" type="text/html" title="Tips for finding a date for your sessions" /><published>2024-12-13T09:00:00+00:00</published><updated>2024-12-13T09:00:00+00:00</updated><id>https://www.nanday.dev/blog/tabletop%20role-playing%20games/2024/12/13/tips-for-finding-a-date-for-your-sessions</id><content type="html" xml:base="https://www.nanday.dev/blog/tabletop%20role-playing%20games/2024/12/13/tips-for-finding-a-date-for-your-sessions.html"><![CDATA[<p>You may be one of lucky few who don’t struggle too much to find a date for your TTRPG sessions among your players.</p>
+
+<p>Maybe you all go to the same office and can just stay for dinner there, and have fun later. (Is it still a thing in 2024?)</p>
+
+<p>Maybe you just have a weekday where everybody knows there will be D&amp;D, everybody is free and happy and nothing goes wrong.</p>
+
+<p>Or maybe you’re young and brave as I was when I had half my age, and just have endless time at your complete disposal to play together, just whenever.</p>
+
+<p>My experience is wildly different. I struggle almost every week to have everyone at the table playing, just for an evening. Life’s busy. People are busy.</p>
+
+<p>With one group, we also have worse difficulties, since, while somebody has “normal” (?) 9-5 jobs, somebody else may work until 8 pm, and somebody else even works only between 7 and 10 pm. It’s a complete mess.</p>
+
+<p>At first, I was a little happy naive DM. Every week, we would have session, and then, while leaving the building around midnight, we’d tell each other “Let’s chat on WhatsApp and plan the next one!”.</p>
+
+<p>Critical mistake.</p>
+
+<p>I’d spend the next days juggling between the players’ commitments, just like their personal non-AI assistant, to try to find a slot for our session.</p>
+
+<p>I was miserable. But I thought it was the thing a DM had to do. So I did it. Very manly, wow.</p>
+
+<p>Then I looked at all the other things I do as a DM. Prepping. Writing previous session’s summary. Re-reading player character’s background stories. Etc etc.</p>
+
+<p>And one day I sort of gave up. I gathered all the player’s weekly commitments, put them on a table. And it was obvious there would be no time slot ideal for everybody. It wasn’t only “I can’t be there on Sunday’s evening”: somebody also had the audacity to say “I’d rather not play on Sunday, I have to wake up early on Monday”.</p>
+
+<p>(Joking, of course. It’s totally understandable.)</p>
+
+<p>So, we had a good talk, and I straight up told them: “We can’t make everybody happy. There’s zero possibility. We need to make somebody unhappy each time, maybe just once a month for each of you.”</p>
+
+<p>And I presented them with a schedule! A magnificent, planned schedule of all sessions ahead, from September to December. Each week, we’d hurt (not phisically) a single player, and, if possible, we’d cross not their commitments, but the days they’d rather not play. Such as the dreaded Sunday evening above.</p>
+
+<p>Did it work? Sort of. Some commitments changed, and we had to make adjustments on the way. But having a schedule of all sessions helped tremendously. They already knew in which date they’d be busy with D&amp;D, so suddenly, instead of sessions having to juggle between players’ schedule, it was other commitments’ juggling between sessions (if priority was same or lower, of course).</p>
+
+<p>So, if just like me, you struggle with planning session dates, here’s my advice:</p>
+
+<p>Make a schedule. Do it weeks, or even months, ahead.</p>
+
+<p>If there’s not a perfect fit for everybody, arrange dates so that somebody “gives up” every time, rotating between players’ commitments.</p>
+
+<p>If a player suddenly has an issue with a pre-agreed date, it’s their responsibility, not yours, to contact everybody and try to find a different date. Otherwise, the date doesn’t change. It’s a matter of mental health. Yours.</p>]]></content><author><name>Guido Cardinali</name></author><category term="Tabletop Role-Playing Games" /><summary type="html"><![CDATA[You may be one of lucky few who don’t struggle too much to find a date for your TTRPG sessions among your players.]]></summary></entry><entry><title type="html">Players using AI to write their own character’s story</title><link href="https://www.nanday.dev/blog/tabletop%20role-playing%20games/2024/12/04/players-using-ai-to-write-their-characters-story.html" rel="alternate" type="text/html" title="Players using AI to write their own character’s story" /><published>2024-12-04T09:00:00+00:00</published><updated>2024-12-04T09:00:00+00:00</updated><id>https://www.nanday.dev/blog/tabletop%20role-playing%20games/2024/12/04/players-using-ai-to-write-their-characters-story</id><content type="html" xml:base="https://www.nanday.dev/blog/tabletop%20role-playing%20games/2024/12/04/players-using-ai-to-write-their-characters-story.html"><![CDATA[<p>Even though I live in one of the most slow countries of EU, in terms of “receptiviness to technology”, so to say, ChatGPT and the other generative “AIs” finally made an appearance at my table.</p>
+
+<p>I just started another campaign, while my main one is still going strong, with a couple of friends of a friend, plus the friend himself. During “session zero”, I introduced the good old homework every player would have to do, before starting: writing a backstory, a background, a story for their character. Call it whatever you like: just some phrases about who they are, where they’re from, etc.</p>
+
+<p>Until now, people on average sent me very unreadable messes, if they ever sent them something. Sometimes, I told them to just produce a list of highlights from their character’s past, and I’d write the “fictionalized” version for them. After writing about 4 or 5, though, I stopped . It was fun, but too much work.</p>
+
+<p>Now, both two new players told me they’d use ChatGPT. It was kind of obvious for them. I didn’t object. I mean, my opinion about ChatGPT, in terms of creative writing, is the same any amateur writer will tell you: mediocre. Mediocre, in the sense of I’d give it a 6 out of 10 probably, if I felt particularly generous.</p>
+
+<p>But what I’d usually rate my player’s backgrounds, is a solid 3. Sometimes less. I don’t know about you, but, for real, my players’ writing skills are abismal. Apart from one, who wanted to become a writer, all the others just can’t sit down and express themselves with a decent paragraph. Some of them don’t even own a PC, so they just write something with their smartphone, which I must admit is a frustrating experience at best, and then send me a screenshot of their phone. I die inside a little when I read those.</p>
+
+<p>I’m not saying I’m a good writer, by any mean. My main language is Italian, also, so you may find mistakes here and there in my writing. But maybe, just maybe, we’re all becoming increasingly incapable of writing, on average. Or maybe I’m just very unlucky. In any case, this generative “AI” won’t help much in improving ourselves with writing.</p>
+
+<p>But I digress. Some days after session zero, players sent me their ChatGPT-written backgrounds. And… they weren’t too bad, especially because they edited a couple of details to fit in my setting. Nothing extraordinary, extremely average, as only dear ChatGPT can do. But far, far better than what I usually have to read. At least, there were details, even though nothing great or very inspiring. Something I can build on.</p>
+
+<p>I have a private website for my players, with the collection of characters, NPCs, session summaries. And their character’s background story. I refused to upload what they usually sent me, and sometimes, when I received screenshots instead of text, I’d have to rewrite them anyway. So, I guess with ChatGPT I won’t have to do it any more, and can just upload them as they are. A small improvement for me, a big loss for humanity. Not that there was much left to save, in the first place.</p>]]></content><author><name>Guido Cardinali</name></author><category term="Tabletop Role-Playing Games" /><summary type="html"><![CDATA[Even though I live in one of the most slow countries of EU, in terms of “receptiviness to technology”, so to say, ChatGPT and the other generative “AIs” finally made an appearance at my table.]]></summary></entry><entry><title type="html">Taking premade adventures and making them your own</title><link href="https://www.nanday.dev/blog/tabletop%20role-playing%20games/2024/11/07/taking-premade-adventures-and-making-them-your-own.html" rel="alternate" type="text/html" title="Taking premade adventures and making them your own" /><published>2024-11-07T09:00:00+00:00</published><updated>2024-11-07T09:00:00+00:00</updated><id>https://www.nanday.dev/blog/tabletop%20role-playing%20games/2024/11/07/taking-premade-adventures-and-making-them-your-own</id><content type="html" xml:base="https://www.nanday.dev/blog/tabletop%20role-playing%20games/2024/11/07/taking-premade-adventures-and-making-them-your-own.html"><![CDATA[<p>As we’re nearing the end of the first narrative arc of my campaign, with the incoming battle with Explictica Defilus this next Sunday (I’m quite proud of the encounter I’ve prepared!), one thing came up while exploring the dungeon just before the naga’s lair.</p>
+
+<p><strong>For those of you who have never heard the name, I’m talking about the AD&amp;D module Against the Cult of the Reptile God</strong>, which is a really neat product from the 80s, and you should give it a try as a DM.</p>
+
+<p>Anyway. I didn’t really like the idea of Explictica Defilus living in the “basement” of a muddy, wet dungeon in the middle of a swamp. It’s a powerful spiritual naga we’re talking about! She must have witnessed countless civilizations come and go within centuries, or even millennia! That’s not a decent place for her lair. At the same time, I also wanted to try out one of the adventures inside Tales from the Yawning Portal, that my friends (not from my table, other friends) gifted me on my birthday (but funnily enough, I only received the book about 5 months later… long story).</p>
+
+<p><strong>So, I gave it a quick read, and decided my Explictica Defilus would be living inside the ziggurat from The Hidden Shrine of Tamoachan</strong>, an AD&amp;D adventure brought to 5e. What are you saying? It’s because it’s the only adventure fit for my PCs level? Maybe. Maybe.</p>
+
+<p>Thing is, until now, I didn’t have a real plan for Explictica, and made NPCs throughout the adventure describe her lair as an “underground lake”, as it should have been in the original module. But now, if you read The Hidden Shrine of Tamoachan, you’ll notice the adventure actually starts in the underground, and ends up in the top level of the ziggurat. Oopsie.</p>
+
+<p>So, I just decided that, on top of the ziggurat, the player would find a portal for the underground lair. It’s the only access to the lair, as far as they know, or at least, it’s the one Explictica’s cultists use.</p>
+
+<p><strong>But the thing is, if a “normal” underground dungeon, such as the one in the original module of the Reptile God, made perfectly sense, and after all, not too much explanation was needed for it (caverns with water underground, duh) … having a full ziggurat out of nowhere, in the middle of a swamp, is a bit harder to digest.</strong></p>
+
+<p>I’m lucky, in the sense that the whole setting is homebrewed by myself, so I can have some freedom that a random Forgotten Realms or Greyhawk probably wouldn’t give me. The whole ziggurat thing actually gave me very decent ideas about one missing part of my setting: where did humans come from?</p>
+
+<p>What I had written before, was that they sort of appeared by the end of the “Dwarven” era, and, united as one great tribe, battled the dwarves, who were too proud and split between different nations. Humans, led by the first king Martin I, won, made peace with the dwarves and the elves, and founded the Great Human Kingdom.</p>
+
+<p>But now, having that ziggurat, and all those ancient human gods, made me rethink the actual origin of the human species. I also thought about one of the things I most like about the Kult RPG: the idea that human beings are actually all gods, who forgot their divine nature, and are trapped in the cage of reality, where their godhood is so well hidden that they think of themselves as mere mortals without any power.</p>
+
+<p>The Tamoachan tribe was, nontheless, a primitive tribe. They had no spark of divinity in themselves. But, ancient as they were, they actually remembered those even more ancient times. The tale of their ancestors, living gods and goddesses in a city embalmed in bright light, up the highest mountain range of the whole continent, is still vivid in their imagination. They know their ancestors were gods, and lost everything, when one of them decided to pick up from the ground a red fragment, probably of a meteorite, and waged war against the elves and the ancient dragons…</p>
+
+<p>Anyway, enough with the story I imagined. The lesson here, I guess, is you can take anything you like, from books, movies, other adventures, and not only adapt it to yours, but even grab those things you like of it, and use them to fill gaps into your world.</p>
+
+<p>Back to our campaign, players started exploring the ziggurat. It took about 3 sessions overall. Actually, I decided to skip the upper two levels. Why? Things were taking too long: too big of a dungeon, too many things to see, I was getting bored.</p>
+
+<p>Also, since I put that subtitle on this article, I have to explain: at one point of the dungeon, there’s a boulder blocking the way. The PCs, joining forces, can move it a little, letting one or two of them pass. What happened is, of course, the group split. At the end of the session, they were still splitted, and one of the group wanted to sleep for 8 hours, because they had their spells depleted to survive. But the other group was just a couple of rooms away at that point: instead of letting them stay this way, and make separate sessions… and who knows what… I just told them they’d instead join with the first group first, and then rest. Yeah, a bit metagam-ish, but totally avoided some headaches for me and them.</p>
+
+<p>Anyway. The top of the Tamochoan dungeon in the original module is actually not so interesting, treasure apart. So I decided that’d be the place where the players would fight against THOKXOT, CULT’S VANGUARD! It’s an enemy NPC I totally invented, not in the original Reptile God module. And it’s also a dear enemy of my players: it actually almost TPK’ed (= total player kill, AKA party wipeout) all of them, some sessions ago. Only the warlock and the sorcerer made it back alive, thanks to Invisibility and my uttermost graceful heart.</p>
+
+<p>The roof of the ziggurat was a perfect place for an ambush to the PCs. But I gave them the chance to solve a puzzle, at the end of the ziggurat, and if they did solve it, they would have found a way to avoid the ambush, and actually ambush Thokxot and his guards themselves. Which they did!</p>
+
+<p>With them, there was Ramne, an old wizard (which I think is also in the original module). He told the PCs, just before the fight, that there’s a portal to Explictica Defilus’ lair on the roof. It’s on an altar, between the arms of a statue of a fallen angel (an angel with the wings turned into bones, representing the fall of the divinity within humans).</p>
+
+<p>He told them he’d be busy trying to seal the portal, while they had to defend him and kill Thokxot. Not an easy task.</p>
+
+<p>It was an epic fight! And the funny thing is, as soon as Ramne sealed the portal, he invoked a greater demon to fight amongside them. Of course, what happened is the demon got free of Ramne’s enchantment on the first turn, and started attacking the players. The barbarian/druid decided to enter into rage, jumped on the demon, and started to bite it. At the same time though, the demon was dismissed back into the Abyss (takes 1d6 turn after you lose control of it). The barbarian almost ended up teleported into the Abyss with the demon. Fortunately for him, Ramne managed to teleport him away just in time!</p>
+
+<p>Next session, they’ll reopen the portal again, and enter a new realm of madness. We’ll see how they manage.</p>
+
+<p>I hope reading this new post was fun, let me know your opinions in the comment section below, if you wish!</p>
+
+<p>Until next time.</p>]]></content><author><name>Guido Cardinali</name></author><category term="Tabletop Role-Playing Games" /><summary type="html"><![CDATA[As we’re nearing the end of the first narrative arc of my campaign, with the incoming battle with Explictica Defilus this next Sunday (I’m quite proud of the encounter I’ve prepared!), one thing came up while exploring the dungeon just before the naga’s lair.]]></summary></entry><entry><title type="html">I wrote a D&amp;amp;D Combat Management App</title><link href="https://www.nanday.dev/blog/tabletop%20role-playing%20games/2024/10/28/i-wrote-a-dnd-combat-management-app.html" rel="alternate" type="text/html" title="I wrote a D&amp;amp;D Combat Management App" /><published>2024-10-28T09:00:00+00:00</published><updated>2024-10-28T09:00:00+00:00</updated><id>https://www.nanday.dev/blog/tabletop%20role-playing%20games/2024/10/28/i-wrote-a-dnd-combat-management-app</id><content type="html" xml:base="https://www.nanday.dev/blog/tabletop%20role-playing%20games/2024/10/28/i-wrote-a-dnd-combat-management-app.html"><![CDATA[<h3 id="humble-beginnings">Humble beginnings</h3>
+
+<p>So, this weekend my SO went to visit her parents in Rome.</p>
+
+<p>I was home alone, and apart from our campaign’s session on Saturday, barbecue-dinner with my friends and players, and a brief walk on Sunday, I didn’t have much to do.</p>
+
+<p>One thing you should know is I’m a freelance software engineer, specialized in mobile apps. But I enjoy doing some backend here and there, and even desktop apps sometimes.</p>
+
+<p>So, after the session, I started thinking about ways to improve the flow of certain things we do while playing D&amp;D.</p>
+
+<p>One of the pain points is spell descriptions and properties. I sort of fixed that, imposing players to print their own spell cards, and we’ll probably do the same with abilities, talents, etc. I also have, on my laptop’s Obsidian app (where I keep all the session notes while playing), all the descriptions of the spell. So, when the need arises, I can just press Ctrl + O, search “Magic missile” and open the spell description. I’d rather players do it though, already too much to think about during a fight. That’s why… cards.</p>
+
+<p>Another pain point is, in my opinion, combat. Fights. I tried using Owlbear Rodeo for initiative, but I didn’t find it useful enough. For those of you who don’t know, it’s a virtual “tabletop” simulator, very barebone, but just about right for my sessions. We use a projector during fights to show everybody Owlbear Rodeo, the grid and the miniatures, and it works perfectly for us.</p>
+
+<p>But the way initiative is implemented in OR? Nah. I didn’t like it.</p>
+
+<p>So, what does a good software engineer do in these cases? Spend 10 minutes searching for a good alternative on the internet, and use it next time? Or spend the entire Sunday, morning to late night, rolling their own solution for the problem, from scratch?</p>
+
+<p>Yeah, that’s what I did. Look, it’s not the rational thing to do. I bet there are hundreds of combat management apps for D&amp;D online, much better than mine, with more features, better UI, better UX. Maybe even without bugs.</p>
+
+<p>But I don’t care. I just wanted to write my own, have it my way. Learn a thing or two, which I always do, when I embark in these projects.</p>
+
+<p>Plus, I don’t get much uninterrumpted focus time on my work, almost ever, these days. Once you reach a level of seniority in the team, people won’t just leave you alone. Not complaining though. I mean, yeah I’m complaining a bit. OK, I’m complaining a lot. I’m whining about it. But I really enjoy when I can sit down, with a good cup of hot tea, and just start hurting my keyboard like hell for hours.</p>
+
+<p>But enough talking. Here it is.</p>
+
+<p><img src="/assets/images/dnd-combat-management-app-preview.webp" alt="First draft of my D&amp;D Combat Management App" /></p>
+
+<p>First column is, simply put, the list of all combatants in the current fight. As you can see, some are editable (NPCs, monsters), others are fixed (PCs). That’s because player characters are inserted at the application’s first setup (more below), and it wouldn’t make much sense to change their names each fight.</p>
+
+<p>Second column is the initative. One nice thing I did, that I don’t usually find elsewhere, is changing the initiative automatically sorts the list, without any other button to press.</p>
+
+<p>Then there are turns: an empty slot means the turn hasn’t started yet; a cross means the turn is over; the hourglass means the character chose to delay their turn. I didn’t put an “in progress” sign, since I didn’t find it useful: it’s usually quite obvious whose’s turn it is at the moment (and yes, it’s always that player’s turn, who ponders for hours before picking… the wrong action).</p>
+
+<p>After that, there are health points. But only for non player characters. I trust my player to track their own health points!</p>
+
+<p>The “minus” button serves the scope of just inserting how much you wish to subtract from the current health points. Especially useful at higher levels. So for instance, if you press the HP (or current hp score, if you’ve already inserted it), you can directly set the current health points:</p>
+
+<p><img src="/assets/images/dnd-combat-management-app-preview-2.webp" alt="D&amp;D Combat Management App" /></p>
+
+<p>Otherwise, you can press the minus, either on the table or here, to subtract from the 560:</p>
+
+<p><img src="/assets/images/dnd-combat-management-app-preview-3.webp" alt="D&amp;D Combat Management App" /></p>
+
+<p>Longest dialog title of the Milky Way, probably.</p>
+
+<p>Then press “OK”, and the table gets updated.</p>
+
+<p>Finally, the “notes” column, for any notes to be taken, such as “Has disadvantage on hit”, etc. Those notes, for players, are also saved to disk, so that you don’t have to remember each player’s current condition or bonus between fights.</p>
+
+<p>But, let’s see the least interesting part. At the application startup, you can insert your campaign, and all the player characters.</p>
+
+<p><img src="/assets/images/dnd-combat-management-app-preview-4.webp" alt="D&amp;D Combat Management App" /></p>
+
+<p>Also, why not, create new campaigns with different PCs.</p>
+
+<p><img src="/assets/images/dnd-combat-management-app-preview-5.webp" alt="D&amp;D Combat Management App" /></p>
+
+<p><img src="/assets/images/dnd-combat-management-app-preview-6.webp" alt="D&amp;D Combat Management App" /></p>
+
+<p>and then switch to the Fight! tab and create a combat.</p>
+
+<p><img src="/assets/images/dnd-combat-management-app-preview-7.webp" alt="D&amp;D Combat Management App" /></p>
+
+<p><img src="/assets/images/dnd-combat-management-app-preview-8.webp" alt="D&amp;D Combat Management App" /></p>
+
+<p>Yeah, UI and UX are not great, I’m just a software engineer. Designing things is a bit too much for me, especially when I’m just making a hobby project such as this.</p>
+
+<p>For colleagues: I used Flutter/Dart, and at the moment it’s only compatible with Windows, but it can easily be deployed to almost any native platform. Although I’d have to probably rework something about the table for mobile, unless I’m forcing the user to use it landscape.</p>
+
+<p>Deploying it to a web page should technically work. But I’d have to see how I can access some persistent storage, probably cookies wouldn’t be persistent enough!</p>
+
+<p>Anyway, that’s it. I’ll let you know this weekend, as soon as I have the chance to try it out. Maybe one day I’ll publish it. Not for free, HEHEHEHE. Ok, maybe free with a donation.</p>
+
+<p>Should you have any question, suggestion, rant, whatever, please write in the comments below.</p>
+
+<p>Until next time folks!</p>]]></content><author><name>Guido Cardinali</name></author><category term="Tabletop Role-Playing Games" /><summary type="html"><![CDATA[Humble beginnings]]></summary></entry><entry><title type="html">My history with TTRPGs</title><link href="https://www.nanday.dev/blog/tabletop%20role-playing%20games/2024/10/26/my-history-with-ttrpgs.html" rel="alternate" type="text/html" title="My history with TTRPGs" /><published>2024-10-26T09:00:00+00:00</published><updated>2024-10-26T09:00:00+00:00</updated><id>https://www.nanday.dev/blog/tabletop%20role-playing%20games/2024/10/26/my-history-with-ttrpgs</id><content type="html" xml:base="https://www.nanday.dev/blog/tabletop%20role-playing%20games/2024/10/26/my-history-with-ttrpgs.html"><![CDATA[<h3 id="humble-beginnings">Humble beginnings</h3>
+
+<p>I’ve been playing TTRPGs for quite some years. Can’t remember the exact year, but D&amp;D 3.0 had just came out, so I guess it was 2000 or so.</p>
+
+<p>It all started in summer break. Here in Italy, there’s only one gigantic vacation during the school year (apart from some days off here and there, due to national festivities), and it lasts 3 months: mid-June to mid-September. So, my parents had to scramble to find a way to fill my days with something, and have somebody watch me over, I guess.</p>
+
+<p>That year, they heard a travel agency was taking all kids together, for a couple of weeks, and bringing them to a remote place in the middle of nowhere in central Italy, nearby a mountain lake, in a big hotel. There, they would attend English lessons with native teachers, and also play sports, swim, etc.</p>
+
+<p>Having my kids out of my house for 2 whole weeks, day and night, plus them learning English? SIGN ME UP! No, wait, sign THEM up! my parents must have thought, and that’s how I ended up in “Parco del Lago” (= Lake Park) hotel in July, with a bunch of other pre-teenagers from all around Italy.</p>
+
+<p>I went twice to those experiences, and my feelings now are… mixed, especially on that first time I went. But one good thing came out of it: I was introduced to D&amp;D by a group of nerdy kids there!</p>
+
+<p>We played this kind of extremely barebone 3.0 ruleset, where you only had to get a 16 on the d20 dice to hit monsters, no matter your class, abilities or whatever, no roleplaying at all, just dungeon crawling and boss fights. The DM had a PC-NPC he nurtured like a baby bird (I can still remember the name: Salomon), and the last time I played during that vacation, was when we fought a minotaur boss. We got lucky with dices, defeated it quickly, and, in the cheering, I dared say loud: “Oh wow, that was easy!”. The DM of course took it as a personal offense, resurrected the minotaur, and proceeded to kill my best (for the vacation) friend’s PC. Of course, that same friend blamed me for it. Since I strongly disagreed, we didn’t make peace before departing. Oh well.</p>
+
+<p>In the hotel, there was also another D&amp;D group, which was playing more by the rules. I was talking to the DM once, who told me he regretted giving his players too many magic items. So, I suggested «Hey, why don’t you make them end up in the middle of some lake, or sea, and sink their ship, so they have to drop those armors and weapons to survive?». I guess I already had the little (bastard) soul of a DM in myself.</p>
+
+<p>Ah, good times.</p>
+
+<p>Anyway, after that experience, I came back home and told my parents «I WANT TO PLAY D&amp;D!», and they dutifully went to the library and bought… the DM’s guide. Nice, but not the first thing I needed.</p>
+
+<p>I bought the PHB some times after, and even the monsters’ manual. Thing is, I didn’t find a group to play with, in my hometown. And I was too introverted to propose it to anyone. So, for a while, those books just sit there, taking some dust.</p>
+
+<h3 id="resurrection-of-the-hobby">Resurrection of the hobby</h3>
+
+<p>But around 2005 or so, as I was in high school, I heard a couple of my classmates talk about mages and spells. My eyes went wide. It was D&amp;D! Dungeons &amp; Freakin’ Dragons! Took some courage… a lot of courage, actually… did I already mention I’m introverted?… and went to them, asking to join the group!</p>
+
+<p>They sort of agreed to let me in. Couple of days later, we met with the others, and started playing. D&amp;D 3.5 had came out, so my manuals were outdated, and being a poor-as-a-teenager teenager, I didn’t buy any more. Our DM had them, and I guess it was enough. No setting books, no adventure books, nothing. Just the good old 3 PHB, DMG and MM. A lot of imagination, and most of all, plenty of time.</p>
+
+<p>Things went OK for a while. I DMed a couple of short campaigns. We just swapped after some months, when the current DM got tired of prepping sessions.</p>
+
+<p>Unfortunately, things went south with the group after some years. Won’t enter into details: people are shit, sometimes.</p>
+
+<h3 id="university-years">University years</h3>
+
+<p>Because of me being introverted, losing my only group of friends, etc, as soon as I finished high school, I asked my parents to let me attend university in Bologna, around 2 hours of train from my hometown. Just wanted to reset and restart, I guess. They agreed.</p>
+
+<p>As I learnt those years in Bologna, putting physical distance between you and the place you feel deprived you of your joy… doesn’t always work, if the reason you’re unhappy comes with you.</p>
+
+<p>But I digress. During university, I found an ad in a university board about a group looking for D&amp;D players. Another good amount of courage after, I went and played with them. They were all a bit older than me, students of at least 2 or 3 years of tenure. But we played for some sessions, and it went well! Until… we found out the DM only played with us to seduce one of the players, and after succeeding and becoming her boyfriend, he took a silly argument between a player and two others as a good reason to end the campaign. Spoiler: it wasn’t.</p>
+
+<p>So, D&amp;D was over again, for me at least.</p>
+
+<p>Meanwhile, a lot went on and changed with my life. I ended up in Rome, attending another university. Here I made some friends at least, with the aid of my currently best friend, whom I met online roleplaying in Neverwinter Nights 2.</p>
+
+<p>We had a good time. I also discovered quite a lot of different TTRPGs than D&amp;D. We had good long campaigns of Sine Requie for instance. It’s a great Italian TTRPG about undead rising in 1944 during the WWII, and the world taking a whole different direction, with most of it being “Terre perdute” (= Lost lands) where you can only find undeads and rubbles, Italy becoming a Pope-ruled sort of modern-medieval society (“Sanctum Imperium”), Germany founding the IV Reich, etc.</p>
+
+<p>But we also discovered Kult, a sweden game I absolutely encourage you to explore (current edition is called Kult: Divinity Lost) and gave me a lot of narrative ideas for my current D&amp;D homebrew setting.</p>
+
+<p>For some time, I also came back to my hometown, due to family reasons. And while in Rome I mostly played as a PC, apart from some smaller D&amp;D campaigns, here I mastered a long, very appreciated campaign of Sine Requie, in the Sanctum Imperium setting. It was epic. The thing I remember most, is taking a premade oneshot, making one enemy NPC (an old woman who killed townsfolk, tore them to pieces, boiled them and made soap bars with their remnants) survive, and using her as the final boss of the campaign. But since she had become so powerful, the last session my players dropped their characters, and used pregenerated character sheets with some of the most important templar NPCs from the setting. They didn’t expect it, and it was spectacular.</p>
+
+<h3 id="the-real-campaign-boss-covid-19">The real campaign boss: COVID-19!</h3>
+
+<p>Up to this moment, all the campaigns I mastered or was a player in, were in-person plays. I mean, yeah, playing online was a sort of possibility, but almost unheard of, in Italy. Same thing for remote working.</p>
+
+<p>In 2020, as you all may know, Covid came. Italy was especially hit, both by the infection, and by the painfully under-staffed and under-funded state of Italian national health service. So, from March 2020 to June, the country was completely shutted down. I was one of the lucky ones, being a software engineer: I resumed working, from home, and my job was especially busy (I worked in a portable spirometry devices manufacturer… business was booming with Covid).</p>
+
+<p>But all the roleplaying halted. We tried resuming online, via Discord, but people didn’t have proper microphones, used very shitty webcams, and while playing we heard through our headset the whole house (brothers, sisters, parents, grandparents) instead of the only person playing with us. Also, I already stared at a screen for about 12 hours per day, going back to a call after dinner was hard.</p>
+
+<p>After a couple of times, I proposed to stop, and everyone agreed.</p>
+
+<p>So, Covid-19 was a mess for my TTRPG hobby. Even when Italy slowly tried returning to a sort of “normal” state of affair, it wasn’t in fact normal at all. Newspapers and media had shown us, for months, hospitals full of dying people. The infamous video of army’s vehicles in Bergamo, bringing hundreds of corpses of those who died of Covid-19 out of the hospital back in March 2020, was still vivid. Staying hidden in our homes for three months had imposed a heavy toll on our social minds.</p>
+
+<p>I mean, it worked. I only caught Covid once, in 2021, after the vaccine, and it passed like nothing.</p>
+
+<p>But, mentally speaking, it changed a lot. We couldn’t resume playing TTRPGs as before, even after the vaccine. We didn’t really fear for ourselves: it was for our elderly people, parents and granparents.</p>
+
+<p>And even when, in 2022 onward, it seemed like there was normality back in the streets, too much time had passed, and nobody proposed to resume our campaigns. Habits had changed, at that point.</p>
+
+<h3 id="our-bright-present">Our bright present</h3>
+
+<p>My life had another turning point. As I said, I started working remotely during the pandemic, as we all did back in 2020. But, unlike almost everybody I know, I never stopped. Actually, my previous employer tried to force me, a couple of times. At the second time though, I just showed them the middle fing… I mean, I respectfully resigned, and went the freelancing / contractor way.</p>
+
+<p>But I was still living in Rome, one of the most expensive city in Italy. Probably second, just after Milan. So, after a while, it didn’t really make sense to pay the exorbitant rent I was paying. I kept doing it for a while, living with my S.O., since she was working a normal office job (1 hour 30 minutes commute each way, every day… she really had patience, at the time).</p>
+
+<p>In 2023 though, we had an opportunity to move back to my hometown. And after thinking, and thinking, and thinking, we said yeah, why not. Moving was slow and painful, as it always is. Especially because, since I started playing again (before the pandemic, at least), I now could afford buying books. And so I did, collecting all D&amp;D 5e books, and then some more from some other games (Sine Requie, Kult, …). I regret not buying 3e and 3.5e books at the time, and still look them up from time to time on eBay, wishing they didn’t cost 150€ each now.</p>
+
+<p>But I digress. We moved, and back here in my hometown, after some months of IKEA trips and spending to my last dime to finish our new home… it was time to play again!</p>
+
+<p>I evoked my old group (not the high school one) and they all agreed to play again. The campaign started in May 2024, and is still going strong today (October 2024).</p>
+
+<p>What I didn’t mention is, although I haven’t played in the last years, I had some free time. And I invested some of that in writing my own setting. It started as a D&amp;D setting, but I don’t have almost any statistics for NPCs, just hundreds of pages of lore, setting, history, etc., so I guess it can be adapted to any fantasy pseudo-medieval game.</p>
+
+<p>What I’d like to do, is introduce to you this setting, from time to time. If it looks interesting or inspiring to you, I’ll continue to do it.</p>
+
+<p>Anyway, we’re playing in this setting right now. I’m not really in any way pushing the setting and the lore into our game: as some DM said some time in the past, probably Matt Colville, just let the story of your PCs intertwine with the setting, and they’ll get interested in it. More on that in another post, this one was long enough.</p>
+
+<p>I’ll see what else I’d like to publish in the next days. We’ll see.</p>
+
+<p>Thanks for reading, and until next time, I guess!</p>]]></content><author><name>Guido Cardinali</name></author><category term="Tabletop Role-Playing Games" /><summary type="html"><![CDATA[Humble beginnings]]></summary></entry><entry><title type="html">Why investing shouldn’t be boring</title><link href="https://www.nanday.dev/blog/personal%20finance/2023/05/19/why-personal-finance-shouldnt-be-boring.html" rel="alternate" type="text/html" title="Why investing shouldn’t be boring" /><published>2023-05-19T12:48:00+00:00</published><updated>2023-05-19T12:48:00+00:00</updated><id>https://www.nanday.dev/blog/personal%20finance/2023/05/19/why-personal-finance-shouldnt-be-boring</id><content type="html" xml:base="https://www.nanday.dev/blog/personal%20finance/2023/05/19/why-personal-finance-shouldnt-be-boring.html"><![CDATA[<h3 id="vwce--chills-down-my-spine">VWCE &amp; Chill…s down my spine</h3>
 
 <p><strong>I’ve been moderator of an Italian subreddit about personal finance</strong> for the last five years. It is the Italian subreddit <a href="https://reddit.com/r/ItaliaPersonalFinance" target="\_blank">r/ItaliaPersonalFinance</a>, and as you can guess, it is about the broad topic of personal finance.</p>
 
@@ -148,160 +438,4 @@ People <strong>can</strong> and absolutely <strong>will</strong> lose money when
 
 <p>I’ll admit I’m too sedentary in this regard, and that probably having a week of just “going away” here and there would even benefit me. The thing is though, I don’t agree with the concept of vacations being escapes from reality. I think it’s misleading and overall sad, especially when the reality of your life is actually improveable. Maybe one day I’ll enjoy taking more time off, or even travelling while working, as it looks like a common thing now (for those of you who are Italian, <a href="https://www.youtube.com/@Giuseppe.Funicello">check out Giuppi’s channel about being a digital nomad</a>).</p>
 
-<p>Until then, I’ll stick to my true self and enjoy life as it is. With few, short trips. My two parrots will thank me for being present!</p>]]></content><author><name>Guido Cardinali</name></author><category term="Thoughts" /><summary type="html"><![CDATA[As weird as it may sound, I don’t like travelling.]]></summary></entry><entry><title type="html">About ‘growing’ up</title><link href="https://www.nanday.dev/blog/thoughts/2023/01/05/about-growing-up.html" rel="alternate" type="text/html" title="About ‘growing’ up" /><published>2023-01-05T22:52:50+00:00</published><updated>2023-01-05T22:52:50+00:00</updated><id>https://www.nanday.dev/blog/thoughts/2023/01/05/about-growing-up</id><content type="html" xml:base="https://www.nanday.dev/blog/thoughts/2023/01/05/about-growing-up.html"><![CDATA[<p>Just a little thought before going to bed.</p>
-
-<p><strong>Every moment of our life, we usually think we’re smarter than our self from a year ago</strong>. There’s so much information/philosophy/life advice we try to digest, and elaborate, that sudden realizations make us rethink a lot about our choices and our approach, about once every few months.</p>
-
-<p>But the reality probably is, our brain has a limited RAM. That RAM can’t really expand, so at any given moment, we’re holding an amount of gigabytes of “life philosophy” that drive us, but when more of that stuff wants to enter in the RAM, the oldest data just ends up garbage collected. So, instead of improving our life with more and more data, what we’re probably doing is <strong>forgetting the oldest, less impactful thoughts we had, to replace it with new ones</strong>.</p>
-
-<p>We like to think we’re <em>wiser</em> than an year ago.</p>
-
-<p>But the reality probably is that we’re just <em>different</em>.</p>]]></content><author><name>Guido Cardinali</name></author><category term="Thoughts" /><summary type="html"><![CDATA[Just a little thought before going to bed.]]></summary></entry><entry><title type="html">Being a freelancer in the work-from-home era</title><link href="https://www.nanday.dev/blog/career/2023/01/04/being-freelancer-work-from-home-era.html" rel="alternate" type="text/html" title="Being a freelancer in the work-from-home era" /><published>2023-01-04T19:34:08+00:00</published><updated>2023-01-04T19:34:08+00:00</updated><id>https://www.nanday.dev/blog/career/2023/01/04/being-freelancer-work-from-home-era</id><content type="html" xml:base="https://www.nanday.dev/blog/career/2023/01/04/being-freelancer-work-from-home-era.html"><![CDATA[<p>As you may know, <strong>in January 2022 I left my previous full-time employee job as a software engineer</strong>, and opened a “partita iva” (VAT number), effectively becoming a proper, self-employed individual.</p>
-
-<p>Since then, I’ve had 5 clients so far, some for shorter projects, some for longer term engagements. I’m currently still working for the last one, and will probably still be until the end of February (after that, who knows!).</p>
-
-<p><strong>2022 has gone really well in this regard</strong>, making up for investments which have not shone at all..</p>
-
-<p>I’ll recap the route that brought me here where I am today - feel free to skip some sections if they bore you.</p>
-
-<h3 id="what-made-me-take-the-plunge">What made me take the plunge</h3>
-
-<p><strong>Going the freelance route isn’t a new thing for me</strong>. Actually, aside from a period of “confusion” in my life, in which I did an internship for a Chinese travel agency both in Beijing and Rome, my work life began as a freelancer back in December 2016. So, this probably helped with the transition in the first place.</p>
-
-<p>Then, there’s the motivation behind it, of course. When I left my previous freelance life, in January 2019, I did it for many reasons, but two were the most important:</p>
-
-<ol>
-  <li>A really good economic offer from the company I was collaborating with, as a freelancer;</li>
-  <li>A great team to work with.</li>
-</ol>
-
-<p>While the first one faded quickly (curse you, hedonistic adaptation!), being in a great team lasted longer, and actually never changed.</p>
-
-<p>A lot happened during those 3 years - I won’t enter into the details, in this post. What matters is, <strong>I realized I could have endured all the changes that we went through, as a team</strong>. I could have just smiled and nodded, when facing the hard truth that <strong>as an employee, sometimes you have zero power over your work</strong>, unless you decide to leave.</p>
-
-<p><strong>But I just couldn’t</strong>. I was very close to leaving the company actually, around February 2020. Then Covid happened. Everybody braced for very hard times ahead, and having a job was a good place to be.</p>
-
-<p>This is the moment when the whole world experienced working from home. Some of you may have struggled with that change; some have mixed feelings. I actually felt <strong>GREAT</strong>. I picked it up immediately, and embraced it. Being able to work from home was a revelation for me.</p>
-
-<p>But then, the hard Italian state-wide lockdown ended. Life changed. After an initial hesitation, everybody from the company was called back into the office 5/5 days, with less than 24 hours notice. I stupidly complied, without even moaning. <strong>I was miserable</strong>. All the issues we had at the beginning of 2020, now mixed up with this forced work from the office.</p>
-
-<p>I’ll cut this short. In the end, for one reason or another, I was always looking for a change from that job. Apart from some smaller periods in which I even felt I could stay there longer term - brief illusions of freedom before the next thing happened - I was already mentally on my way out since 2020.</p>
-
-<p>In June 2021, <strong>I actually sent my resignation letter</strong>. I had found an opportunity to work from home for a UK company. Yet, management convinced me of staying, with an economic incentive, responsibilities, and the possibility of working from home. I think it was the right thing to do at the time - but I’ll expand on this in a future post.</p>
-
-<p>As you may imagine, the illusion of staying there and fixing what wasn’t working only lasted for a while, before I left at the end of the year. Leaving the team, and the company, was hard. I’m not fit for goodbyes, or for keeping in touch with people in general. Since they didn’t find a replacement, and I gave a short notice, I agreed to stay as a part-time contractor with them for some months.</p>
-
-<p>Summing up, <strong>I’m fairly convinced now of one thing: I just can’t bear the downsides of being an employee</strong>. To be a good employee, you need some qualities I’m probably lacking. I’m proactive, scrupulous, but I also want to have agency in what I do, if I care for a product. I want to be autonomous. Maybe I was just unlucky with the work environment, who knows. But this is material for yet another post.</p>
-
-<h3 id="so-what-happened-in-2022">So, what happened in 2022?</h3>
-
-<p>At the beginning of 2022, the software engineer’s work landscape was still quite “hot”. Finding a gig was almost trivial. I picked up a smaller engagement, in which I was solo developing a proof of concept for an Android app. I loved working on it.</p>
-
-<p>Then, <strong>I found myself working for <a href="https://www.angi.com" target="\_blank">Angi.com</a> as an Android software engineer contractor</strong>. The team in which I ended up was great. Shoutout to Nathan, my manager, who was just transitioning from being a lead developer to his new role. Really chill, competent guy, with 10 years of Android development on his back. And shoutout to my team too.</p>
-
-<p>Unfortunately, it only lasted some months. The company wasn’t in great financial shape, and all contractors from the team were let go, including me.</p>
-
-<p>Summer came, and also the contract with my previous employer ended. What followed was an unprecedented period in my life: I had earned quite a good amount in the last months, and I wasn’t really in need of finding another contract for a while. <strong>Heck, I could even stop working for 2022</strong>! In hindsight, it lasted too little, for my own choices. After a couple of months developing my own projects, I felt some inner, irrational fear of being pushed out of the workforce by my own choices - the fear that I could not find another contract any time soon, since fears of a recession was looming.</p>
-
-<p>Of course, finding another contract was pretty easy (not as easy as January, but still) and by the end of August I was back to business. Since then, I’ve been working in a quite chill team, with competent team leaders, and I’m pretty happy about it. But as I said, it wasn’t really necessary. Could have just waited until now: some less money in my bank accont, but a lot of time to pursue my projects - and <a href="www.spookyparrots.com" target="\_blank">Spooky Parrots</a>!</p>
-
-<h3 id="what-about-the-financial-aspects">What about the financial aspects?</h3>
-
-<p>From a fiscal point of view, I’m in a flat-tax special regime in Italy called “Partita iva forfettaria”. It’s lightly taxed, with very little paperwork and bureaucracy, but comes at the cost of having a hardwired limit on your annual gross revenues. I achieved getting close to that limit, without exceeding it, so I take it as a win.</p>
-
-<p>This is yet more material for another post: let’s just say it’s not convenient, unless you can reach very high revenues, to leave this flat-tax regime. At least for now, I won’t push towards that direction: this is a pretty comfy place to be, and I also have the financial excuse not to overwork during the year, and take some well earned rest periods. <strong>Burnout in our field is real</strong>, especially for contractors, and <strong>especially for me</strong>, since I tend to be very obsessed by finding solutions for problems, and not moving from my chair until “that issue is fixed” or “that feature is implemented”. So, long live the “partita iva forfettaria”!</p>
-
-<h3 id="what-are-the-differences-between-being-an-employee-and-a-freelancer">What are the differences between being an employee and a freelancer</h3>
-
-<h4 id="in-my-day-to-day-job">In my day-to-day job</h4>
-
-<p><strong>It really depends on what kind of freelancer you are</strong>. The bigger part of my revenues, for instance, are made of daily contracting for a company. That’s to say, I’m paid a flat fee for each day of work, expected to work about 8 hours every day and ship features and bugfixing in a larger team. Not that different from being an employee, from that perspective. Usually those contracts last some months, and give you some peace of mind, although you can’t really stack them with other contracts of the same type. I mean, <a href="https://www.reddit.com/r/overemployed/" target="\_blank">it looks like some people do it</a>, but I don’t even want to think about the implications and the possibility of burning out quickly, so thanks, but no thanks.</p>
-
-<p><strong>What you can stack though is one-off gigs, as a proper freelancer</strong>. Those jobs are usually for smaller companies, or even individuals, in which you agree to build a certain app/service/feature for a given amount of money. I tend to avoid them, unless I know really well the client and their needs. There’s a reason estimates are hard - and estimating my effort while signing a contract which clearly states I won’t get more than X money, no matter how many hours per day I’ll push into the job, isn’t easy. Also, getting paid with these projects is harder. Another post will come with tips, and the issues I encountered which (alas) made me discover those tips.</p>
-
-<h4 id="financially-speaking">Financially speaking</h4>
-
-<p>I’m paid more than I was as an employee, of course, but with less certainty. Apart from a vague threat of taking somebody to court, should they not pay, <strong>there isn’t much that forces your clients to pay the bills</strong>. It’s all about relationships: if you do a good job, in software engineering there’s almost always need for further developments, so clients will tend to pay you. Not always on time though: your bill always comes after paying salaries, in a hierarchical perspective.</p>
-
-<p>Another point is I’m left alone with my pension planning (I’m still contributing to the mandatory pension, but a lot less, and I’m not sure I’ll ever see that money again…), and there’s no “TFR”, which is a sort of Italian “severance” pay. In Italy TFR is mandatory, paid at the end of your employment (no matter the reason you left the company), and consists of about one month salary per year of employment, with some interests accumulated based partially on inflation. There’s no such thing for a contractor of course, so it has to be counted.</p>
-
-<p>If I get ill and can’t work, I’ll simply won’t be paid as long as the illness lasts. Same thing goes for vacations. In general, what I found out is you have much more freedom on how many days to take off: since those days off are not compensated, it’s easier for the client to just let you take your time when needed. Of course, with moderation, or you may end up replaced. And <strong>replacing you, from a bureaucratic point of view, is way, way easier than an employee</strong>.</p>
-
-<h4 id="what-about-freedom">What about freedom?</h4>
-
-<p>More freedom, but <strong>not the Nirvana employees may imagine</strong>. A lot of responsibility attached to that. Take the wrong steps, and you may end up in a bad place. Just consider you’re not legally shielded from your clients, and since you’ve not incorporated, your own assets are on the line when things go south. You’ve been warned.</p>
-
-<h3 id="but-work-from-home">But, work from home?</h3>
-
-<p>Ah, yes. Since the pandemic, almost all freelancers in software engineering just work from home. It was partially true even before, but some companies made those contractors come in the office to join their employees. Since 2020, not any more. <strong>Everybody and their mother work from home now</strong>. Italy seems a bit behind on that from what I see, but I had no opportunities as a contractor thrown at me which implied going even one day per week into the office. <em>It just doesn’t make sense any more, especially for freelancers</em>.</p>
-
-<h3 id="im-thinking-of-leaving-my-full-time-job-now-should-i-do-it">I’m thinking of leaving my full-time job now! Should I do it?</h3>
-
-<p>I hope I wrote quite a comprehensive “guide” in the above paragraphs, although I just reported my personal experience. But let me clear this up: your first answer should be <strong>absolutely not</strong>, unless:</p>
-
-<ul>
-  <li><strong>You really hate being an employee</strong>. Not just your current or your previous job: you have to look deep inside yourself, and realize you’re not made for this work arrangement of receiving a very safe salary and giving up your 8 hours per day to whatever it’s needed. I mean, it’s not even that different as a daily contractor!</li>
-  <li><strong>You’re financially covered</strong>. I’d never have made the leap without good savings to cover my arse.</li>
-  <li><strong>You have one or more certain opportunity ahead</strong>. Some of your acquaintances (not friends, please!) in need of your skillset, or really any kind of safe project with which to start. Even your previous employer, for a while, if you leave on good terms.</li>
-  <li><strong>You know what you’re risking</strong>. Not much to say. As a freelancer, you’re free to empower yourself and earn plenty, as well as shooting yourself in the foot and die crying - financially speaking.</li>
-</ul>
-
-<h3 id="final-words">Final words</h3>
-
-<p>Overall, I’m pretty happy of this first year:</p>
-
-<ul>
-  <li>I’ve earned quite well</li>
-  <li>I’ve worked less</li>
-  <li>I have a much greater peace of mind</li>
-</ul>
-
-<p>What I would do differently:</p>
-
-<ul>
-  <li>No need to rush looking for the next opportunity when your yearly revenues are already high: could have taken more time off</li>
-  <li>Properly written, arse-covering contracts are more important than I think</li>
-</ul>
-
-<p><strong>I’m not optimistic though. Weird times are coming ahead, with inflation, tech bubble bursting, layoffs, etc.</strong> Plus, this new life is still a bit new to me; given enough time, I know I could grow unsatisfied, and look for another change in the future. Who knows.</p>
-
-<p>Thanks for reading so far. I really hope you found some insights in my words. If not, ah, whatever.</p>]]></content><author><name>Guido Cardinali</name></author><category term="Career" /><summary type="html"><![CDATA[As you may know, in January 2022 I left my previous full-time employee job as a software engineer, and opened a “partita iva” (VAT number), effectively becoming a proper, self-employed individual.]]></summary></entry><entry><title type="html">About FIRE</title><link href="https://www.nanday.dev/blog/personal%20finance/2023/01/03/about-fire.html" rel="alternate" type="text/html" title="About FIRE" /><published>2023-01-03T07:25:10+00:00</published><updated>2023-01-03T07:25:10+00:00</updated><id>https://www.nanday.dev/blog/personal%20finance/2023/01/03/about-fire</id><content type="html" xml:base="https://www.nanday.dev/blog/personal%20finance/2023/01/03/about-fire.html"><![CDATA[<p><strong>I like FIRE</strong>. I mean, when I read about it in 2015ish, somewhere around Reddit, it seemed like a great idea.</p>
-
-<p>FIRE: Financial Independence, Retire Early. I’m not going to explain it. If you don’t know what it is about, check out <a href="https://www.investopedia.com/terms/f/financial-independence-retire-early-fire.asp">this page from Investopedia</a> and then come back.</p>
-
-<p><strong>There are only some people on Earth capable of pursuing such a dream, and in the end be happy with their choice for a long time</strong> – until they die, usually.
-But most human beings wouldn’t be able to deal with the abnormal consequences FIRE determines. For their lives would suddenly be emptied of certainties, their unspeakable freedom depressingly unenjoyable, since all their friends would be too busy working, spending money and envying them.
-Only some rational, lateral-thinking folks are going to seriously try to pursue FIRE; a very small subset of them will achieve it, given how life changes at every turn; but being frugal and smart passive-investors won’t make them good candidates for a complete FIRE life.
-<strong>Most of them would probably be better off pursuing some kind of intermediate achievement</strong>, like amassing enough wealth to pick up a part-time job, and enjoying some more degrees of freedom instead of a full-fledged, totalizing FIRE experience.</p>
-
-<p>I understand my statements may sound strong, or even wrong, for some. Let me explain.</p>
-
-<p>Most people you and I know have a job. Most people’s jobs are average, with average duties, and average salaries (of course); they usually have an idea of how much they earn, and a very vague notion of their actual spending. These people may save something, but it’s usually just a small nest ready to be depleted with the first vacation, a siny four-wheels, or a new Fabolous-Sized TV. They are bound to their wages. Being this sort of modern slave isn’t too bad after all: it’s culturally acceptable, everybody does the same, and thus very few seriously plan for alternative paths.</p>
-
-<p><strong>Now imagine their shock, when somebody, who they thought, after all, was a member of their social group, accepting their same rules and destiny, suddenly breaks free of those shackles</strong>. Imagine this person coming back from a short interview with HR to pack their stuff. “I’m done, I’m leaving.” “Oh, wow… did you find a better paying job?” “No, I’m done. For good.” “Well… you must have something lined up!” “Nothing’s lined up. Goodbye.”</p>
-
-<p>This isn’t EXPECTED. This isn’t NORMAL. This isn’t… FAIR. <strong>Congratulations, you’ve suddenly become a pariah</strong>. A lottery winner, who’s going to lose all their previous friends, their fellow mariners in perilous waters, to take an emergency motorboat to Hawaai.
-You’re a danger to the status quo. In evolutionary terms, as “The Elephant In The Brain” cleverly points out, you’re a norm violator. <strong>You just broke the unspoken rule of being a wage slave</strong>.</p>
-
-<p>Of course, you may lie. You may tell them you found another job, that gives you more “freedom”. They’re going to envy you a bit, but you’re going to stay into their social circle, just a bit farther than their center. But lying won’t help in creating lasting relationships. We’re not wired to lie to our closest peers. And guess what, probably most of your closest peers won’t pursue financial independence, now nor never.</p>
-
-<p>Let me tell you, <strong>loneliness isn’t for everyone</strong>. Now imagine: you live a life of frugality and giving up, just to find yourself devoid of friends and people with whom to speak. Is it really desirable? Plus, don’t forget you’re not even in possession of a fat bank account to buy back some of that entertainment. I mean, you have it, but you can’t spend it, otherwise your dream is going to be shattered in a matter of months.</p>
-
-<p>I’m not saying you’re doomed to fail, or that nobody at all should pursue FIRE. But well before starting to cut expenses and fill spreadsheets, there should be a solid plan in place. You should probably embark on this journey with someone else – and I’m talking about a friend, a close one, with whom life won’t change after FIRE, apart from seeing him/her more often. I wouldn’t recommend a partner – should something break your relationship, your FIRE plan would probably blow up too.</p>
-
-<p>Know your limits as a human being. Don’t underestimate the power of shame, of culture, of being in a society. Your FIRE plan must be sustainable under all aspects:</p>
-
-<ul>
-  <li>Financially (of course)</li>
-  <li>Socially</li>
-  <li>Psychologically
-    <ul>
-      <li><em>Do I have at least some friends who would totally accept me being unemployed and financially independent, and still frugal?</em></li>
-      <li><em>Do I have at least a friend who would join me in this journey?</em></li>
-      <li><em>Does my SO understand and accept?</em></li>
-      <li>Etc…</li>
-    </ul>
-  </li>
-</ul>
-
-<p>Without those basics covered, FIRE is not something I’d pursue, not now, not ever.</p>]]></content><author><name>Guido Cardinali</name></author><category term="Personal finance" /><summary type="html"><![CDATA[I like FIRE. I mean, when I read about it in 2015ish, somewhere around Reddit, it seemed like a great idea.]]></summary></entry></feed>
+<p>Until then, I’ll stick to my true self and enjoy life as it is. With few, short trips. My two parrots will thank me for being present!</p>]]></content><author><name>Guido Cardinali</name></author><category term="Thoughts" /><summary type="html"><![CDATA[As weird as it may sound, I don’t like travelling.]]></summary></entry></feed>

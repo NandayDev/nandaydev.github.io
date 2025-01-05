@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1"><!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>I wrote a D&amp;D Combat Management App | NaNDay.dev Blog</title>
+<meta name="generator" content="Jekyll v3.10.0" />
+<meta property="og:title" content="I wrote a D&amp;D Combat Management App" />
+<meta name="author" content="Guido Cardinali" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Humble beginnings" />
+<meta property="og:description" content="Humble beginnings" />
+<link rel="canonical" href="https://www.nanday.dev/blog/tabletop%20role-playing%20games/2024/10/28/i-wrote-a-dnd-combat-management-app.html" />
+<meta property="og:url" content="https://www.nanday.dev/blog/tabletop%20role-playing%20games/2024/10/28/i-wrote-a-dnd-combat-management-app.html" />
+<meta property="og:site_name" content="NaNDay.dev Blog" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2024-10-28T09:00:00+00:00" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="I wrote a D&amp;D Combat Management App" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"BlogPosting","author":{"@type":"Person","name":"Guido Cardinali"},"dateModified":"2024-10-28T09:00:00+00:00","datePublished":"2024-10-28T09:00:00+00:00","description":"Humble beginnings","headline":"I wrote a D&amp;D Combat Management App","mainEntityOfPage":{"@type":"WebPage","@id":"https://www.nanday.dev/blog/tabletop%20role-playing%20games/2024/10/28/i-wrote-a-dnd-combat-management-app.html"},"url":"https://www.nanday.dev/blog/tabletop%20role-playing%20games/2024/10/28/i-wrote-a-dnd-combat-management-app.html"}</script>
+<!-- End Jekyll SEO tag -->
+<link rel="stylesheet" href="/blog/assets/main.css"><link type="application/atom+xml" rel="alternate" href="https://www.nanday.dev/blog/feed.xml" title="NaNDay.dev Blog" /></head>
+<body><header class="site-header" role="banner">
+
+  <div class="wrapper"><a class="site-title" rel="author" href="/blog/">NaNDay.dev Blog</a><nav class="site-nav">
+        <input type="checkbox" id="nav-trigger" class="nav-trigger" />
+        <label for="nav-trigger">
+          <span class="menu-icon">
+            <svg viewBox="0 0 18 15" width="18px" height="15px">
+              <path d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.032C17.335,0,18,0.665,18,1.484L18,1.484z M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.032C17.335,6.031,18,6.696,18,7.516L18,7.516z M18,13.516C18,14.335,17.335,15,16.516,15H1.484 C0.665,15,0,14.335,0,13.516l0,0c0-0.82,0.665-1.483,1.484-1.483h15.032C17.335,12.031,18,12.695,18,13.516L18,13.516z"/>
+            </svg>
+          </span>
+        </label>
+
+        <div class="trigger"><a class="page-link" href="/blog/about/">About</a></div>
+      </nav></div>
+</header>
+<main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+
+    <header class="post-header">
+        <h1 class="post-title p-name" itemprop="name headline">I wrote a D&amp;D Combat Management App</h1>
+        <p class="post-meta"><time class="dt-published" datetime="2024-10-28T09:00:00+00:00" itemprop="datePublished">
+                Oct 28, 2024
+            </time></p>
+    </header>
+
+    <div id="toc" style="background-color: #AAAAAA44; padding-top:15px; padding-bottom:10px; margin-bottom: 15px"></div>
+
+    <div class="post-content e-content" itemprop="articleBody">
+        <h3 id="humble-beginnings">Humble beginnings</h3>
+
+<p>So, this weekend my SO went to visit her parents in Rome.</p>
+
+<p>I was home alone, and apart from our campaign’s session on Saturday, barbecue-dinner with my friends and players, and a brief walk on Sunday, I didn’t have much to do.</p>
+
+<p>One thing you should know is I’m a freelance software engineer, specialized in mobile apps. But I enjoy doing some backend here and there, and even desktop apps sometimes.</p>
+
+<p>So, after the session, I started thinking about ways to improve the flow of certain things we do while playing D&amp;D.</p>
+
+<p>One of the pain points is spell descriptions and properties. I sort of fixed that, imposing players to print their own spell cards, and we’ll probably do the same with abilities, talents, etc. I also have, on my laptop’s Obsidian app (where I keep all the session notes while playing), all the descriptions of the spell. So, when the need arises, I can just press Ctrl + O, search “Magic missile” and open the spell description. I’d rather players do it though, already too much to think about during a fight. That’s why… cards.</p>
+
+<p>Another pain point is, in my opinion, combat. Fights. I tried using Owlbear Rodeo for initiative, but I didn’t find it useful enough. For those of you who don’t know, it’s a virtual “tabletop” simulator, very barebone, but just about right for my sessions. We use a projector during fights to show everybody Owlbear Rodeo, the grid and the miniatures, and it works perfectly for us.</p>
+
+<p>But the way initiative is implemented in OR? Nah. I didn’t like it.</p>
+
+<p>So, what does a good software engineer do in these cases? Spend 10 minutes searching for a good alternative on the internet, and use it next time? Or spend the entire Sunday, morning to late night, rolling their own solution for the problem, from scratch?</p>
+
+<p>Yeah, that’s what I did. Look, it’s not the rational thing to do. I bet there are hundreds of combat management apps for D&amp;D online, much better than mine, with more features, better UI, better UX. Maybe even without bugs.</p>
+
+<p>But I don’t care. I just wanted to write my own, have it my way. Learn a thing or two, which I always do, when I embark in these projects.</p>
+
+<p>Plus, I don’t get much uninterrumpted focus time on my work, almost ever, these days. Once you reach a level of seniority in the team, people won’t just leave you alone. Not complaining though. I mean, yeah I’m complaining a bit. OK, I’m complaining a lot. I’m whining about it. But I really enjoy when I can sit down, with a good cup of hot tea, and just start hurting my keyboard like hell for hours.</p>
+
+<p>But enough talking. Here it is.</p>
+
+<p><img src="/assets/images/dnd-combat-management-app-preview.webp" alt="First draft of my D&amp;D Combat Management App" /></p>
+
+<p>First column is, simply put, the list of all combatants in the current fight. As you can see, some are editable (NPCs, monsters), others are fixed (PCs). That’s because player characters are inserted at the application’s first setup (more below), and it wouldn’t make much sense to change their names each fight.</p>
+
+<p>Second column is the initative. One nice thing I did, that I don’t usually find elsewhere, is changing the initiative automatically sorts the list, without any other button to press.</p>
+
+<p>Then there are turns: an empty slot means the turn hasn’t started yet; a cross means the turn is over; the hourglass means the character chose to delay their turn. I didn’t put an “in progress” sign, since I didn’t find it useful: it’s usually quite obvious whose’s turn it is at the moment (and yes, it’s always that player’s turn, who ponders for hours before picking… the wrong action).</p>
+
+<p>After that, there are health points. But only for non player characters. I trust my player to track their own health points!</p>
+
+<p>The “minus” button serves the scope of just inserting how much you wish to subtract from the current health points. Especially useful at higher levels. So for instance, if you press the HP (or current hp score, if you’ve already inserted it), you can directly set the current health points:</p>
+
+<p><img src="/assets/images/dnd-combat-management-app-preview-2.webp" alt="D&amp;D Combat Management App" /></p>
+
+<p>Otherwise, you can press the minus, either on the table or here, to subtract from the 560:</p>
+
+<p><img src="/assets/images/dnd-combat-management-app-preview-3.webp" alt="D&amp;D Combat Management App" /></p>
+
+<p>Longest dialog title of the Milky Way, probably.</p>
+
+<p>Then press “OK”, and the table gets updated.</p>
+
+<p>Finally, the “notes” column, for any notes to be taken, such as “Has disadvantage on hit”, etc. Those notes, for players, are also saved to disk, so that you don’t have to remember each player’s current condition or bonus between fights.</p>
+
+<p>But, let’s see the least interesting part. At the application startup, you can insert your campaign, and all the player characters.</p>
+
+<p><img src="/assets/images/dnd-combat-management-app-preview-4.webp" alt="D&amp;D Combat Management App" /></p>
+
+<p>Also, why not, create new campaigns with different PCs.</p>
+
+<p><img src="/assets/images/dnd-combat-management-app-preview-5.webp" alt="D&amp;D Combat Management App" /></p>
+
+<p><img src="/assets/images/dnd-combat-management-app-preview-6.webp" alt="D&amp;D Combat Management App" /></p>
+
+<p>and then switch to the Fight! tab and create a combat.</p>
+
+<p><img src="/assets/images/dnd-combat-management-app-preview-7.webp" alt="D&amp;D Combat Management App" /></p>
+
+<p><img src="/assets/images/dnd-combat-management-app-preview-8.webp" alt="D&amp;D Combat Management App" /></p>
+
+<p>Yeah, UI and UX are not great, I’m just a software engineer. Designing things is a bit too much for me, especially when I’m just making a hobby project such as this.</p>
+
+<p>For colleagues: I used Flutter/Dart, and at the moment it’s only compatible with Windows, but it can easily be deployed to almost any native platform. Although I’d have to probably rework something about the table for mobile, unless I’m forcing the user to use it landscape.</p>
+
+<p>Deploying it to a web page should technically work. But I’d have to see how I can access some persistent storage, probably cookies wouldn’t be persistent enough!</p>
+
+<p>Anyway, that’s it. I’ll let you know this weekend, as soon as I have the chance to try it out. Maybe one day I’ll publish it. Not for free, HEHEHEHE. Ok, maybe free with a donation.</p>
+
+<p>Should you have any question, suggestion, rant, whatever, please write in the comments below.</p>
+
+<p>Until next time folks!</p>
+
+    </div><a class="u-url" href="/blog/tabletop%20role-playing%20games/2024/10/28/i-wrote-a-dnd-combat-management-app.html" hidden></a>
+</article>
+<script>
+  document.addEventListener("DOMContentLoaded", function(event) {
+
+    var level = 0;
+    var toc = "";
+    var found = 0;
+    document.querySelectorAll("h1, h2, h3, h4, h5, h6").forEach(function(el) {
+      //console.log(el);
+      if (!el.classList.contains("post-title") && !el.classList.contains("footer-heading")) {
+        found++;
+	var tag = el.tagName[1];
+	if (tag > level) {
+	  toc += (new Array(tag - level + 1)).join("<ul>");
+	} else if (tag < level) {
+	  toc += (new Array(level - tag + 1)).join("</ul>");
+	}
+	level = tag;
+	var link = "#" + el.id;
+	var text = el.innerText;
+	toc += "<li><a href='" + link + "'>" + text + "</a></li>";
+      } else {
+      	//console.log("Skip!");
+      }
+    });
+    //if (level) toc += (new Array(level + 1)).join("</ul>");
+    if (found == 0) {
+    	document.querySelector("#toc").style.display = 'none';
+    } else {
+        document.querySelector("#toc").innerHTML = toc;
+    }
+  });
+</script>
+
+
+      </div>
+    </main><footer class="site-footer h-card">
+  <data class="u-url" href="/blog/"></data>
+
+  <div class="wrapper">
+
+    <h2 class="footer-heading">NaNDay.dev Blog</h2>
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col footer-col-1">
+        <ul class="contact-list">
+          <li class="p-name">Guido Cardinali</li><li><a class="u-email" href="mailto:guido@nanday.dev">guido@nanday.dev</a></li></ul>
+      </div>
+
+      <div class="footer-col footer-col-2"><ul class="social-media-list"><li><a href="https://github.com/NandayDev"><svg class="svg-icon"><use xlink:href="/blog/assets/minima-social-icons.svg#github"></use></svg> <span class="username">NandayDev</span></a></li></ul>
+</div>
+
+      <div class="footer-col footer-col-3">
+        <p>Life, thoughts, software engineering.</p>
+      </div>
+    </div>
+
+  </div>
+
+</footer>
+</body>
+
+</html>
