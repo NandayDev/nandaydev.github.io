@@ -1,4 +1,52 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.10.0">Jekyll</generator><link href="https://www.nanday.dev/blog/feed.xml" rel="self" type="application/atom+xml" /><link href="https://www.nanday.dev/blog/" rel="alternate" type="text/html" /><updated>2025-01-05T19:13:31+00:00</updated><id>https://www.nanday.dev/blog/feed.xml</id><title type="html">NaNDay.dev Blog</title><subtitle>Life, thoughts, software engineering.</subtitle><author><name>Guido Cardinali</name></author><entry><title type="html">Travelling is nice, but it won’t make you a better human being</title><link href="https://www.nanday.dev/blog/thoughts/2025/01/05/i-dont-like-travelling-part-2.html" rel="alternate" type="text/html" title="Travelling is nice, but it won’t make you a better human being" /><published>2025-01-05T18:05:46+00:00</published><updated>2025-01-05T18:05:46+00:00</updated><id>https://www.nanday.dev/blog/thoughts/2025/01/05/i-dont-like-travelling-part-2</id><content type="html" xml:base="https://www.nanday.dev/blog/thoughts/2025/01/05/i-dont-like-travelling-part-2.html"><![CDATA[<p>Ok, after 6 posts about TTRPGs (yeah, I know, enough for now), let’s go back to an evergreen of my grumblings. <strong>Traveling!</strong></p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.10.0">Jekyll</generator><link href="https://www.nanday.dev/blog/feed.xml" rel="self" type="application/atom+xml" /><link href="https://www.nanday.dev/blog/" rel="alternate" type="text/html" /><updated>2025-02-10T13:21:40+00:00</updated><id>https://www.nanday.dev/blog/feed.xml</id><title type="html">NaNDay.dev Blog</title><subtitle>Life, thoughts, software engineering.</subtitle><author><name>Guido Cardinali</name></author><entry><title type="html">Reddit knights are dangerous</title><link href="https://www.nanday.dev/blog/thoughts/2025/02/10/reddit-knights-are-dangerous.html" rel="alternate" type="text/html" title="Reddit knights are dangerous" /><published>2025-02-10T12:11:12+00:00</published><updated>2025-02-10T12:11:12+00:00</updated><id>https://www.nanday.dev/blog/thoughts/2025/02/10/reddit-knights-are-dangerous</id><content type="html" xml:base="https://www.nanday.dev/blog/thoughts/2025/02/10/reddit-knights-are-dangerous.html"><![CDATA[<p>I’m a bit of an <em>abitué</em> on Reddit. My account is around 8 years old, and I’m a moderator of a fairly big Italian personal finance subreddit. I don’t write much, probably less than 3 comments per week nowadays.
+Still, I read quite a lot, more than I’d like to measure.
+I like lurking in career subreddits. I had my (albeit small) share of corporate and freelance adventures, and sometimes I realize I can give a heads-up to people asking for advice. Or, I guess, I like reading about others’ misfortunes and sympathizing, in a way.</p>
+
+<p>There’s a worrying trend I realized is going on at the moment, though. Especially on Italian subreddits, where career and personal finance are, due to our country’s meager finances, quite a source of frustration, especially for young people.
+That trend is commenters wishing to extend knighthood on others, and sending them on a quest to fight their friend/parent/colleague/manager/boss, because <em>it is rightful to do so</em>.</p>
+
+<p>A typical thread goes on like <a href="https://www.reddit.com/r/Avvocati/comments/1i6pd2i/contratto_determinato_scaduto_vado_al_lavoro_lo/" target="blank">this one (sorry, it’s in Italian, and was removed since, but I’ll translate it for you below)</a>.</p>
+
+<p>OP starts with:</p>
+
+<blockquote>
+  <p>Hello kind Reddit community. I have a problem. I had a temporary job, with a contract that ended last Friday. [OP is writing on Sunday].
+I was told that the contract would be renewed, and to come to work tomorrow anyway.
+What would you do? I’m lost</p>
+</blockquote>
+
+<p>So, for those of you who may not know, Italy’s bureaucracy about job contracts with employees is a mess. Employer may just communicate to the State that you’re starting to work for them on any given date, and they’d only need the fiscal code (which is a publicly available code, once you know the person’s name, surname, date and place of birth), without you signing anything beforehand.</p>
+
+<p>The first and most voted comment, is what I call a Reddit knight. If OP followed this advice, they probably found themselves in trouble, or at least made a very bad impression with their employer:</p>
+
+<blockquote>
+  <p>Tomorrow morning, wake up and check whether the contract was properly renewed. If not, YOU CANNOT ENTER THE BUILDING.</p>
+</blockquote>
+
+<p>Which yes, it is technically correct. But:</p>
+
+<ul>
+  <li><strong>Employees in Italy are overworked, almost everywhere (State workers apart)</strong>
+The agency which should have communicated the renewal, probably has a single employee, who received tens of documents to prepare by Friday evening, while already having a pile from the days before. So OP’s contract just couldn’t go through.</li>
+  <li><strong>It’s probably not a real issue</strong>
+I don’t the specific about this case, but since the Italian government knows our bureaucracy is messy, it’s usually not an issue to send the proper document some days after the start, paying a small fee.</li>
+  <li><strong>Not showing up for work, when being said to do so, due to a missing document, doesn’t look great</strong>
+I mean, yes, I totally get it. I’m probably as frustrated with our Italian <em>laissez-faire</em> as the commenter is. I’m angry that this nation doesn’t work at all as it should, because procedures are not followed and there’s often no punishment when they aren’t.
+But now imagine you’re OP’s manager. You know the agency should have prepared the renewal, but they haven’t. Maybe your accounting department didn’t pay their last invoice, and your employees’ documents are being put down the pile, who knows. You still need OP’s work. You need a flexible, smart individual. And what you get, is someone refusing to come to work unless their contract is properly renewed. Which could take days, or even the whole week.
+What do you think of this employee? Maybe, you shrug it off, give it an (angry) laugh and spend your time contacting the agency and speeding up the contract renewal, if you really need that employee and they have invaluable skills. Or maybe, you realize that renewing the contract wouldn’t be the smartest move, and that you may find someone else less annoying to come to work for you.</li>
+</ul>
+
+<p>I’m not saying it is right, or how things should work. It is far from that.</p>
+
+<p>But unfortunately, in our far-from-perfect job landscape here in Italy, the advice from the commenter was really bad.</p>
+
+<p>Fortunately enough, others commented with more conciliating proposals, and I really hope OP followed them.</p>
+
+<p>But I find this pattern repeated everywhere. Frustrated people giving advice to Reddit posters, inciting them to stand rigidly in their convintions, no matter the circumstances. To refuse friendly-but-suboptimal arrangements and pursue the purest and most rightful thing that should happen.
+And lots, lots of other frustrated users giving upvotes and visibility to those Reddit knights, whose only merit is to write in a decent way, while giving awful advice.</p>
+
+<p>The wisest thing to do, usually, would be instead to pause, breathe, and reflect on consequences.
+But there’s no room for that on Reddit, it seems.</p>]]></content><author><name>Guido Cardinali</name></author><category term="Thoughts" /><summary type="html"><![CDATA[I’m a bit of an abitué on Reddit. My account is around 8 years old, and I’m a moderator of a fairly big Italian personal finance subreddit. I don’t write much, probably less than 3 comments per week nowadays. Still, I read quite a lot, more than I’d like to measure. I like lurking in career subreddits. I had my (albeit small) share of corporate and freelance adventures, and sometimes I realize I can give a heads-up to people asking for advice. Or, I guess, I like reading about others’ misfortunes and sympathizing, in a way.]]></summary></entry><entry><title type="html">Travelling is nice, but it won’t make you a better human being</title><link href="https://www.nanday.dev/blog/thoughts/2025/01/05/i-dont-like-travelling-part-2.html" rel="alternate" type="text/html" title="Travelling is nice, but it won’t make you a better human being" /><published>2025-01-05T18:05:46+00:00</published><updated>2025-01-05T18:05:46+00:00</updated><id>https://www.nanday.dev/blog/thoughts/2025/01/05/i-dont-like-travelling-part-2</id><content type="html" xml:base="https://www.nanday.dev/blog/thoughts/2025/01/05/i-dont-like-travelling-part-2.html"><![CDATA[<p>Ok, after 6 posts about TTRPGs (yeah, I know, enough for now), let’s go back to an evergreen of my grumblings. <strong>Traveling!</strong></p>
 
 <p>Just today, I read <a href="https://www.reddit.com/r/ItaliaPersonalFinance/comments/1hu8kyi/i_viaggi_sono_inutili/" target="blank">a post on Italia Personal Finance</a> (Italian only, sorry) about travelling.</p>
 
@@ -391,64 +439,4 @@ People <strong>can</strong> and absolutely <strong>will</strong> lose money when
 
 <p>How did my algorithmic trading efforts go, by the way? Well, pretty poorly. Turns out in algo trading (as the cool kids call it), <strong>the hard part isn’t actually coding; it’s having a profitable idea which the market hasn’t already optimized away</strong>. And with my simple trading systems, after commissions and taxes, I haven’t found nothing really worthy. At the moment, I’m only passively gathering one-minute stocks data every day from a Raspberry Pi, in the hope I make use of it one day.</p>
 
-<p>Turns out maybe I should just do what I’m really good at, which is software engineering, and let dreams of passive income through trading fade away, for the time being.</p>]]></content><author><name>Guido Cardinali</name></author><category term="Personal finance" /><summary type="html"><![CDATA[Back in 2015, even before my whole professional career as a software engineer started, I became fascinated with the idea that, without even moving a single inch from my chair, I could become a profitable day-trader and just let that be my future full-time job.]]></summary></entry><entry><title type="html">Planning your life and finances: worth it?</title><link href="https://www.nanday.dev/blog/thoughts/2023/01/26/planning-life-finances-worth-it.html" rel="alternate" type="text/html" title="Planning your life and finances: worth it?" /><published>2023-01-26T07:03:00+00:00</published><updated>2023-01-26T07:03:00+00:00</updated><id>https://www.nanday.dev/blog/thoughts/2023/01/26/planning-life-finances-worth-it</id><content type="html" xml:base="https://www.nanday.dev/blog/thoughts/2023/01/26/planning-life-finances-worth-it.html"><![CDATA[<h3 id="ips-investor-policy-statement">IPS (Investor Policy Statement)</h3>
-
-<p>These days, I’m setting some time aside to write my <strong>Investor Policy Statement (IPS)</strong>, inspired by <a href="https://www.retireinprogress.com" target="\_blank">Mr.RIP</a>, an Italian blogger and content creator, and his recent update about his old IPS, <a href="https://mr.rip/ips" target="\_blank">which you can find here</a>.</p>
-
-<p>The aim of an IPS, as I intend it throughout this post, should be to plan your investments years ahead, starting from some <strong>objectives</strong>, then defining <strong>strategies</strong>, and, in the end, an <strong>asset allocation</strong>.</p>
-
-<p>For instance:</p>
-
-<ul>
-  <li><em>My objective is to reach retirement age around 65 years old with a decent safety nest of securities</em></li>
-  <li><em>My strategy is putting aside 15% of my income and investing it in both index funds (or ETFs) and hand-picked stocks/bonds</em></li>
-  <li><em>My asset allocation is 40% stock ETFs, 20% single stocks, 40% single bonds</em></li>
-</ul>
-
-<p>Mr. RIP also has a section about his philosophy of investments and investment details, but for simplicity I merged them into the strategy section.</p>
-
-<h3 id="objectives">Objectives</h3>
-
-<p>There’s only one caveat to this whole architecture: the act of starting from objectives is, to say the least, weak. <strong>I believe objectives are not an endurable asset throughout your life</strong>. Objectives mutate each year. I think Mr. RIP noticed this, since in <a href="https://docs.google.com/document/d/12ta_RURV99qFi0lxS-8Pgh5da3ee-XG9tWP1FHVST3c/edit" target="\_blank">his update to the IPS</a>, his new objectives are a lot broader and more generic than the original IPS.</p>
-
-<p>What I’m coming to realize is this: <strong>planning and having specific objectives is not worth it</strong>. Unless we’re talking about something coming up in the next year or so, thinking you can really pursue a very narrow objective for 10 or more years without rethinking it, is <em>usually</em> wishful thinking.</p>
-
-<p>At this point, the counterargument I usually hear is <em>Having an objective, and acting accordingly, is better than having none and just living day-by-day</em>. At a first reading it seems correct. A purpose gives you strength: if that purpose changes through the way, you may still have accumulated some resources (money usually) to invest it elsewhere and follow another purpose. I kind of agree about having this flexibility. But I can’t help but think that maybe, <strong>what you should have followed instead, is having that flexibility</strong>. Instead of giving yourself the illusion of an objective (“In 10 years time, I want to become financially independent!”), you could have planned something less specific, and reasonable (“In 10 years time, I want to have a good saving nest for whatever purpose I’ll find to spend part of it”).</p>
-
-<p>But I understand, at this point, life would probably be emptier. As humans, we usually need a more powerful substance to fuel our life. Chasing the dream of opening that toys store where kids will come and cheer, instead of having the generic objective of being financially safe and flexible, sounds a lot better to our ears. And yet, I think for most of us, dreams and aspirations change each year. They rarely stick in a person’s life.</p>
-
-<h3 id="happiness">Happiness…</h3>
-
-<p>Thinking in broader terms, <strong>if your purpose is being happy, that resolves to two aspects</strong>, in the end:</p>
-
-<ul>
-  <li>Pursuing what makes us happy</li>
-  <li>Avoiding what makes us unhappy</li>
-</ul>
-
-<p>And <strong>while having a very specific objective certainly fullfills number 1 greatly, it fails spectacularly at number 2</strong>. Chasing a dream is a road paved with difficulties and hardships. Doesn’t it make more sense to give up chasing a dream, and instead, just have some generic guidelines throughout your life? That way, you can still pursue happiness, while avoiding more moments of unhappiness along the way.</p>
-
-<h3 id="-or-pain">… or pain?</h3>
-
-<p>Yes. But…</p>
-
-<p>Are we really wired that way?</p>
-
-<p>This is a fundamental question. If, as human beings, we’re just built to pursue very specific dreams and fullfillment, does it even make sense to try avoiding having those dreams?</p>
-
-<p>Siddhartha Gautama, better known as the Buddha, would probably say yes. <strong>All the original buddhist philosophy (as far as I understand it) revolves around escaping Dharma, the perpetual rotating engine of desire, fullfillment and the pain it brings</strong> (and of reincarnation in a more religious sense). Escaping desire surely seems like what we’re trying to achieve here. No dreams, just guidelines.</p>
-
-<p>And yet, does it make sense? <strong>Isn’t the avoidance of pain, after all, pain</strong>? Escaping Dharma is a struggle which could be eternal. How can I escape my own very instinctual nature, without a fight so intense it will probably bleed me out of all energies?</p>
-
-<p>In the end, <strong>accepting myself and my own nature seems more reasonable</strong>. Life is struggle, life is pain. And the caveat here is, whenever I’m not struggling, my own self will suffer anyway: after a brief moment of joy, hedonism adaptation will kick in, and life will become boring in my eyes. And I shall move on again, back to another struggle. <em>“He who hesitates is lost”</em>, they say, and for good reasons. Stasis kills the self.</p>
-
-<h3 id="wrapping-up">Wrapping up</h3>
-
-<p>I may have derailed a bit here. I think, in the end, we can extract two key takeaways:</p>
-
-<ul>
-  <li><strong>Do have objectives</strong>, because that’s what your brain is wired to do, and that’s what’s going to bring you joy in the short term; but beware of the fact that those objectives will surely change, sooner rather than later;</li>
-  <li><strong>Save up resources</strong> for your objectives, current or future ones: having that flexibility will help in any case.</li>
-</ul>
-
-<p>Until next time!</p>]]></content><author><name>Guido Cardinali</name></author><category term="Thoughts" /><summary type="html"><![CDATA[IPS (Investor Policy Statement)]]></summary></entry></feed>
+<p>Turns out maybe I should just do what I’m really good at, which is software engineering, and let dreams of passive income through trading fade away, for the time being.</p>]]></content><author><name>Guido Cardinali</name></author><category term="Personal finance" /><summary type="html"><![CDATA[Back in 2015, even before my whole professional career as a software engineer started, I became fascinated with the idea that, without even moving a single inch from my chair, I could become a profitable day-trader and just let that be my future full-time job.]]></summary></entry></feed>
