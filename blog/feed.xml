@@ -1,9 +1,8 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.10.0">Jekyll</generator><link href="https://www.nanday.dev/blog/feed.xml" rel="self" type="application/atom+xml" /><link href="https://www.nanday.dev/blog/" rel="alternate" type="text/html" /><updated>2025-02-10T13:21:40+00:00</updated><id>https://www.nanday.dev/blog/feed.xml</id><title type="html">NaNDay.dev Blog</title><subtitle>Life, thoughts, software engineering.</subtitle><author><name>Guido Cardinali</name></author><entry><title type="html">Reddit knights are dangerous</title><link href="https://www.nanday.dev/blog/thoughts/2025/02/10/reddit-knights-are-dangerous.html" rel="alternate" type="text/html" title="Reddit knights are dangerous" /><published>2025-02-10T12:11:12+00:00</published><updated>2025-02-10T12:11:12+00:00</updated><id>https://www.nanday.dev/blog/thoughts/2025/02/10/reddit-knights-are-dangerous</id><content type="html" xml:base="https://www.nanday.dev/blog/thoughts/2025/02/10/reddit-knights-are-dangerous.html"><![CDATA[<p>I’m a bit of an <em>abitué</em> on Reddit. My account is around 8 years old, and I’m a moderator of a fairly big Italian personal finance subreddit. I don’t write much, probably less than 3 comments per week nowadays.
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.10.0">Jekyll</generator><link href="https://www.nanday.dev/blog/feed.xml" rel="self" type="application/atom+xml" /><link href="https://www.nanday.dev/blog/" rel="alternate" type="text/html" /><updated>2025-02-10T14:54:29+00:00</updated><id>https://www.nanday.dev/blog/feed.xml</id><title type="html">NaNDay.dev Blog</title><subtitle>Life, thoughts, software engineering.</subtitle><author><name>Guido Cardinali</name></author><entry><title type="html">Reddit knights are dangerous</title><link href="https://www.nanday.dev/blog/thoughts/2025/02/10/reddit-knights-are-dangerous.html" rel="alternate" type="text/html" title="Reddit knights are dangerous" /><published>2025-02-10T12:11:12+00:00</published><updated>2025-02-10T12:11:12+00:00</updated><id>https://www.nanday.dev/blog/thoughts/2025/02/10/reddit-knights-are-dangerous</id><content type="html" xml:base="https://www.nanday.dev/blog/thoughts/2025/02/10/reddit-knights-are-dangerous.html"><![CDATA[<p>I’m a bit of an <em>abitué</em> on Reddit. My account is around 8 years old, and I’m a moderator of a fairly big Italian personal finance subreddit. I don’t write much, probably less than 3 comments per week nowadays.
 Still, I read quite a lot, more than I’d like to measure.
 I like lurking in career subreddits. I had my (albeit small) share of corporate and freelance adventures, and sometimes I realize I can give a heads-up to people asking for advice. Or, I guess, I like reading about others’ misfortunes and sympathizing, in a way.</p>
 
-<p>There’s a worrying trend I realized is going on at the moment, though. Especially on Italian subreddits, where career and personal finance are, due to our country’s meager finances, quite a source of frustration, especially for young people.
-That trend is commenters wishing to extend knighthood on others, and sending them on a quest to fight their friend/parent/colleague/manager/boss, because <em>it is rightful to do so</em>.</p>
+<p>There’s a worrying trend I realized is going on at the moment, though. Especially on Italian subreddits, where career and personal finance are, due to our country’s meager finances, quite a source of frustration, especially for young people.</p>
 
 <p>A typical thread goes on like <a href="https://www.reddit.com/r/Avvocati/comments/1i6pd2i/contratto_determinato_scaduto_vado_al_lavoro_lo/" target="blank">this one (sorry, it’s in Italian, and was removed since, but I’ll translate it for you below)</a>.</p>
 
@@ -12,10 +11,10 @@ That trend is commenters wishing to extend knighthood on others, and sending the
 <blockquote>
   <p>Hello kind Reddit community. I have a problem. I had a temporary job, with a contract that ended last Friday. [OP is writing on Sunday].
 I was told that the contract would be renewed, and to come to work tomorrow anyway.
-What would you do? I’m lost</p>
+What would you do? I’m lost.</p>
 </blockquote>
 
-<p>So, for those of you who may not know, Italy’s bureaucracy about job contracts with employees is a mess. Employer may just communicate to the State that you’re starting to work for them on any given date, and they’d only need the fiscal code (which is a publicly available code, once you know the person’s name, surname, date and place of birth), without you signing anything beforehand.</p>
+<p>So, for those of you who may not know, Italy’s bureaucracy with job contracts is a mess. Employer may just communicate to the State that you’re starting to work for them on any given date, and they’d only need your fiscal code (which is a publicly available code, once you know the person’s name, surname, date and place of birth), without you signing anything beforehand.</p>
 
 <p>The first and most voted comment, is what I call a Reddit knight. If OP followed this advice, they probably found themselves in trouble, or at least made a very bad impression with their employer:</p>
 
@@ -26,21 +25,30 @@ What would you do? I’m lost</p>
 <p>Which yes, it is technically correct. But:</p>
 
 <ul>
-  <li><strong>Employees in Italy are overworked, almost everywhere (State workers apart)</strong>
-The agency which should have communicated the renewal, probably has a single employee, who received tens of documents to prepare by Friday evening, while already having a pile from the days before. So OP’s contract just couldn’t go through.</li>
-  <li><strong>It’s probably not a real issue</strong>
-I don’t the specific about this case, but since the Italian government knows our bureaucracy is messy, it’s usually not an issue to send the proper document some days after the start, paying a small fee.</li>
-  <li><strong>Not showing up for work, when being said to do so, due to a missing document, doesn’t look great</strong>
-I mean, yes, I totally get it. I’m probably as frustrated with our Italian <em>laissez-faire</em> as the commenter is. I’m angry that this nation doesn’t work at all as it should, because procedures are not followed and there’s often no punishment when they aren’t.
+  <li>
+    <p><strong>Employees in Italy are overworked, almost everywhere (State workers apart).</strong></p>
+
+    <p>The agency which should have communicated the renewal, probably has a single employee, who received tens of documents to prepare by Friday evening, while already having a pile from the days before. So OP’s contract just couldn’t go through.</p>
+  </li>
+  <li>
+    <p><strong>It’s probably not a real issue.</strong></p>
+
+    <p>I don’t the specific about this case, but since the Italian government knows our bureaucracy is messy, it’s usually not an issue to send the proper document some days after the start, paying a small fee.</p>
+  </li>
+  <li>
+    <p><strong>Not showing up for work, when being said to do so, due to a missing document, doesn’t look great.</strong></p>
+
+    <p>I mean, yes, I totally get it. I’m probably as frustrated with our Italian <em>laissez-faire</em> as the commenter is. I’m angry that this nation doesn’t work at all as it should, because procedures are not followed and there’s often no punishment when they aren’t.
 But now imagine you’re OP’s manager. You know the agency should have prepared the renewal, but they haven’t. Maybe your accounting department didn’t pay their last invoice, and your employees’ documents are being put down the pile, who knows. You still need OP’s work. You need a flexible, smart individual. And what you get, is someone refusing to come to work unless their contract is properly renewed. Which could take days, or even the whole week.
-What do you think of this employee? Maybe, you shrug it off, give it an (angry) laugh and spend your time contacting the agency and speeding up the contract renewal, if you really need that employee and they have invaluable skills. Or maybe, you realize that renewing the contract wouldn’t be the smartest move, and that you may find someone else less annoying to come to work for you.</li>
+What do you think of this employee? Maybe, you shrug it off, give it an (angry) laugh and spend your time contacting the agency and speeding up the contract renewal, if you really need that employee and they have invaluable skills. Or maybe, you realize that renewing the contract wouldn’t be the smartest move, and that you may find someone else less annoying to come to work for you.</p>
+  </li>
 </ul>
 
 <p>I’m not saying it is right, or how things should work. It is far from that.</p>
 
 <p>But unfortunately, in our far-from-perfect job landscape here in Italy, the advice from the commenter was really bad.</p>
 
-<p>Fortunately enough, others commented with more conciliating proposals, and I really hope OP followed them.</p>
+<p>Others commented with more conciliating proposals, and I really hope OP followed them.</p>
 
 <p>But I find this pattern repeated everywhere. Frustrated people giving advice to Reddit posters, inciting them to stand rigidly in their convintions, no matter the circumstances. To refuse friendly-but-suboptimal arrangements and pursue the purest and most rightful thing that should happen.
 And lots, lots of other frustrated users giving upvotes and visibility to those Reddit knights, whose only merit is to write in a decent way, while giving awful advice.</p>
