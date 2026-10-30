@@ -1,0 +1,38 @@
+# Guido Cardinali
+
+> Senior Android Engineer and Mobile Team Lead based in Marche, Italy, working remotely as an independent contractor. 9+ years of experience developing native Android applications and software for connected medical devices. Contact: guido@nanday.dev
+
+## Summary
+
+- Hands-on expertise in Kotlin, Java, mobile architecture, legacy modernization and automated testing.
+- Experience as an individual contributor and as Mobile Team Lead, across consumer products and spirometry/oximetry medical applications.
+- Languages: Italian (native), English (fluent).
+
+## Experience
+
+- 2022–present — Senior Software Engineer / Senior Android Engineer, independent contractor. Clients: Sisal (native Android sports-betting app; migration from XML Views to Jetpack Compose with Kotlin, Room, Coroutines, Flow), Angi.com (RxJava to Coroutines/LiveData/Flow refactoring in a 30-developer team; contractor onboarding experience), University of Toronto (Android app built from scratch integrating a Bluetooth Low Energy device).
+- 2019–2021 — Software Engineer, then Senior Software Engineer and Mobile Team Lead, MIR SpA (respiratory monitoring and medical devices). Designed mobile app architecture; introduced automated testing (~85% unit-test coverage on SDKs, ~60% on apps); led adoption of Kotlin, LiveData and Coroutines. Products: MIR Spirobank (BLE spirometry and oximetry, SpO2/BPM, WebRTC video consultations with LiveSwitch SDK), MIR Smart One (BLE spirometer, charts, FHIR/HL7 integrations).
+- 2016–2018 — Freelance Software Engineer: Android apps, WordPress websites, PHP and ASP.NET Core backends.
+
+## Skills
+
+- Android: Kotlin, Java, Android SDK, Jetpack Compose, XML Views, Room, SQLite
+- Architecture and concurrency: MVVM, modularization, Kotlin Coroutines, Kotlin Flow, LiveData, RxJava
+- Integration and quality: Bluetooth Low Energy (BLE), WebRTC, FHIR, HL7, unit testing, refactoring
+- Additional: Kotlin Multiplatform (KMP), Flutter, Dart, Riverpod, ASP.NET Core, PHP, WordPress
+
+## Personal projects
+
+- Nanday Personal Finance — Kotlin Multiplatform personal-finance app integrating financial APIs
+- Vault — password manager for Android and Windows with a self-hosted backend (Flutter, Dart, Riverpod)
+- Cosmos — personal-finance Android app with an ASP.NET Core backend on Raspberry Pi
+- Back And Forth — Android app for tracking debts and credits between friends (Kotlin, Compose, Room, Flow)
+- Condominio App — Flutter app to manage a condominium and generate meeting documents
+
+## Links
+
+- [Website](https://www.nanday.dev/)
+- [CV (PDF)](https://www.nanday.dev/files/CV-GuidoCardinali.pdf)
+- [LinkedIn](https://www.linkedin.com/in/guido-cardinali-2aba9b104/)
+- [GitHub](https://github.com/NandayDev)
+- [Stack Overflow](https://stackoverflow.com/users/9705569/guido-c)
