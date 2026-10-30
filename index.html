@@ -8,8 +8,9 @@
   <meta name="author" content="Guido Cardinali">
   <meta name="robots" content="index, follow, max-image-preview:large">
   <link rel="canonical" href="https://www.nanday.dev/">
-  <link rel="icon" type="image/png" href="icons/logo.png">
-  <link rel="apple-touch-icon" href="icons/logo.png">
+  <link rel="icon" type="image/svg+xml" href="icons/logo.svg">
+  <link rel="icon" type="image/png" sizes="512x512" href="icons/logo.png">
+  <link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
   <link rel="alternate" type="text/plain" href="/llms.txt" title="LLM-friendly summary">
   <meta name="theme-color" content="#f7f6f3" media="(prefers-color-scheme: light)">
   <meta name="theme-color" content="#141518" media="(prefers-color-scheme: dark)">
@@ -18,7 +19,10 @@
   <meta property="og:url" content="https://www.nanday.dev/">
   <meta property="og:title" content="Guido Cardinali – Senior Android Engineer &amp; Mobile Team Lead">
   <meta property="og:description" content="9+ years building native Android apps and software for connected medical devices. Kotlin, Jetpack Compose, Coroutines, BLE, FHIR/HL7.">
-  <meta property="og:image" content="https://www.nanday.dev/icons/logo.png">
+  <meta property="og:image" content="https://www.nanday.dev/images/guido-cardinali.jpg">
+  <meta property="og:image:width" content="960">
+  <meta property="og:image:height" content="960">
+  <meta property="og:image:alt" content="Portrait of Guido Cardinali">
   <meta property="profile:first_name" content="Guido">
   <meta property="profile:last_name" content="Cardinali">
   <meta name="twitter:card" content="summary">
@@ -37,6 +41,7 @@
       "jobTitle": "Senior Android Engineer",
       "description": "Senior Android Engineer and Mobile Team Lead with 9+ years of experience developing native applications and software for connected medical devices.",
       "url": "https://www.nanday.dev/",
+      "image": "https://www.nanday.dev/images/guido-cardinali.jpg",
       "email": "mailto:guido@nanday.dev",
       "address": { "@type": "PostalAddress", "addressRegion": "Marche", "addressCountry": "IT" },
       "knowsLanguage": ["it", "en"],
@@ -49,7 +54,7 @@
       },
       "worksFor": { "@type": "Organization", "name": "Independent contractor" },
       "sameAs": [
-        "https://www.linkedin.com/in/guido-cardinali-2aba9b104/",
+        "https://www.linkedin.com/in/guido-cardinali/",
         "https://github.com/NandayDev",
         "https://stackoverflow.com/users/9705569/guido-c"
       ]
@@ -108,13 +113,26 @@
     }
     header.top .wrap { display: flex; align-items: center; justify-content: space-between; height: 60px; }
     .brand { display: flex; align-items: center; gap: 10px; font-weight: 650; text-decoration: none; letter-spacing: -0.01em; }
-    .brand img { width: 28px; height: 27px; }
+    .brand svg { width: 28px; height: 28px; display: block; }
+    .brand .tile { fill: var(--text); }
+    .brand .glyph { stroke: var(--bg); }
+    .brand .dot { fill: var(--accent); }
     nav ul { display: flex; gap: 22px; list-style: none; margin: 0; padding: 0; font-size: 15px; }
     nav a { text-decoration: none; color: var(--muted); }
     nav a:hover { color: var(--text); }
     @media (max-width: 600px) { nav { display: none; } }
 
     .hero { padding: 72px 0 40px; }
+    .hero-top { display: flex; align-items: center; justify-content: space-between; gap: 32px; }
+    .portrait {
+      flex: none; width: 168px; height: 168px; border-radius: 50%; object-fit: cover;
+      border: 3px solid var(--surface); box-shadow: 0 0 0 2px var(--accent), 0 12px 30px rgba(0,0,0,.12);
+    }
+    @media (max-width: 600px) {
+      .hero { padding-top: 40px; }
+      .hero-top { flex-direction: column-reverse; align-items: flex-start; gap: 22px; }
+      .portrait { width: 112px; height: 112px; }
+    }
     .eyebrow { color: var(--accent); font-weight: 600; font-size: 14px; letter-spacing: 0.08em; text-transform: uppercase; margin: 0 0 14px; }
     h1 { font-size: clamp(36px, 7vw, 54px); line-height: 1.08; letter-spacing: -0.03em; margin: 0 0 18px; font-weight: 750; }
     h1 .role { display: block; color: var(--muted); font-weight: 500; font-size: 0.52em; letter-spacing: -0.015em; margin-top: 10px; }
@@ -187,7 +205,10 @@
 <body>
   <header class="top">
     <div class="wrap">
-      <a class="brand" href="/"><img src="icons/logo.png" alt="" width="28" height="27">nanday.dev</a>
+      <a class="brand" href="/" aria-label="nanday.dev home">
+        <svg viewBox="0 0 32 32" aria-hidden="true"><rect class="tile" width="32" height="32" rx="8"/><path class="glyph" d="M10 22V12.5M10 16.5a4.5 4.5 0 0 1 9 0V22" fill="none" stroke-width="3.2" stroke-linecap="round"/><circle class="dot" cx="24" cy="21" r="2.3"/></svg>
+        nanday.dev
+      </a>
       <nav aria-label="Sections">
         <ul>
           <li><a href="#experience">Experience</a></li>
@@ -204,8 +225,16 @@
   <main>
     <div class="wrap">
       <section class="hero" style="border-top:0" aria-labelledby="name">
-        <p class="eyebrow">Independent contractor · Available for new projects</p>
-        <h1 id="name">Guido Cardinali<span class="role">Senior Android Engineer &amp; Mobile Team Lead</span></h1>
+        <div class="hero-top">
+          <div>
+            <p class="eyebrow">Independent contractor · Available for new projects</p>
+            <h1 id="name">Guido Cardinali<span class="role">Senior Android Engineer &amp; Mobile Team Lead</span></h1>
+          </div>
+          <picture>
+            <source type="image/webp" srcset="images/guido-cardinali-480.webp 480w, images/guido-cardinali-960.webp 960w" sizes="168px">
+            <img class="portrait" src="images/guido-cardinali.jpg" alt="Portrait of Guido Cardinali, Senior Android Engineer" width="168" height="168" fetchpriority="high">
+          </picture>
+        </div>
         <p class="lead">I build <strong>native Android apps</strong> and software for <strong>connected medical devices</strong>. 9+ years of hands-on work with Kotlin, Java, mobile architecture, legacy modernization and automated testing, both as an individual contributor and as a mobile team lead.</p>
         <ul class="meta">
           <li>Marche, Italy · remote</li>
@@ -213,7 +242,7 @@
         </ul>
         <div class="actions">
           <a class="btn primary" href="mailto:guido@nanday.dev">guido@nanday.dev</a>
-          <a class="btn" href="https://www.linkedin.com/in/guido-cardinali-2aba9b104/" rel="me">LinkedIn</a>
+          <a class="btn" href="https://www.linkedin.com/in/guido-cardinali/" rel="me">LinkedIn</a>
           <a class="btn" href="https://github.com/NandayDev" rel="me">GitHub</a>
           <a class="btn" href="files/CV-GuidoCardinali.pdf">Download CV (PDF)</a>
         </div>
@@ -342,7 +371,7 @@
         <p>Looking for a senior Android engineer or someone to lead your mobile team? Write me at <a href="mailto:guido@nanday.dev">guido@nanday.dev</a>.</p>
         <div class="actions">
           <a class="btn primary" href="mailto:guido@nanday.dev">Send an email</a>
-          <a class="btn" href="https://www.linkedin.com/in/guido-cardinali-2aba9b104/" rel="me">LinkedIn</a>
+          <a class="btn" href="https://www.linkedin.com/in/guido-cardinali/" rel="me">LinkedIn</a>
         </div>
       </section>
     </div>

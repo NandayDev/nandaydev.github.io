@@ -33,6 +33,6 @@
 
 - [Website](https://www.nanday.dev/)
 - [CV (PDF)](https://www.nanday.dev/files/CV-GuidoCardinali.pdf)
-- [LinkedIn](https://www.linkedin.com/in/guido-cardinali-2aba9b104/)
+- [LinkedIn](https://www.linkedin.com/in/guido-cardinali/)
 - [GitHub](https://github.com/NandayDev)
 - [Stack Overflow](https://stackoverflow.com/users/9705569/guido-c)
