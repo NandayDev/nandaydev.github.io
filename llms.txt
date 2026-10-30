@@ -10,7 +10,7 @@
 
 ## Experience
 
-- 2022–present — Senior Software Engineer / Senior Android Engineer, independent contractor. Clients: Sisal (native Android sports-betting app; migration from XML Views to Jetpack Compose with Kotlin, Room, Coroutines, Flow), Angi.com (RxJava to Coroutines/LiveData/Flow refactoring in a 30-developer team; contractor onboarding experience), University of Toronto (Android app built from scratch integrating a Bluetooth Low Energy device).
+- 2022–present — Senior Software Engineer / Senior Android Engineer, independent contractor. Clients: Sisal (native Android sports-betting app; migration from XML Views to Jetpack Compose with Kotlin, Room, Coroutines, Flow), Poste Italiane (added features and fixed bugs in the Firma Elettronica app), Angi.com (RxJava to Coroutines/LiveData/Flow refactoring in a 30-developer team; contractor onboarding experience), University of Toronto (Android app built from scratch integrating a Bluetooth Low Energy device).
 - 2019–2021 — Software Engineer, then Senior Software Engineer and Mobile Team Lead, MIR SpA (respiratory monitoring and medical devices). Designed mobile app architecture; introduced automated testing (~85% unit-test coverage on SDKs, ~60% on apps); led adoption of Kotlin, LiveData and Coroutines. Products: MIR Spirobank (BLE spirometry and oximetry, SpO2/BPM, WebRTC video consultations with LiveSwitch SDK), MIR Smart One (BLE spirometer, charts, FHIR/HL7 integrations).
 - 2016–2018 — Freelance Software Engineer: Android apps, WordPress websites, PHP and ASP.NET Core backends.
 
